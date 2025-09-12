@@ -11,8 +11,8 @@ predicate targetApi(API::Node api, string qn) {
   api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("infolist") and qn = "zipfile.ZipFile.infolist" or
   api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("write") and qn = "zipfile.ZipFile.write" or
   api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("writestr") and qn = "zipfile.ZipFile.writestr" or
-  api = API::moduleImport("zipfile").getMember("ZipFile").getAMember() and qn = "zipfile.ZipFile" or
-  api = API::moduleImport("zipfile").getMember("Path").getAMember() and qn = "zipfile.Path" or
+  api = API::moduleImport("zipfile").getMember("ZipFile") and qn = "zipfile.ZipFile" or
+  api = API::moduleImport("zipfile").getMember("Path") and qn = "zipfile.Path" or
   api = API::moduleImport("zipfile").getMember("Path").getAnInstance().getMember("open") and qn = "zipfile.Path.open" or
   api = API::moduleImport("zipfile").getMember("ZipInfo").getMember("from_file") and qn = "zipfile.ZipInfo.from_file" or
   api = API::moduleImport("zipfile").getMember("ZipInfo").getMember("filename") and qn = "zipfile.ZipInfo.filename" or
@@ -181,24 +181,7 @@ predicate targetApi(API::Node api, string qn) {
   api = API::moduleImport("aiofiles").getMember("tempfile").getMember("TemporaryDirectory") and qn = "aiofiles.tempfile.TemporaryDirectory" or
   api = API::moduleImport("zipfile").getMember("is_zipfile") and qn = "zipfile.is_zipfile" or
   api = API::moduleImport("pathvalidate").getMember("sanitize_filename") and qn = "pathvalidate.sanitize_filename" or
-  api = API::moduleImport("pathvalidate").getMember("sanitize_filepath") and qn = "pathvalidate.sanitize_filepath" or
-  api = API::moduleImport("fastapi").getMember("UploadFile").getAnInstance().getMember("filename") and qn = "fastapi.UploadFile.filename" or
-  api = API::moduleImport("werkzeug").getMember("datastructures").getMember("FileStorage").getAnInstance().getMember("filename") and qn = "werkzeug.datastructures.FileStorage.filename" or 
-  api = API::moduleImport("werkzeug").getMember("datastructures").getMember("FileStorage").getAnInstance().getMember("filename") and qn = "werkzeug.datastructures.FileStorage.filename" or
-  api = API::moduleImport("werkzeug").getMember("wsgi").getMember("SharedDataMiddleware") and qn = "werkzeug.wsgi.SharedDataMiddleware" or
-  api = API::moduleImport("werkzeug").getMember("middleware").getMember("shared_data").getMember("SharedDataMiddleware") and qn = "werkzeug.middleware.shared_data.SharedDataMiddleware" or
-  api = API::moduleImport("fastapi").getMember("UploadFile").getAnInstance().getMember("file") and qn = "fastapi.UploadFile.file" or
-  api = API::moduleImport("fastapi").getMember("UploadFile").getAnInstance().getMember("filename") and qn = "fastapi.UploadFile.filename" or
-  api = API::moduleImport("starlette").getMember("datastructures").getMember("UploadFile").getAnInstance().getMember("file") and qn = "starlette.datastructures.UploadFile.file" or
-  api = API::moduleImport("starlette").getMember("datastructures").getMember("UploadFile").getAnInstance().getMember("filename") and qn = "starlette.datastructures.UploadFile.filename" or
-  api = API::moduleImport("aiohttp").getMember("web_static").getMember("StaticResource") and qn = "aiohttp.web_static.StaticResource" or
-  api = API::moduleImport("pyramid").getMember("static").getMember("add_static_view") and qn = "pyramid.static.add_static_view" or
-  api = API::moduleImport("os").getMember("openat") and qn = "os.openat" or
-  api = API::moduleImport("os").getMember("unlinkat") and qn = "os.unlinkat" or
-  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("__truediv__") and qn = "pathlib.Path.__truediv__" or
-  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("link_to") and qn = "pathlib.Path.link_to" or
-  api = API::moduleImport("django").getMember("db").getMember("backends").getMember("utils").getMember("CursorWrapper").getAnInstance().getMember("execute") and qn = "django.db.backends.utils.CursorWrapper.execute" or
-  api = API::moduleImport("django").getMember("db").getMember("connection").getMember("cursor") and qn = "django.db.connection.cursor"
+  api = API::moduleImport("pathvalidate").getMember("sanitize_filepath") and qn = "pathvalidate.sanitize_filepath"
 }
 from API::Node api, DataFlow::CallCfgNode n, Call c, Function f,
     BasicBlock bb, string qn, string path, int sl, int sc, int el, int ec
