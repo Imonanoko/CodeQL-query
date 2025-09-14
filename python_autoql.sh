@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# example: ./python_autoql.sh yt-dlp ./projects/yt-dlp/
 if [[ $# -ne 2 ]]; then
     echo "Usage: $(basename "$0") <db name> <project root>"
     exit 1
@@ -15,6 +15,7 @@ codeql database create "$codeql_db_dir/$1" --language=python --source-root "$2" 
 for cwe_number in "${ql_list[@]}";do
     codeql query run "${ql_dir}/${cwe_number}.ql" --database "$codeql_db_dir/$1" --output "${output_dir}/${cwe_number}.bqrs"
     codeql bqrs decode --format=csv --output "${output_dir}/${cwe_number}.csv" "${output_dir}/${cwe_number}.bqrs"
+    python3 gen_cwe_json.py ${output_dir} $1
 done
 rm -f "${output_dir}"/*.bqrs
 exit 0
