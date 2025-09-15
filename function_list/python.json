@@ -1398,7 +1398,7 @@
     "bs4.BeautifulSoup.find",
     "fnmatch.fnmatch",
     "fnmatch.fnmatchcase",
-    "string.startswith",
-    "string.endswith"
+    "str.startswith",
+    "str.endswith"
   ]
 }
