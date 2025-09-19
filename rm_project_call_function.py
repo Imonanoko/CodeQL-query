@@ -274,7 +274,21 @@ def remove_targets_and_report(
     with out_path.open("w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
     print(f"[report] {out_path}")
+    if mode == "call":
+        prompt_lines: List[str] = []
+        for rel, ranges in sorted(report.items(), key=lambda kv: kv[0]):
+            fn_set = {fn for (_, _, fn) in ranges if fn}
+            if not fn_set:
+                continue
+            fn_list = sorted(fn_set, key=lambda s: s.lower())
+            fn_part = "、".join(f"{name}()" for name in fn_list)
+            prompt_lines.append(f"可以給我在{rel}裡面{fn_part}的位子，並且幫我完成code嗎?")
 
+        prompt_path = cp_root / "prompt.txt"
+        with prompt_path.open("w", encoding="utf-8") as pf:
+            for line in prompt_lines:
+                pf.write(line + "\n")
+        print(f"[prompt] {prompt_path}")
     return report
 
 
