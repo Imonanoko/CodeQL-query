@@ -4,7 +4,6 @@
 ```bash
 mkdir projects # 其他專案的暫存資料夾
 mkdir db # codeQL編譯後的DB存放位子
-mkdir python_query_output # CodeQL 分析後「移除依據」的 JSON 存放位置
 ```
 ## python_autoql.sh
 將專案使用 CodeQL 建 DB，並執行查詢。
