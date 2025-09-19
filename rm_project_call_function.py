@@ -36,7 +36,7 @@ def normalize_callees(callees):
 def fs_safe(s: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", s)
 
-FS, FE, CSL, CSC, CEL, CEC, BBSL, BBSC, BBEL, BBEC = range(10)
+FN, FS, FE, CSL, CSC, CEL, CEC, BBSL, BBSC, BBEL, BBEC = range(11)
 
 def _norm_cwe_key_for_filter(s: str) -> str:
     digits = re.sub(r"(?i)cwe[-_\s]*|[^0-9]", "", s).lstrip("0") or "0"
@@ -61,9 +61,16 @@ def _strip_first_component(json_path: str) -> Path:
     return Path(*rel)
 
 def _as_blocks(v):
-    if isinstance(v, list) and v and all(isinstance(x, int) for x in v) and len(v) == 10:
+    def _is_one(blk):
+        if not isinstance(blk, list) or len(blk) != 11:
+            return False
+        fn_ok = (blk[FN] is None) or isinstance(blk[FN], str)
+        ints_ok = all(isinstance(x, int) for x in blk[FS:])  # 後 10 欄
+        return fn_ok and ints_ok
+
+    if isinstance(v, list) and v and _is_one(v):
         return [v]
-    if isinstance(v, list) and v and all(isinstance(x, list) for x in v):
+    if isinstance(v, list) and v and all(_is_one(x) for x in v):
         return v
     return []
 
@@ -98,7 +105,7 @@ def preview_targets(cp_root: Path, json_file: Path, mode: str, above: int, below
         rel_path = _strip_first_component(json_path)
         abs_path = (cp_root / rel_path).resolve()
 
-        fs, fe, csl, csc, cel, cec, bbsl, bbsc, bbel, bbec = blk
+        fn, fs, fe, csl, csc, cel, cec, bbsl, bbsc, bbel, bbec = blk
 
         if mode == "call":
             sel_start_line = max(1, csl - max(0, above))
@@ -113,7 +120,7 @@ def preview_targets(cp_root: Path, json_file: Path, mode: str, above: int, below
 
         print(f"[{cwe_key}] callee={callee}")
         print(f"  file : {abs_path}")
-        print(f"  func : L{fs} ~ L{fe}")
+        print(f"  func : {fn!r}  L{fs} ~ L{fe}")
         print(f"  call : L{csl}:{csc}  ~  L{cel}:{cec}")
         print(f"  bb   : L{bbsl}:{bbsc}  ~  L{bbel}:{bbec}")
         print(f"  ==> SELECT [{mode}] : {sel}")
@@ -199,7 +206,7 @@ def remove_targets_and_report(
     below: int,
     cwe_filters,
     callee_filters,
-) -> Dict[str, List[Tuple[int, int]]]:
+) -> Dict[str, List[Tuple[int, int, str]]]:
     cp_root = cp_root.expanduser().resolve()
     json_file = json_file.expanduser().resolve()
 
@@ -207,7 +214,7 @@ def remove_targets_and_report(
         data = json.load(f)
 
     per_file_regions: Dict[Path, List[Tuple[int, int, int, int, bool]]] = {}
-    per_file_line_ranges: Dict[Path, List[Tuple[int, int]]] = {}
+    per_file_line_ranges: Dict[Path, List[Tuple[int, int, str]]] = {}
 
     for cwe_key, callee, json_path, blk in _iter_entries_strict(data):
         if not _cwe_pass(cwe_key, cwe_filters):
@@ -218,7 +225,7 @@ def remove_targets_and_report(
         rel_path = _strip_first_component(json_path)
         abs_path = (cp_root / rel_path).resolve()
 
-        fs, fe, csl, csc, cel, cec, bbsl, bbsc, bbel, bbec = blk
+        fn, fs, fe, csl, csc, cel, cec, bbsl, bbsc, bbel, bbec = blk
 
         if mode == "call":
             if above > 0 or below > 0:
@@ -227,16 +234,16 @@ def remove_targets_and_report(
                 if sL > eL:
                     continue
                 region = (sL, 1, eL, 10**9, True)
-                line_range = (sL, eL)
+                line_range = (sL, eL, fn)
             else:
                 region = (csl, 1, cel, 10**9, True)
-                line_range = (csl, cel)
+                line_range = (csl, cel, fn)
         elif mode == "caller":
             region = (fs, 1, fe, 10**9, True)
-            line_range = (fs, fe)
+            line_range = (fs, fe, fn)
         elif mode == "bb":
             region = (bbsl, bbsc, bbel, bbec, False)
-            line_range = (bbsl, bbel)
+            line_range = (bbsl, bbel, fn)
         else:
             continue
 
@@ -257,10 +264,11 @@ def remove_targets_and_report(
         with fpath.open("w", encoding="utf-8", newline="") as fw:
             fw.writelines(lines)
 
-    report: Dict[str, List[Tuple[int, int]]] = {}
+    report: Dict[str, List[Tuple[int, int, str]]] = {}
     for fpath, ranges in per_file_line_ranges.items():
         rel = fpath.resolve().relative_to(cp_root.resolve()).as_posix()
-        report[rel] = _merge_ranges(ranges)
+        merged = _merge_ranges_by_fn(ranges)
+        report[rel] = [[s, e, fn] for (s, e, fn) in merged]
 
     out_path = cp_root / "removed_ranges.json"
     with out_path.open("w", encoding="utf-8") as f:
@@ -268,6 +276,8 @@ def remove_targets_and_report(
     print(f"[report] {out_path}")
 
     return report
+
+
 def _merge_ranges(ranges):
     if not ranges:
         return []
@@ -324,6 +334,31 @@ def _dedupe_and_coalesce_regions(regions):
     for sL, sC, eL, eC in kept_partials:
         out.append((sL, sC, eL, eC, False))
     out.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return out
+
+def _merge_ranges_by_fn(ranges_with_fn):
+    """
+    ranges_with_fn: List[Tuple[int,int,str]]
+    回傳: List[Tuple[int,int,str]]，同一個 functionName 的區段才會合併（相鄰或重疊）
+    """
+    from collections import defaultdict
+    buckets = defaultdict(list)
+    for s, e, fn in ranges_with_fn:
+        buckets[fn].append((s, e))
+
+    out = []
+    for fn, rs in buckets.items():
+        rs.sort()
+        merged = [list(rs[0])]
+        for a, b in rs[1:]:
+            last = merged[-1]
+            if a <= last[1] + 1:
+                last[1] = max(last[1], b)
+            else:
+                merged.append([a, b])
+        out.extend([(a, b, fn) for a, b in merged])
+
+    out.sort(key=lambda x: (x[0], x[1], x[2] or ""))
     return out
 
 def main():

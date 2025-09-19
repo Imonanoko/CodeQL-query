@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# [funcStart, funcEnd, callSL, callSC, callEL, callEC, bbSL, bbSC, bbEL, bbEC]
+# [functionName, funcStart, funcEnd, callSL, callSC, callEL, callEC, bbSL, bbSC, bbEL, bbEC]
 import argparse
 import csv
 import json
@@ -24,6 +24,7 @@ def shorten_path(p: str) -> str:
 def parse_row(cells: list[str]):
     path = None
     callee = None
+    functionName = None
     func_start = func_end = None
     cSL = cSC = cEL = cEC = None
     bSL = bSC = bEL = bEC = None
@@ -42,7 +43,9 @@ def parse_row(cells: list[str]):
             continue
         m = RE_CALL_IN_FUNC.match(cell)
         if m:
-            func_start, func_end = map(int, m.groups()[1:3])
+            functionName = m.group(1).strip()
+            func_start = int(m.group(2))
+            func_end   = int(m.group(3))
             continue
         m = RE_BASIC_BLOCK.match(cell)
         if m:
@@ -64,12 +67,12 @@ def parse_row(cells: list[str]):
     if bEL is None: bEL = cEL
     if bEC is None: bEC = cEC
 
-    payload = [func_start, func_end, cSL, cSC, cEL, cEC, bSL, bSC, bEL, bEC]
+    payload = [functionName,func_start, func_end, cSL, cSC, cEL, cEC, bSL, bSC, bEL, bEC]
     return callee, path, payload
 
 def better_payload(new_pl: list[int], old_pl: list[int]) -> bool:
-    nfS, nfE = new_pl[0], new_pl[1]
-    ofS, ofE = old_pl[0], old_pl[1]
+    nfS, nfE = new_pl[1], new_pl[2]
+    ofS, ofE = old_pl[1], old_pl[2]
     n_span = nfE - nfS
     o_span = ofE - ofS
     if n_span != o_span:
@@ -77,7 +80,7 @@ def better_payload(new_pl: list[int], old_pl: list[int]) -> bool:
     return nfS < ofS
 
 def dedup_insert(sink_for_cwe: dict, callee: str, relpath: str, payload: list[int]) -> None:
-    cSL, cSC, cEL, cEC, bSL, bSC, bEL, bEC = payload[2:]
+    cSL, cSC, cEL, cEC, bSL, bSC, bEL, bEC = payload[3:]
     key = (cSL, cSC, cEL, cEC, bSL, bSC, bEL, bEC)
     callee_map = sink_for_cwe.setdefault(callee, {})
     path_map = callee_map.setdefault(relpath, {})
