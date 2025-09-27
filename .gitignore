@@ -4,3 +4,6 @@ rm_output
 python_query_output_backup
 batch_autoql_from_csv.log
 test.csv
+testing_db
+result
+.venv
