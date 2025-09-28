@@ -65,11 +65,11 @@ python3 rm_project_call_function.py ./projects/yt-dlp/ --json ./python_query_out
 
 ## is_cwe_testing.sh
 使用靜態分析器去測試指定的CWE弱點。
-安裝Bandit
+安裝Bandit & semgrep
 ```bash
 python3.12 -m venv .venv
 source ./.venv/bin/activate
-pip install bandit
+pip install bandit semgrep
 ```
 安裝CodeQL
 [參考](https://medium.com/ricos-note/codeql%E5%9C%A8ubuntu%E5%BB%BA%E7%BD%AE%E5%92%8C%E5%88%86%E6%9E%90-net-90b7a7eb008f)
@@ -86,12 +86,15 @@ source /etc/profile
 下載內建查詢library
 ```bash
 codeql pack download codeql/python-queries
+# 要看一下是否存在 ~/.codeql/packages/codeql/python-queries/x.x.x/Security/ 這個資料夾
 ```
 example
 ```bash
 chmod +x run_cwe_queries.sh
 source .venv/bin/activate #如果是使用pip 安裝bandit才要使用venv
-./is_cwe_testing.sh --project ./projects/yt-dlp/ --cwe 022,078 --db-dir ./testing_db/ --out ./result/ --overwrite
+./is_cwe_testing.sh --project ./projects/yt-dlp/ --cwe 022,078 --security-dir ~/.codeql/packages/codeql/python-queries/1.6.5/Security --db-dir ./testing_db/ --out ./result/ --overwrite
 # 使用help可以查看詳細內容
+# 全部掃描./is_cwe_testing.sh --project ./projects/yt-dlp/ --cwe 022,078,079,095,113,117,326,327,347,377,502,643,918,943,1333 --security-dir ~/.codeql/packages/codeql/python-queries/1.6.5/Security --db-dir ./testing_db/ --out ./result/ --overwrite
 # ./is_cwe_testing.sh --help
 ```
+codeql掃描的部分建議參考[官方查詢](https://docs.github.com/en/code-security/code-scanning/managing-your-code-scanning-configuration/python-built-in-queries)因為一個腳本可能對應多個CWE，所以可能參數要下其他編號才能掃描到目標CWE(ex. 要掃 CWE1333 參數要輸入 730)
