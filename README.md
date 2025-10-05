@@ -98,3 +98,36 @@ source .venv/bin/activate #如果是使用pip 安裝bandit才要使用venv
 # ./is_cwe_testing.sh --help
 ```
 codeql掃描的部分建議參考[官方查詢](https://docs.github.com/en/code-security/code-scanning/managing-your-code-scanning-configuration/python-built-in-queries)因為一個腳本可能對應多個CWE，所以可能參數要下其他編號才能掃描到目標CWE(ex. 要掃 CWE1333 參數要輸入 730)
+
+## remote_analyse.ps1
+用來把 Windows 本機的專案丟到遠端 Ubuntu（VM/實體機），在遠端執行 is_cwe_testing.sh 做分析，最後把結果抓回本機。
+先決條件
+- 依 `is_cwe_testing.sh` 的說明在遠端安裝好相依套件。
+- 遠端需能透過 SSH 連線（要已設定免密碼登入）。
+- Windows 需有 OpenSSH（ssh/scp）可用。
+
+### 啟動步驟
+1. 找到遠端 `codeql` 可執行檔所在目錄（取第一層目錄，不是二段）：
+    ```bash
+    which codeql
+    # example: /home/sixsquare/codeql/codeql  ->  取用 /home/sixsquare/codeql
+    ```
+2. 在 script `param(...)` 的 `RemotePathPrepend` 第一個元素換成你的路徑（或直接用參數帶入，見下文）：
+    ```ps1
+    [string[]]$RemotePathPrepend = @('<請取代這邊>', '$HOME/.local/bin')
+    ```
+3. 設定固定參數
+以下參數可以直接固定才不需要每次執行 script 輸入很多參數
+    | 參數| 說明 |
+    |---|---|
+    |RemoteHost |遠端主機 IP |
+    |Port |SSH 連線埠 |
+    |RemoteUser |遠端使用者 |
+    |RemoteDir |遠端工作根目錄（腳本、DB、結果都在這底下） |
+    |OutWin |將分析結果輸出到這個資料夾 |
+    |SecurityDir|CodeQL Python Security queries 路徑|
+    |RemotePathPrepend|codeql 的執行路徑|
+4. 執行
+    ```
+    .\remote_analyse.ps1 -ProjWin .\yt-dlp\  -Cwes 022,078
+    ```
