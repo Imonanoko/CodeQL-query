@@ -131,3 +131,9 @@ codeql掃描的部分建議參考[官方查詢](https://docs.github.com/en/code-
     ```
     .\remote_analyse.ps1 -ProjWin .\yt-dlp\  -Cwes 022,078
     ```
+
+## check_cwe_csvs.py
+檢查前處理有哪些專案不完全
+```bash
+python3 check_cwe_csvs.py   --input-csv repos_python.csv   --base-dir ./python_query_output   --output-csv missing.csv
+```
