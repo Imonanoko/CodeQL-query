@@ -223,6 +223,21 @@
           20
         ]
       ],
+      "stable-diffusion-webui/modules/img2img.py": [
+        [
+          "process_batch",
+          20,
+          149,
+          99,
+          37,
+          99,
+          87,
+          99,
+          37,
+          99,
+          87
+        ]
+      ],
       "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
         [
           "list_hypernetworks",
@@ -342,19 +357,19 @@
           39
         ]
       ],
-      "stable-diffusion-webui/modules/img2img.py": [
+      "stable-diffusion-webui/modules/infotext_utils.py": [
         [
-          "process_batch",
-          20,
-          149,
-          99,
-          37,
-          99,
-          87,
-          99,
-          37,
-          99,
-          87
+          "paste_func",
+          477,
+          519,
+          479,
+          24,
+          479,
+          60,
+          479,
+          24,
+          481,
+          57
         ]
       ],
       "stable-diffusion-webui/modules/interrogate.py": [
@@ -396,131 +411,6 @@
           25,
           104,
           25
-        ]
-      ],
-      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
-        [
-          "load_model",
-          21,
-          49,
-          23,
-          21,
-          23,
-          65,
-          21,
-          20,
-          32,
-          36
-        ],
-        [
-          "load_model",
-          21,
-          49,
-          24,
-          26,
-          24,
-          67,
-          21,
-          20,
-          32,
-          36
-        ],
-        [
-          "load_model",
-          21,
-          49,
-          25,
-          26,
-          25,
-          68,
-          21,
-          20,
-          32,
-          36
-        ]
-      ],
-      "stable-diffusion-webui/modules/infotext_utils.py": [
-        [
-          "paste_func",
-          477,
-          519,
-          479,
-          24,
-          479,
-          60,
-          479,
-          24,
-          481,
-          57
-        ]
-      ],
-      "stable-diffusion-webui/modules/localization.py": [
-        [
-          "list_localizations",
-          9,
-          23,
-          17,
-          30,
-          17,
-          56,
-          17,
-          30,
-          17,
-          25
-        ]
-      ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "save_image",
-          624,
-          767,
-          669,
-          16,
-          669,
-          42,
-          668,
-          19,
-          669,
-          12
-        ],
-        [
-          "save_image",
-          624,
-          767,
-          693,
-          26,
-          693,
-          81,
-          692,
-          22,
-          694,
-          45
-        ],
-        [
-          "save_image",
-          624,
-          767,
-          697,
-          22,
-          697,
-          73,
-          697,
-          22,
-          697,
-          18
-        ],
-        [
-          "save_image",
-          624,
-          767,
-          699,
-          18,
-          699,
-          69,
-          699,
-          18,
-          699,
-          14
         ]
       ],
       "stable-diffusion-webui/modules/launch_utils.py": [
@@ -668,6 +558,116 @@
           78
         ]
       ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "save_image",
+          624,
+          767,
+          669,
+          16,
+          669,
+          42,
+          668,
+          19,
+          669,
+          12
+        ],
+        [
+          "save_image",
+          624,
+          767,
+          693,
+          26,
+          693,
+          81,
+          692,
+          22,
+          694,
+          45
+        ],
+        [
+          "save_image",
+          624,
+          767,
+          697,
+          22,
+          697,
+          73,
+          697,
+          22,
+          697,
+          18
+        ],
+        [
+          "save_image",
+          624,
+          767,
+          699,
+          18,
+          699,
+          69,
+          699,
+          18,
+          699,
+          14
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
+        [
+          "load_model",
+          21,
+          49,
+          23,
+          21,
+          23,
+          65,
+          21,
+          20,
+          32,
+          36
+        ],
+        [
+          "load_model",
+          21,
+          49,
+          24,
+          26,
+          24,
+          67,
+          21,
+          20,
+          32,
+          36
+        ],
+        [
+          "load_model",
+          21,
+          49,
+          25,
+          26,
+          25,
+          68,
+          21,
+          20,
+          32,
+          36
+        ]
+      ],
+      "stable-diffusion-webui/modules/localization.py": [
+        [
+          "list_localizations",
+          9,
+          23,
+          17,
+          30,
+          17,
+          56,
+          17,
+          30,
+          17,
+          25
+        ]
+      ],
       "stable-diffusion-webui/modules/modelloader.py": [
         [
           "load_file_from_url",
@@ -754,6 +754,21 @@
           161
         ]
       ],
+      "stable-diffusion-webui/extensions-builtin/SwinIR/preload.py": [
+        [
+          "preload",
+          5,
+          6,
+          6,
+          120,
+          6,
+          160,
+          5,
+          13,
+          6,
+          161
+        ]
+      ],
       "stable-diffusion-webui/extensions-builtin/Lora/preload.py": [
         [
           "preload",
@@ -780,21 +795,6 @@
           13,
           8,
           231
-        ]
-      ],
-      "stable-diffusion-webui/extensions-builtin/SwinIR/preload.py": [
-        [
-          "preload",
-          5,
-          6,
-          6,
-          120,
-          6,
-          160,
-          5,
-          13,
-          6,
-          161
         ]
       ],
       "stable-diffusion-webui/modules/textual_inversion/saving_settings.py": [
@@ -825,21 +825,6 @@
           9,
           26,
           45
-        ]
-      ],
-      "stable-diffusion-webui/modules/models/sd3/sd3_cond.py": [
-        [
-          "before_load_weights",
-          189,
-          205,
-          190,
-          21,
-          190,
-          60,
-          189,
-          29,
-          192,
-          111
         ]
       ],
       "stable-diffusion-webui/modules/scripts.py": [
@@ -896,6 +881,21 @@
           31
         ]
       ],
+      "stable-diffusion-webui/modules/models/sd3/sd3_cond.py": [
+        [
+          "before_load_weights",
+          189,
+          205,
+          190,
+          21,
+          190,
+          60,
+          189,
+          29,
+          192,
+          111
+        ]
+      ],
       "stable-diffusion-webui/modules/processing.py": [
         [
           "process_images_inner",
@@ -950,47 +950,6 @@
           22,
           616,
           70
-        ]
-      ],
-      "stable-diffusion-webui/modules/sd_vae_approx.py": [
-        [
-          "model",
-          42,
-          67,
-          53,
-          22,
-          53,
-          78,
-          53,
-          22,
-          54,
-          41
-        ],
-        [
-          "model",
-          42,
-          67,
-          55,
-          26,
-          55,
-          92,
-          55,
-          26,
-          55,
-          22
-        ],
-        [
-          "model",
-          42,
-          67,
-          58,
-          26,
-          58,
-          82,
-          58,
-          26,
-          59,
-          140
         ]
       ],
       "stable-diffusion-webui/modules/sd_vae.py": [
@@ -1207,19 +1166,45 @@
           100
         ]
       ],
-      "stable-diffusion-webui/modules/styles.py": [
+      "stable-diffusion-webui/modules/sd_vae_approx.py": [
         [
-          "__init__",
-          83,
-          99,
+          "model",
+          42,
+          67,
+          53,
+          22,
+          53,
+          78,
+          53,
+          22,
+          54,
+          41
+        ],
+        [
+          "model",
+          42,
+          67,
+          55,
+          26,
+          55,
           92,
-          68,
-          92,
-          101,
-          92,
-          33,
-          93,
-          51
+          55,
+          26,
+          55,
+          22
+        ],
+        [
+          "model",
+          42,
+          67,
+          58,
+          26,
+          58,
+          82,
+          58,
+          26,
+          59,
+          140
         ]
       ],
       "stable-diffusion-webui/test/test_face_restorers.py": [
@@ -1248,6 +1233,21 @@
           5,
           29,
           94
+        ]
+      ],
+      "stable-diffusion-webui/modules/styles.py": [
+        [
+          "__init__",
+          83,
+          99,
+          92,
+          68,
+          92,
+          101,
+          92,
+          33,
+          93,
+          51
         ]
       ],
       "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
@@ -1488,34 +1488,6 @@
           40
         ]
       ],
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
-        [
-          "listcomp",
-          62,
-          62,
-          62,
-          39,
-          62,
-          59,
-          62,
-          65,
-          62,
-          59
-        ],
-        [
-          "create_dirs_view_html",
-          511,
-          550,
-          518,
-          25,
-          518,
-          51,
-          517,
-          21,
-          520,
-          43
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extensions.py": [
         [
           "save_config_state",
@@ -1555,6 +1527,34 @@
           14,
           367,
           14
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "listcomp",
+          62,
+          62,
+          62,
+          39,
+          62,
+          59,
+          62,
+          65,
+          62,
+          59
+        ],
+        [
+          "create_dirs_view_html",
+          511,
+          550,
+          518,
+          25,
+          518,
+          51,
+          517,
+          21,
+          520,
+          43
         ]
       ],
       "stable-diffusion-webui/modules/ui.py": [
@@ -1884,21 +1884,6 @@
           40
         ]
       ],
-      "stable-diffusion-webui/modules/interrogate.py": [
-        [
-          "categories",
-          58,
-          81,
-          76,
-          22,
-          76,
-          57,
-          75,
-          24,
-          79,
-          99
-        ]
-      ],
       "stable-diffusion-webui/modules/infotext_utils.py": [
         [
           "paste_func",
@@ -1914,34 +1899,19 @@
           57
         ]
       ],
-      "stable-diffusion-webui/modules/localization.py": [
+      "stable-diffusion-webui/modules/interrogate.py": [
         [
-          "localization_js",
-          26,
-          37,
-          32,
+          "categories",
+          58,
+          81,
+          76,
           22,
-          32,
-          51,
-          30,
-          13,
-          32,
-          51
-        ]
-      ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "save_image",
-          624,
-          767,
-          760,
-          14,
-          760,
-          51,
-          759,
-          22,
-          761,
-          35
+          76,
+          57,
+          75,
+          24,
+          79,
+          99
         ]
       ],
       "stable-diffusion-webui/modules/launch_utils.py": [
@@ -1996,6 +1966,36 @@
           10,
           482,
           19
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "save_image",
+          624,
+          767,
+          760,
+          14,
+          760,
+          51,
+          759,
+          22,
+          761,
+          35
+        ]
+      ],
+      "stable-diffusion-webui/modules/localization.py": [
+        [
+          "localization_js",
+          26,
+          37,
+          32,
+          22,
+          32,
+          51,
+          30,
+          13,
+          32,
+          51
         ]
       ],
       "stable-diffusion-webui/modules/options.py": [
@@ -2054,21 +2054,6 @@
           47
         ]
       ],
-      "stable-diffusion-webui/modules/textual_inversion/saving_settings.py": [
-        [
-          "save_settings_to_file",
-          52,
-          64,
-          63,
-          10,
-          63,
-          57,
-          60,
-          5,
-          64,
-          41
-        ]
-      ],
       "stable-diffusion-webui/modules/safe.py": [
         [
           "check_pt",
@@ -2082,6 +2067,21 @@
           5,
           103,
           29
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/saving_settings.py": [
+        [
+          "save_settings_to_file",
+          52,
+          64,
+          63,
+          10,
+          63,
+          57,
+          60,
+          5,
+          64,
+          41
         ]
       ],
       "stable-diffusion-webui/modules/processing.py": [
@@ -2252,21 +2252,6 @@
           61
         ]
       ],
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
-        [
-          "find_description",
-          671,
-          684,
-          680,
-          22,
-          680,
-          72,
-          679,
-          13,
-          680,
-          72
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extensions.py": [
         [
           "save_config_state",
@@ -2280,6 +2265,21 @@
           12,
           73,
           138
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "find_description",
+          671,
+          684,
+          680,
+          22,
+          680,
+          72,
+          679,
+          13,
+          680,
+          72
         ]
       ],
       "stable-diffusion-webui/modules/ui.py": [
@@ -2372,21 +2372,6 @@
           14
         ]
       ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "_atomically_save_image",
-          712,
-          726,
-          726,
-          9,
-          726,
-          44,
-          726,
-          9,
-          726,
-          44
-        ]
-      ],
       "stable-diffusion-webui/modules/launch_utils.py": [
         [
           "list_extensions",
@@ -2400,6 +2385,21 @@
           5,
           254,
           82
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "_atomically_save_image",
+          712,
+          726,
+          726,
+          9,
+          726,
+          44,
+          726,
+          9,
+          726,
+          44
         ]
       ],
       "stable-diffusion-webui/modules/options.py": [
@@ -2449,21 +2449,6 @@
           90
         ]
       ],
-      "stable-diffusion-webui/modules/dat_model.py": [
-        [
-          "load_model",
-          45,
-          56,
-          53,
-          24,
-          53,
-          61,
-          53,
-          24,
-          53,
-          61
-        ]
-      ],
       "stable-diffusion-webui/modules/config_states.py": [
         [
           "get_webui_config",
@@ -2505,6 +2490,21 @@
           12,
           311,
           42
+        ]
+      ],
+      "stable-diffusion-webui/modules/dat_model.py": [
+        [
+          "load_model",
+          45,
+          56,
+          53,
+          24,
+          53,
+          61,
+          53,
+          24,
+          53,
+          61
         ]
       ],
       "stable-diffusion-webui/modules/textual_inversion/dataset.py": [
@@ -2552,34 +2552,6 @@
           62
         ]
       ],
-      "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
-        [
-          "load",
-          243,
-          304,
-          275,
-          92,
-          275,
-          131,
-          275,
-          92,
-          275,
-          131
-        ],
-        [
-          "create_hypernetwork",
-          440,
-          469,
-          447,
-          20,
-          447,
-          37,
-          447,
-          20,
-          447,
-          37
-        ]
-      ],
       "stable-diffusion-webui/modules/initialize_util.py": [
         [
           "validate_tls_options",
@@ -2606,6 +2578,34 @@
           16,
           104,
           52
+        ]
+      ],
+      "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
+        [
+          "load",
+          243,
+          304,
+          275,
+          92,
+          275,
+          131,
+          275,
+          92,
+          275,
+          131
+        ],
+        [
+          "create_hypernetwork",
+          440,
+          469,
+          447,
+          20,
+          447,
+          37,
+          447,
+          20,
+          447,
+          37
         ]
       ],
       "stable-diffusion-webui/modules/interrogate.py": [
@@ -2649,6 +2649,62 @@
           43
         ]
       ],
+      "stable-diffusion-webui/modules/launch_utils.py": [
+        [
+          "git_clone",
+          171,
+          198,
+          174,
+          8,
+          174,
+          26,
+          171,
+          15,
+          174,
+          26
+        ],
+        [
+          "git_pull_recursive",
+          201,
+          208,
+          203,
+          12,
+          203,
+          55,
+          202,
+          9,
+          203,
+          55
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "save_image",
+          624,
+          767,
+          694,
+          24,
+          694,
+          45,
+          692,
+          22,
+          694,
+          45
+        ],
+        [
+          "_atomically_save_image",
+          712,
+          726,
+          723,
+          19,
+          723,
+          42,
+          723,
+          13,
+          723,
+          42
+        ]
+      ],
       "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
         [
           "load_model",
@@ -2688,62 +2744,6 @@
           51,
           42,
           88
-        ]
-      ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "save_image",
-          624,
-          767,
-          694,
-          24,
-          694,
-          45,
-          692,
-          22,
-          694,
-          45
-        ],
-        [
-          "_atomically_save_image",
-          712,
-          726,
-          723,
-          19,
-          723,
-          42,
-          723,
-          13,
-          723,
-          42
-        ]
-      ],
-      "stable-diffusion-webui/modules/launch_utils.py": [
-        [
-          "git_clone",
-          171,
-          198,
-          174,
-          8,
-          174,
-          26,
-          171,
-          15,
-          174,
-          26
-        ],
-        [
-          "git_pull_recursive",
-          201,
-          208,
-          203,
-          12,
-          203,
-          55,
-          202,
-          9,
-          203,
-          55
         ]
       ],
       "stable-diffusion-webui/modules/modelloader.py": [
@@ -2845,21 +2845,6 @@
           46
         ]
       ],
-      "stable-diffusion-webui/modules/sd_models_config.py": [
-        [
-          "find_checkpoint_config_near_filename",
-          128,
-          136,
-          133,
-          8,
-          133,
-          29,
-          132,
-          14,
-          133,
-          29
-        ]
-      ],
       "stable-diffusion-webui/modules/sd_models.py": [
         [
           "list_models",
@@ -2914,45 +2899,19 @@
           45
         ]
       ],
-      "stable-diffusion-webui/modules/sd_vae_approx.py": [
+      "stable-diffusion-webui/modules/sd_models_config.py": [
         [
-          "download_model",
-          34,
-          39,
-          35,
-          12,
-          35,
-          37,
-          34,
-          20,
-          35,
-          37
-        ],
-        [
-          "model",
-          42,
-          67,
-          54,
-          16,
-          54,
-          41,
-          53,
-          22,
-          54,
-          41
-        ],
-        [
-          "model",
-          42,
-          67,
-          57,
-          16,
-          57,
-          41,
-          57,
-          16,
-          57,
-          41
+          "find_checkpoint_config_near_filename",
+          128,
+          136,
+          133,
+          8,
+          133,
+          29,
+          132,
+          14,
+          133,
+          29
         ]
       ],
       "stable-diffusion-webui/modules/sd_vae_taesd.py": [
@@ -3009,6 +2968,47 @@
           67,
           59,
           83
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_vae_approx.py": [
+        [
+          "download_model",
+          34,
+          39,
+          35,
+          12,
+          35,
+          37,
+          34,
+          20,
+          35,
+          37
+        ],
+        [
+          "model",
+          42,
+          67,
+          54,
+          16,
+          54,
+          41,
+          53,
+          22,
+          54,
+          41
+        ],
+        [
+          "model",
+          42,
+          67,
+          57,
+          16,
+          57,
+          41,
+          57,
+          16,
+          57,
+          41
         ]
       ],
       "stable-diffusion-webui/modules/styles.py": [
@@ -3507,21 +3507,6 @@
           42
         ]
       ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "save_image",
-          624,
-          767,
-          671,
-          5,
-          671,
-          36,
-          671,
-          5,
-          673,
-          30
-        ]
-      ],
       "stable-diffusion-webui/modules/launch_utils.py": [
         [
           "prepare_environment",
@@ -3535,6 +3520,21 @@
           5,
           419,
           44
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "save_image",
+          624,
+          767,
+          671,
+          5,
+          671,
+          36,
+          671,
+          5,
+          673,
+          30
         ]
       ],
       "stable-diffusion-webui/modules/modelloader.py": [
@@ -3582,21 +3582,6 @@
           23
         ]
       ],
-      "stable-diffusion-webui/modules/sd_vae_approx.py": [
-        [
-          "download_model",
-          34,
-          39,
-          36,
-          9,
-          36,
-          63,
-          36,
-          9,
-          39,
-          61
-        ]
-      ],
       "stable-diffusion-webui/modules/sd_vae_taesd.py": [
         [
           "download_model",
@@ -3640,6 +3625,21 @@
           5,
           22,
           14
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_vae_approx.py": [
+        [
+          "download_model",
+          34,
+          39,
+          36,
+          9,
+          36,
+          63,
+          36,
+          9,
+          39,
+          61
         ]
       ],
       "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
@@ -3842,19 +3842,19 @@
           60
         ]
       ],
-      "stable-diffusion-webui/modules/localization.py": [
+      "stable-diffusion-webui/modules/launch_utils.py": [
         [
-          "list_localizations",
-          9,
-          23,
-          12,
-          17,
-          12,
-          35,
-          9,
+          "list_extensions",
+          244,
+          262,
+          262,
           24,
-          12,
-          35
+          262,
+          49,
+          262,
+          24,
+          262,
+          82
         ]
       ],
       "stable-diffusion-webui/modules/images.py": [
@@ -3872,19 +3872,19 @@
           29
         ]
       ],
-      "stable-diffusion-webui/modules/launch_utils.py": [
+      "stable-diffusion-webui/modules/localization.py": [
         [
-          "list_extensions",
-          244,
-          262,
-          262,
+          "list_localizations",
+          9,
+          23,
+          12,
+          17,
+          12,
+          35,
+          9,
           24,
-          262,
-          49,
-          262,
-          24,
-          262,
-          82
+          12,
+          35
         ]
       ],
       "stable-diffusion-webui/modules/modelloader.py": [
@@ -4390,6 +4390,47 @@
           25
         ]
       ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "get_next_sequence_number",
+          543,
+          562,
+          556,
+          21,
+          556,
+          55,
+          556,
+          21,
+          558,
+          41
+        ],
+        [
+          "save_image_with_geninfo",
+          565,
+          621,
+          573,
+          21,
+          573,
+          46,
+          573,
+          21,
+          573,
+          17
+        ],
+        [
+          "save_image",
+          624,
+          767,
+          728,
+          43,
+          728,
+          75,
+          705,
+          14,
+          729,
+          29
+        ]
+      ],
       "stable-diffusion-webui/modules/localization.py": [
         [
           "list_localizations",
@@ -4433,47 +4474,6 @@
           50
         ]
       ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "get_next_sequence_number",
-          543,
-          562,
-          556,
-          21,
-          556,
-          55,
-          556,
-          21,
-          558,
-          41
-        ],
-        [
-          "save_image_with_geninfo",
-          565,
-          621,
-          573,
-          21,
-          573,
-          46,
-          573,
-          21,
-          573,
-          17
-        ],
-        [
-          "save_image",
-          624,
-          767,
-          728,
-          43,
-          728,
-          75,
-          705,
-          14,
-          729,
-          29
-        ]
-      ],
       "stable-diffusion-webui/modules/modelloader.py": [
         [
           "friendly_name",
@@ -4502,6 +4502,21 @@
           18,
           36,
           30
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/Lora/networks.py": [
+        [
+          "process_network_files",
+          650,
+          672,
+          656,
+          16,
+          656,
+          59,
+          656,
+          16,
+          658,
+          16
         ]
       ],
       "stable-diffusion-webui/modules/postprocessing.py": [
@@ -4545,21 +4560,6 @@
           68
         ]
       ],
-      "stable-diffusion-webui/extensions-builtin/Lora/networks.py": [
-        [
-          "process_network_files",
-          650,
-          672,
-          656,
-          16,
-          656,
-          59,
-          656,
-          16,
-          658,
-          16
-        ]
-      ],
       "stable-diffusion-webui/modules/scripts.py": [
         [
           "list_scripts",
@@ -4573,21 +4573,6 @@
           16,
           406,
           65
-        ]
-      ],
-      "stable-diffusion-webui/modules/sd_models_config.py": [
-        [
-          "find_checkpoint_config_near_filename",
-          128,
-          136,
-          132,
-          17,
-          132,
-          47,
-          132,
-          14,
-          133,
-          29
         ]
       ],
       "stable-diffusion-webui/modules/sd_models.py": [
@@ -4644,6 +4629,21 @@
           42
         ]
       ],
+      "stable-diffusion-webui/modules/sd_models_config.py": [
+        [
+          "find_checkpoint_config_near_filename",
+          128,
+          136,
+          132,
+          17,
+          132,
+          47,
+          132,
+          14,
+          133,
+          29
+        ]
+      ],
       "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
         [
           "load_from_file",
@@ -4672,6 +4672,21 @@
           47
         ]
       ],
+      "stable-diffusion-webui/modules/ui_extra_networks_checkpoints.py": [
+        [
+          "create_item",
+          17,
+          37,
+          22,
+          21,
+          22,
+          57,
+          22,
+          21,
+          24,
+          28
+        ]
+      ],
       "stable-diffusion-webui/modules/ui_extra_networks.py": [
         [
           "fetch_file",
@@ -4687,19 +4702,19 @@
           46
         ]
       ],
-      "stable-diffusion-webui/modules/ui_extra_networks_checkpoints.py": [
+      "stable-diffusion-webui/modules/ui.py": [
         [
-          "create_item",
-          17,
-          37,
-          22,
-          21,
-          22,
-          57,
-          22,
-          21,
-          24,
-          28
+          "process_interrogate",
+          113,
+          133,
+          130,
+          23,
+          130,
+          48,
+          127,
+          13,
+          131,
+          124
         ]
       ],
       "stable-diffusion-webui/modules/ui_extra_networks_hypernets.py": [
@@ -4717,21 +4732,6 @@
           42
         ]
       ],
-      "stable-diffusion-webui/extensions-builtin/Lora/ui_extra_networks_lora.py": [
-        [
-          "create_item",
-          18,
-          76,
-          23,
-          21,
-          23,
-          59,
-          23,
-          21,
-          28,
-          28
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extra_networks_textual_inversion.py": [
         [
           "create_item",
@@ -4747,19 +4747,19 @@
           25
         ]
       ],
-      "stable-diffusion-webui/modules/ui.py": [
+      "stable-diffusion-webui/extensions-builtin/Lora/ui_extra_networks_lora.py": [
         [
-          "process_interrogate",
-          113,
-          133,
-          130,
+          "create_item",
+          18,
+          76,
           23,
-          130,
-          48,
-          127,
-          13,
-          131,
-          124
+          21,
+          23,
+          59,
+          23,
+          21,
+          28,
+          28
         ]
       ],
       "stable-diffusion-webui/modules/ui_extra_networks_user_metadata.py": [
@@ -4852,34 +4852,6 @@
           55
         ]
       ],
-      "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
-        [
-          "load",
-          243,
-          304,
-          246,
-          42,
-          246,
-          67,
-          246,
-          25,
-          246,
-          21
-        ],
-        [
-          "list_hypernetworks",
-          312,
-          319,
-          315,
-          33,
-          315,
-          58,
-          314,
-          9,
-          317,
-          25
-        ]
-      ],
       "stable-diffusion-webui/modules/textual_inversion/image_embedding.py": [
         [
           "extract_image_data_embed",
@@ -4908,6 +4880,34 @@
           81,
           99,
           86
+        ]
+      ],
+      "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
+        [
+          "load",
+          243,
+          304,
+          246,
+          42,
+          246,
+          67,
+          246,
+          25,
+          246,
+          21
+        ],
+        [
+          "list_hypernetworks",
+          312,
+          319,
+          315,
+          33,
+          315,
+          58,
+          314,
+          9,
+          317,
+          25
         ]
       ],
       "stable-diffusion-webui/modules/images.py": [
@@ -4953,21 +4953,6 @@
           21
         ]
       ],
-      "stable-diffusion-webui/modules/postprocessing.py": [
-        [
-          "run_postprocessing",
-          9,
-          129,
-          83,
-          45,
-          83,
-          66,
-          83,
-          28,
-          84,
-          31
-        ]
-      ],
       "stable-diffusion-webui/extensions-builtin/Lora/networks.py": [
         [
           "process_network_files",
@@ -4981,6 +4966,21 @@
           16,
           658,
           16
+        ]
+      ],
+      "stable-diffusion-webui/modules/postprocessing.py": [
+        [
+          "run_postprocessing",
+          9,
+          129,
+          83,
+          45,
+          83,
+          66,
+          83,
+          28,
+          84,
+          31
         ]
       ],
       "stable-diffusion-webui/modules/script_loading.py": [
@@ -5194,21 +5194,6 @@
           42
         ]
       ],
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
-        [
-          "create_tree_dir_item_html",
-          353,
-          403,
-          393,
-          43,
-          393,
-          68,
-          382,
-          15,
-          403,
-          9
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extensions.py": [
         [
           "save_config_state",
@@ -5222,6 +5207,21 @@
           12,
           73,
           138
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "create_tree_dir_item_html",
+          353,
+          403,
+          393,
+          43,
+          393,
+          68,
+          382,
+          15,
+          403,
+          9
         ]
       ],
       "stable-diffusion-webui/modules/ui.py": [
@@ -5299,21 +5299,6 @@
           17
         ]
       ],
-      "stable-diffusion-webui/modules/sd_vae_approx.py": [
-        [
-          "download_model",
-          34,
-          39,
-          36,
-          21,
-          36,
-          47,
-          36,
-          9,
-          39,
-          61
-        ]
-      ],
       "stable-diffusion-webui/modules/sd_vae_taesd.py": [
         [
           "download_model",
@@ -5326,6 +5311,21 @@
           91,
           9,
           94,
+          61
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_vae_approx.py": [
+        [
+          "download_model",
+          34,
+          39,
+          36,
+          21,
+          36,
+          47,
+          36,
+          9,
+          39,
           61
         ]
       ],
@@ -5404,38 +5404,6 @@
           19,
           62,
           45
-        ]
-      ]
-    },
-    "glob.iglob": {
-      "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
-        [
-          "list_hypernetworks",
-          312,
-          319,
-          314,
-          28,
-          314,
-          84,
-          312,
-          24,
-          314,
-          100
-        ]
-      ],
-      "stable-diffusion-webui/modules/sd_vae.py": [
-        [
-          "refresh_vae_list",
-          72,
-          106,
-          100,
-          23,
-          100,
-          54,
-          99,
-          9,
-          100,
-          18
         ]
       ]
     },
@@ -5775,6 +5743,38 @@
         ]
       ]
     },
+    "glob.iglob": {
+      "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
+        [
+          "list_hypernetworks",
+          312,
+          319,
+          314,
+          28,
+          314,
+          84,
+          312,
+          24,
+          314,
+          100
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_vae.py": [
+        [
+          "refresh_vae_list",
+          72,
+          106,
+          100,
+          23,
+          100,
+          54,
+          99,
+          9,
+          100,
+          18
+        ]
+      ]
+    },
     "os.rename": {
       "stable-diffusion-webui/modules/interrogate.py": [
         [
@@ -5836,143 +5836,6 @@
           13,
           42,
           33
-        ]
-      ]
-    },
-    "os.stat": {
-      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
-        [
-          "load_model",
-          21,
-          49,
-          33,
-          24,
-          33,
-          41,
-          33,
-          24,
-          34,
-          43
-        ]
-      ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "save_image",
-          624,
-          767,
-          739,
-          47,
-          739,
-          61,
-          739,
-          47,
-          739,
-          114
-        ]
-      ],
-      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
-        [
-          "load_from_dir",
-          195,
-          210,
-          204,
-          24,
-          204,
-          38,
-          204,
-          32,
-          204,
-          38
-        ]
-      ],
-      "stable-diffusion-webui/modules/ui_extra_networks_user_metadata.py": [
-        [
-          "get_metadata_table",
-          99,
-          116,
-          105,
-          21,
-          105,
-          37,
-          105,
-          29,
-          105,
-          37
-        ]
-      ],
-      "stable-diffusion-webui/modules/util.py": [
-        [
-          "update_entry",
-          84,
-          93,
-          88,
-          20,
-          88,
-          37,
-          88,
-          28,
-          88,
-          37
-        ],
-        [
-          "find",
-          102,
-          129,
-          126,
-          24,
-          126,
-          59,
-          126,
-          32,
-          126,
-          59
-        ]
-      ]
-    },
-    "os.remove": {
-      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
-        [
-          "load_model",
-          21,
-          49,
-          36,
-          17,
-          36,
-          36,
-          35,
-          17,
-          36,
-          36
-        ]
-      ],
-      "stable-diffusion-webui/modules/launch_utils.py": [
-        [
-          "prepare_environment",
-          318,
-          446,
-          362,
-          9,
-          362,
-          62,
-          362,
-          9,
-          362,
-          62
-        ]
-      ],
-      "stable-diffusion-webui/modules/ui_tempdir.py": [
-        [
-          "cleanup_tmpdr",
-          73,
-          85,
-          85,
-          13,
-          85,
-          31,
-          84,
-          24,
-          85,
-          31
         ]
       ]
     },
@@ -6121,6 +5984,143 @@
           13,
           41,
           31
+        ]
+      ]
+    },
+    "os.remove": {
+      "stable-diffusion-webui/modules/launch_utils.py": [
+        [
+          "prepare_environment",
+          318,
+          446,
+          362,
+          9,
+          362,
+          62,
+          362,
+          9,
+          362,
+          62
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
+        [
+          "load_model",
+          21,
+          49,
+          36,
+          17,
+          36,
+          36,
+          35,
+          17,
+          36,
+          36
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_tempdir.py": [
+        [
+          "cleanup_tmpdr",
+          73,
+          85,
+          85,
+          13,
+          85,
+          31,
+          84,
+          24,
+          85,
+          31
+        ]
+      ]
+    },
+    "os.stat": {
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "save_image",
+          624,
+          767,
+          739,
+          47,
+          739,
+          61,
+          739,
+          47,
+          739,
+          114
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
+        [
+          "load_model",
+          21,
+          49,
+          33,
+          24,
+          33,
+          41,
+          33,
+          24,
+          34,
+          43
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
+        [
+          "load_from_dir",
+          195,
+          210,
+          204,
+          24,
+          204,
+          38,
+          204,
+          32,
+          204,
+          38
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks_user_metadata.py": [
+        [
+          "get_metadata_table",
+          99,
+          116,
+          105,
+          21,
+          105,
+          37,
+          105,
+          29,
+          105,
+          37
+        ]
+      ],
+      "stable-diffusion-webui/modules/util.py": [
+        [
+          "update_entry",
+          84,
+          93,
+          88,
+          20,
+          88,
+          37,
+          88,
+          28,
+          88,
+          37
+        ],
+        [
+          "find",
+          102,
+          129,
+          126,
+          24,
+          126,
+          59,
+          126,
+          32,
+          126,
+          59
         ]
       ]
     },
@@ -6430,23 +6430,6 @@
         ]
       ]
     },
-    "starlette.responses.FileResponse": {
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
-        [
-          "fetch_file",
-          97,
-          111,
-          111,
-          12,
-          111,
-          69,
-          111,
-          12,
-          111,
-          69
-        ]
-      ]
-    },
     "shutil.move": {
       "stable-diffusion-webui/modules/ui_extensions.py": [
         [
@@ -6461,6 +6444,23 @@
           29,
           385,
           47
+        ]
+      ]
+    },
+    "starlette.responses.FileResponse": {
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "fetch_file",
+          97,
+          111,
+          111,
+          12,
+          111,
+          69,
+          111,
+          12,
+          111,
+          69
         ]
       ]
     },
@@ -6996,6 +6996,60 @@
           41
         ]
       ],
+      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
+        [
+          "train_embedding",
+          400,
+          688,
+          453,
+          55,
+          453,
+          76,
+          453,
+          29,
+          457,
+          46
+        ],
+        [
+          "train_embedding",
+          400,
+          688,
+          672,
+          15,
+          672,
+          45,
+          672,
+          15,
+          672,
+          45
+        ],
+        [
+          "train_embedding",
+          400,
+          688,
+          673,
+          24,
+          673,
+          51,
+          673,
+          36,
+          673,
+          51
+        ],
+        [
+          "train_embedding",
+          400,
+          688,
+          674,
+          20,
+          674,
+          48,
+          674,
+          32,
+          674,
+          48
+        ]
+      ],
       "stable-diffusion-webui/extensions-builtin/Lora/ui_edit_user_metadata.py": [
         [
           "get_metadata_table",
@@ -7052,60 +7106,6 @@
           42
         ]
       ],
-      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
-        [
-          "train_embedding",
-          400,
-          688,
-          453,
-          55,
-          453,
-          76,
-          453,
-          29,
-          457,
-          46
-        ],
-        [
-          "train_embedding",
-          400,
-          688,
-          672,
-          15,
-          672,
-          45,
-          672,
-          15,
-          672,
-          45
-        ],
-        [
-          "train_embedding",
-          400,
-          688,
-          673,
-          24,
-          673,
-          51,
-          673,
-          36,
-          673,
-          51
-        ],
-        [
-          "train_embedding",
-          400,
-          688,
-          674,
-          20,
-          674,
-          48,
-          674,
-          32,
-          674,
-          48
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extra_networks_checkpoints.py": [
         [
           "create_item",
@@ -7121,123 +7121,32 @@
           9
         ]
       ],
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+      "stable-diffusion-webui/modules/ui_extra_networks_user_metadata.py": [
         [
-          "create_item_html",
-          234,
-          351,
-          257,
-          41,
-          257,
-          60,
-          257,
+          "get_card_html",
+          71,
+          90,
+          84,
           28,
-          257,
-          95
-        ],
-        [
-          "create_item_html",
-          234,
-          351,
-          271,
+          84,
+          51,
+          82,
           23,
-          271,
-          42,
-          262,
-          30,
-          271,
+          82,
           19
         ],
         [
-          "listcomp",
-          308,
-          309,
-          309,
-          35,
-          309,
-          53,
-          310,
-          21,
-          309,
-          56
-        ],
-        [
-          "create_item_html",
-          234,
-          351,
-          326,
-          27,
-          326,
-          50,
-          326,
-          27,
-          326,
-          23
-        ],
-        [
-          "create_item_html",
-          234,
-          351,
-          337,
-          21,
-          337,
-          45,
-          330,
-          13,
-          348,
-          19
-        ],
-        [
-          "create_item_html",
-          234,
-          351,
-          337,
-          21,
-          337,
-          45,
-          330,
-          13,
-          340,
-          56
-        ],
-        [
-          "create_item_html",
-          234,
-          351,
-          339,
-          34,
-          339,
-          119,
-          330,
-          13,
-          348,
-          19
-        ],
-        [
-          "create_item_html",
-          234,
-          351,
-          339,
-          34,
-          339,
-          119,
-          330,
-          13,
-          340,
-          56
-        ],
-        [
-          "listcomp",
-          544,
-          548,
-          546,
-          10,
-          546,
-          55,
-          546,
-          22,
-          548,
-          11
+          "put_values_into_components",
+          118,
+          129,
+          129,
+          16,
+          129,
+          32,
+          127,
+          17,
+          129,
+          135
         ]
       ],
       "stable-diffusion-webui/modules/ui_extensions.py": [
@@ -7515,38 +7424,526 @@
           63
         ]
       ],
-      "stable-diffusion-webui/modules/ui_extra_networks_user_metadata.py": [
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
         [
-          "get_card_html",
-          71,
-          90,
-          84,
+          "create_item_html",
+          234,
+          351,
+          257,
+          41,
+          257,
+          60,
+          257,
           28,
-          84,
-          51,
-          82,
+          257,
+          95
+        ],
+        [
+          "create_item_html",
+          234,
+          351,
+          271,
           23,
-          82,
+          271,
+          42,
+          262,
+          30,
+          271,
           19
         ],
         [
-          "put_values_into_components",
-          118,
-          129,
-          129,
-          16,
-          129,
-          32,
-          127,
-          17,
-          129,
-          135
+          "listcomp",
+          308,
+          309,
+          309,
+          35,
+          309,
+          53,
+          310,
+          21,
+          309,
+          56
+        ],
+        [
+          "create_item_html",
+          234,
+          351,
+          326,
+          27,
+          326,
+          50,
+          326,
+          27,
+          326,
+          23
+        ],
+        [
+          "create_item_html",
+          234,
+          351,
+          337,
+          21,
+          337,
+          45,
+          330,
+          13,
+          348,
+          19
+        ],
+        [
+          "create_item_html",
+          234,
+          351,
+          337,
+          21,
+          337,
+          45,
+          330,
+          13,
+          340,
+          56
+        ],
+        [
+          "create_item_html",
+          234,
+          351,
+          339,
+          34,
+          339,
+          119,
+          330,
+          13,
+          348,
+          19
+        ],
+        [
+          "create_item_html",
+          234,
+          351,
+          339,
+          34,
+          339,
+          119,
+          330,
+          13,
+          340,
+          56
+        ],
+        [
+          "listcomp",
+          544,
+          548,
+          546,
+          10,
+          546,
+          55,
+          546,
+          22,
+          548,
+          11
         ]
       ]
     }
   },
-  "CWE-095": {},
-  "CWE-113": {},
+  "CWE-095": {
+    "exec": {
+      "stable-diffusion-webui/scripts/custom_code.py": [
+        [
+          "exec_with_return",
+          18,
+          35,
+          31,
+          5,
+          31,
+          61,
+          18,
+          22,
+          32,
+          41
+        ],
+        [
+          "exec_with_return",
+          18,
+          35,
+          35,
+          9,
+          35,
+          65,
+          35,
+          9,
+          35,
+          65
+        ]
+      ]
+    },
+    "compile": {
+      "stable-diffusion-webui/scripts/custom_code.py": [
+        [
+          "exec_with_return",
+          18,
+          35,
+          31,
+          10,
+          31,
+          43,
+          18,
+          22,
+          32,
+          41
+        ],
+        [
+          "exec_with_return",
+          18,
+          35,
+          33,
+          21,
+          33,
+          86,
+          33,
+          16,
+          33,
+          104
+        ],
+        [
+          "exec_with_return",
+          18,
+          35,
+          35,
+          14,
+          35,
+          47,
+          35,
+          9,
+          35,
+          65
+        ]
+      ]
+    },
+    "eval": {
+      "stable-diffusion-webui/scripts/custom_code.py": [
+        [
+          "exec_with_return",
+          18,
+          35,
+          33,
+          16,
+          33,
+          104,
+          33,
+          16,
+          33,
+          104
+        ]
+      ]
+    },
+    "json.loads": {
+      "stable-diffusion-webui/modules/extras.py": [
+        [
+          "run_modelmerger",
+          88,
+          330,
+          269,
+          29,
+          269,
+          53,
+          269,
+          40,
+          269,
+          53
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/image_embedding.py": [
+        [
+          "embedding_from_b64",
+          37,
+          39,
+          39,
+          12,
+          39,
+          46,
+          37,
+          24,
+          39,
+          46
+        ],
+        [
+          "extract_image_data_embed",
+          116,
+          134,
+          134,
+          12,
+          134,
+          49,
+          124,
+          24,
+          134,
+          49
+        ]
+      ],
+      "stable-diffusion-webui/modules/infotext_utils.py": [
+        [
+          "unquote",
+          63,
+          70,
+          68,
+          16,
+          68,
+          31,
+          68,
+          27,
+          68,
+          31
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "read_info_from_image",
+          777,
+          817,
+          808,
+          25,
+          808,
+          52,
+          808,
+          25,
+          808,
+          52
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_models.py": [
+        [
+          "read_metadata_from_safetensors",
+          284,
+          309,
+          298,
+          24,
+          298,
+          44,
+          298,
+          35,
+          298,
+          44
+        ],
+        [
+          "read_metadata_from_safetensors",
+          284,
+          309,
+          303,
+          34,
+          303,
+          46,
+          303,
+          45,
+          303,
+          46
+        ]
+      ],
+      "stable-diffusion-webui/modules/processing_scripts/seed.py": [
+        [
+          "copy_seed",
+          86,
+          97,
+          89,
+          24,
+          89,
+          50,
+          89,
+          35,
+          89,
+          50
+        ]
+      ],
+      "stable-diffusion-webui/modules/txt2img.py": [
+        [
+          "txt2img_upscale",
+          58,
+          99,
+          68,
+          15,
+          68,
+          41,
+          60,
+          5,
+          70,
+          76
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_common.py": [
+        [
+          "update_generation_info",
+          20,
+          29,
+          22,
+          27,
+          22,
+          53,
+          22,
+          38,
+          22,
+          53
+        ],
+        [
+          "save_files",
+          64,
+          152,
+          76,
+          12,
+          76,
+          30,
+          64,
+          16,
+          84,
+          17
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extensions.py": [
+        [
+          "apply_and_restart",
+          26,
+          56,
+          29,
+          16,
+          29,
+          39,
+          26,
+          23,
+          30,
+          33
+        ],
+        [
+          "apply_and_restart",
+          26,
+          56,
+          32,
+          14,
+          32,
+          36,
+          30,
+          5,
+          33,
+          31
+        ],
+        [
+          "check_updates",
+          100,
+          122,
+          103,
+          16,
+          103,
+          39,
+          100,
+          19,
+          104,
+          33
+        ],
+        [
+          "refresh_available_extensions",
+          407,
+          418,
+          414,
+          28,
+          414,
+          43,
+          407,
+          34,
+          418,
+          67
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "fetch_cover_images",
+          114,
+          136,
+          125,
+          20,
+          125,
+          68,
+          125,
+          20,
+          126,
+          60
+        ],
+        [
+          "find_embedded_preview",
+          660,
+          669,
+          666,
+          99,
+          666,
+          139,
+          666,
+          77,
+          666,
+          146
+        ]
+      ]
+    }
+  },
+  "CWE-113": {
+    "urllib.parse.urlparse": {
+      "stable-diffusion-webui/modules/api/api.py": [
+        [
+          "verify_url",
+          58,
+          74,
+          64,
+          22,
+          64,
+          34,
+          58,
+          16,
+          64,
+          34
+        ]
+      ],
+      "stable-diffusion-webui/modules/modelloader.py": [
+        [
+          "friendly_name",
+          93,
+          99,
+          95,
+          16,
+          95,
+          29,
+          95,
+          16,
+          95,
+          12
+        ],
+        [
+          "load_file_from_url",
+          20,
+          41,
+          34,
+          17,
+          34,
+          29,
+          34,
+          17,
+          35,
+          17
+        ]
+      ]
+    },
+    "starlette.responses.FileResponse": {
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "fetch_file",
+          97,
+          111,
+          111,
+          12,
+          111,
+          69,
+          111,
+          12,
+          111,
+          69
+        ]
+      ]
+    }
+  },
   "CWE-117": {
     "print": {
       "stable-diffusion-webui/modules/cache.py": [
@@ -7763,6 +8160,21 @@
           13,
           150,
           19
+        ]
+      ],
+      "stable-diffusion-webui/modules/devices.py": [
+        [
+          "force_model_fp16",
+          284,
+          295,
+          295,
+          5,
+          295,
+          99,
+          290,
+          5,
+          295,
+          99
         ]
       ],
       "stable-diffusion-webui/modules/errors.py": [
@@ -8291,21 +8703,6 @@
           35
         ]
       ],
-      "stable-diffusion-webui/modules/devices.py": [
-        [
-          "force_model_fp16",
-          284,
-          295,
-          295,
-          5,
-          295,
-          99,
-          290,
-          5,
-          295,
-          99
-        ]
-      ],
       "stable-diffusion-webui/modules/extensions.py": [
         [
           "list_extensions",
@@ -8358,49 +8755,6 @@
           9,
           240,
           102
-        ]
-      ],
-      "stable-diffusion-webui/modules/hashes.py": [
-        [
-          "sha256",
-          41,
-          66,
-          51,
-          5,
-          51,
-          57,
-          51,
-          5,
-          52,
-          22
-        ],
-        [
-          "sha256",
-          41,
-          66,
-          57,
-          5,
-          57,
-          28,
-          57,
-          5,
-          66,
-          23
-        ]
-      ],
-      "stable-diffusion-webui/modules/hat_model.py": [
-        [
-          "do_upscale",
-          22,
-          34,
-          26,
-          13,
-          26,
-          85,
-          25,
-          9,
-          27,
-          22
         ]
       ],
       "stable-diffusion-webui/modules/extras.py": [
@@ -8533,6 +8887,144 @@
           5,
           330,
           133
+        ]
+      ],
+      "stable-diffusion-webui/modules/hashes.py": [
+        [
+          "sha256",
+          41,
+          66,
+          51,
+          5,
+          51,
+          57,
+          51,
+          5,
+          52,
+          22
+        ],
+        [
+          "sha256",
+          41,
+          66,
+          57,
+          5,
+          57,
+          28,
+          57,
+          5,
+          66,
+          23
+        ]
+      ],
+      "stable-diffusion-webui/modules/hat_model.py": [
+        [
+          "do_upscale",
+          22,
+          34,
+          26,
+          13,
+          26,
+          85,
+          25,
+          9,
+          27,
+          22
+        ]
+      ],
+      "stable-diffusion-webui/modules/img2img.py": [
+        [
+          "process_batch",
+          20,
+          149,
+          35,
+          13,
+          35,
+          83,
+          35,
+          13,
+          35,
+          83
+        ],
+        [
+          "process_batch",
+          20,
+          149,
+          37,
+          5,
+          37,
+          110,
+          37,
+          5,
+          52,
+          43
+        ],
+        [
+          "process_batch",
+          20,
+          149,
+          63,
+          13,
+          63,
+          20,
+          62,
+          9,
+          64,
+          20
+        ],
+        [
+          "process_batch",
+          20,
+          149,
+          85,
+          21,
+          85,
+          107,
+          85,
+          21,
+          86,
+          28
+        ],
+        [
+          "img2img",
+          152,
+          253,
+          223,
+          9,
+          223,
+          69,
+          223,
+          9,
+          223,
+          69
+        ],
+        [
+          "img2img",
+          152,
+          253,
+          248,
+          9,
+          248,
+          33,
+          248,
+          9,
+          248,
+          33
+        ]
+      ],
+      "stable-diffusion-webui/modules/infotext_utils.py": [
+        [
+          "parse_generation_parameters",
+          234,
+          386,
+          281,
+          13,
+          281,
+          48,
+          280,
+          9,
+          281,
+          48
         ]
       ],
       "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
@@ -8719,86 +9211,6 @@
           20
         ]
       ],
-      "stable-diffusion-webui/modules/img2img.py": [
-        [
-          "process_batch",
-          20,
-          149,
-          35,
-          13,
-          35,
-          83,
-          35,
-          13,
-          35,
-          83
-        ],
-        [
-          "process_batch",
-          20,
-          149,
-          37,
-          5,
-          37,
-          110,
-          37,
-          5,
-          52,
-          43
-        ],
-        [
-          "process_batch",
-          20,
-          149,
-          63,
-          13,
-          63,
-          20,
-          62,
-          9,
-          64,
-          20
-        ],
-        [
-          "process_batch",
-          20,
-          149,
-          85,
-          21,
-          85,
-          107,
-          85,
-          21,
-          86,
-          28
-        ],
-        [
-          "img2img",
-          152,
-          253,
-          223,
-          9,
-          223,
-          69,
-          223,
-          9,
-          223,
-          69
-        ],
-        [
-          "img2img",
-          152,
-          253,
-          248,
-          9,
-          248,
-          33,
-          248,
-          9,
-          248,
-          33
-        ]
-      ],
       "stable-diffusion-webui/modules/initialize_util.py": [
         [
           "fix_pytorch_lightning",
@@ -8918,64 +9330,6 @@
           44
         ]
       ],
-      "stable-diffusion-webui/modules/infotext_utils.py": [
-        [
-          "parse_generation_parameters",
-          234,
-          386,
-          281,
-          13,
-          281,
-          48,
-          280,
-          9,
-          281,
-          48
-        ]
-      ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "resize",
-          269,
-          288,
-          279,
-          17,
-          279,
-          128,
-          279,
-          89,
-          279,
-          128
-        ],
-        [
-          "save_image",
-          624,
-          767,
-          661,
-          9,
-          661,
-          58,
-          661,
-          9,
-          662,
-          17
-        ]
-      ],
-      "stable-diffusion-webui/modules/interrogate.py": [
-        [
-          "download_default_clip_interrogate_categories",
-          26,
-          42,
-          27,
-          5,
-          27,
-          43,
-          26,
-          50,
-          33,
-          10
-        ]
-      ],
       "stable-diffusion-webui/launch.py": [
         [
           "main",
@@ -8991,222 +9345,19 @@
           15
         ]
       ],
-      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
+      "stable-diffusion-webui/modules/interrogate.py": [
         [
-          "load_model",
-          21,
-          49,
-          35,
-          17,
-          35,
-          57,
-          35,
-          17,
-          36,
-          36
-        ],
-        [
-          "load_model",
-          21,
-          49,
-          39,
-          13,
-          39,
-          64,
-          39,
-          13,
-          40,
-          53
-        ]
-      ],
-      "stable-diffusion-webui/modules/textual_inversion/learn_schedule.py": [
-        [
-          "__init__",
-          51,
-          59,
-          57,
-          13,
-          57,
-          86,
-          57,
-          13,
-          57,
-          86
-        ]
-      ],
-      "stable-diffusion-webui/extensions-builtin/LDSR/ldsr_model_arch.py": [
-        [
-          "load_model_from_config",
-          22,
-          52,
+          "download_default_clip_interrogate_categories",
           26,
-          13,
-          26,
-          45,
-          26,
-          13,
+          42,
           27,
-          54
-        ],
-        [
-          "load_model_from_config",
-          22,
-          52,
-          29,
-          13,
-          29,
-          57,
-          29,
-          13,
-          31,
-          50
-        ],
-        [
-          "super_resolution",
-          106,
-          154,
-          127,
-          13,
-          128,
-          118,
-          127,
-          13,
-          129,
-          17
-        ],
-        [
-          "super_resolution",
-          106,
-          154,
-          131,
-          13,
-          131,
-          86,
-          131,
-          13,
-          131,
-          86
-        ],
-        [
-          "convsample_ddim",
-          176,
-          190,
-          183,
           5,
-          183,
-          55,
-          176,
-          21,
-          190,
-          33
-        ],
-        [
-          "make_convolutional_sample",
-          194,
-          250,
-          206,
-          9,
-          206,
-          82,
-          205,
-          13,
-          206,
-          82
-        ]
-      ],
-      "stable-diffusion-webui/modules/mac_specific.py": [
-        [
-          "interpolate_with_fp32_fallback",
-          56,
-          64,
-          64,
-          13,
-          64,
-          67,
-          64,
-          13,
-          64,
-          67
-        ]
-      ],
-      "stable-diffusion-webui/modules/memmon.py": [
-        [
-          "__init__",
-          15,
-          30,
-          29,
-          13,
-          29,
-          78,
-          28,
-          9,
-          30,
-          25
-        ],
-        [
-          "dump_debug",
-          58,
-          70,
-          59,
-          9,
-          59,
-          37,
-          58,
-          20,
-          60,
-          39
-        ],
-        [
-          "dump_debug",
-          58,
-          70,
-          61,
-          13,
-          61,
-          42,
-          60,
-          13,
-          61,
-          42
-        ],
-        [
-          "dump_debug",
-          58,
-          70,
-          63,
-          9,
-          63,
-          46,
-          63,
-          9,
-          65,
-          30
-        ],
-        [
-          "dump_debug",
-          58,
-          70,
-          68,
-          13,
-          68,
-          71,
-          68,
-          19,
-          68,
-          71
-        ],
-        [
-          "dump_debug",
-          58,
-          70,
-          70,
-          9,
-          70,
-          42,
-          70,
-          9,
-          70,
-          42
+          27,
+          43,
+          26,
+          50,
+          33,
+          10
         ]
       ],
       "stable-diffusion-webui/modules/launch_utils.py": [
@@ -9432,6 +9583,252 @@
           30
         ]
       ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/scripts/ldsr_model.py": [
+        [
+          "load_model",
+          21,
+          49,
+          35,
+          17,
+          35,
+          57,
+          35,
+          17,
+          36,
+          36
+        ],
+        [
+          "load_model",
+          21,
+          49,
+          39,
+          13,
+          39,
+          64,
+          39,
+          13,
+          40,
+          53
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "resize",
+          269,
+          288,
+          279,
+          17,
+          279,
+          128,
+          279,
+          89,
+          279,
+          128
+        ],
+        [
+          "save_image",
+          624,
+          767,
+          661,
+          9,
+          661,
+          58,
+          661,
+          9,
+          662,
+          17
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/learn_schedule.py": [
+        [
+          "__init__",
+          51,
+          59,
+          57,
+          13,
+          57,
+          86,
+          57,
+          13,
+          57,
+          86
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/ldsr_model_arch.py": [
+        [
+          "load_model_from_config",
+          22,
+          52,
+          26,
+          13,
+          26,
+          45,
+          26,
+          13,
+          27,
+          54
+        ],
+        [
+          "load_model_from_config",
+          22,
+          52,
+          29,
+          13,
+          29,
+          57,
+          29,
+          13,
+          31,
+          50
+        ],
+        [
+          "super_resolution",
+          106,
+          154,
+          127,
+          13,
+          128,
+          118,
+          127,
+          13,
+          129,
+          17
+        ],
+        [
+          "super_resolution",
+          106,
+          154,
+          131,
+          13,
+          131,
+          86,
+          131,
+          13,
+          131,
+          86
+        ],
+        [
+          "convsample_ddim",
+          176,
+          190,
+          183,
+          5,
+          183,
+          55,
+          176,
+          21,
+          190,
+          33
+        ],
+        [
+          "make_convolutional_sample",
+          194,
+          250,
+          206,
+          9,
+          206,
+          82,
+          205,
+          13,
+          206,
+          82
+        ]
+      ],
+      "stable-diffusion-webui/modules/mac_specific.py": [
+        [
+          "interpolate_with_fp32_fallback",
+          56,
+          64,
+          64,
+          13,
+          64,
+          67,
+          64,
+          13,
+          64,
+          67
+        ]
+      ],
+      "stable-diffusion-webui/modules/memmon.py": [
+        [
+          "__init__",
+          15,
+          30,
+          29,
+          13,
+          29,
+          78,
+          28,
+          9,
+          30,
+          25
+        ],
+        [
+          "dump_debug",
+          58,
+          70,
+          59,
+          9,
+          59,
+          37,
+          58,
+          20,
+          60,
+          39
+        ],
+        [
+          "dump_debug",
+          58,
+          70,
+          61,
+          13,
+          61,
+          42,
+          60,
+          13,
+          61,
+          42
+        ],
+        [
+          "dump_debug",
+          58,
+          70,
+          63,
+          9,
+          63,
+          46,
+          63,
+          9,
+          65,
+          30
+        ],
+        [
+          "dump_debug",
+          58,
+          70,
+          68,
+          13,
+          68,
+          71,
+          68,
+          19,
+          68,
+          71
+        ],
+        [
+          "dump_debug",
+          58,
+          70,
+          70,
+          9,
+          70,
+          42,
+          70,
+          9,
+          70,
+          42
+        ]
+      ],
       "stable-diffusion-webui/modules/modelloader.py": [
         [
           "load_file_from_url",
@@ -9501,6 +9898,21 @@
           114
         ]
       ],
+      "stable-diffusion-webui/extensions-builtin/Lora/networks.py": [
+        [
+          "load_networks",
+          281,
+          366,
+          362,
+          13,
+          362,
+          50,
+          362,
+          13,
+          362,
+          50
+        ]
+      ],
       "stable-diffusion-webui/modules/options.py": [
         [
           "load",
@@ -9527,21 +9939,6 @@
           13,
           227,
           166
-        ]
-      ],
-      "stable-diffusion-webui/extensions-builtin/Lora/networks.py": [
-        [
-          "load_networks",
-          281,
-          366,
-          362,
-          13,
-          362,
-          50,
-          362,
-          13,
-          362,
-          50
         ]
       ],
       "stable-diffusion-webui/scripts/poor_mans_outpainting.py": [
@@ -9744,6 +10141,21 @@
           17
         ]
       ],
+      "stable-diffusion-webui/modules/sd_hijack_utils.py": [
+        [
+          "__new__",
+          8,
+          27,
+          24,
+          17,
+          24,
+          84,
+          23,
+          13,
+          25,
+          20
+        ]
+      ],
       "stable-diffusion-webui/extensions-builtin/LDSR/sd_hijack_autoencoder.py": [
         [
           "__init__",
@@ -9887,21 +10299,6 @@
           25,
           234,
           48
-        ]
-      ],
-      "stable-diffusion-webui/modules/sd_hijack_utils.py": [
-        [
-          "__new__",
-          8,
-          27,
-          24,
-          17,
-          24,
-          84,
-          23,
-          13,
-          25,
-          20
         ]
       ],
       "stable-diffusion-webui/extensions-builtin/LDSR/sd_hijack_ddpm_v1.py": [
@@ -10508,6 +10905,21 @@
           35
         ]
       ],
+      "stable-diffusion-webui/scripts/sd_upscale.py": [
+        [
+          "run",
+          27,
+          101,
+          66,
+          9,
+          66,
+          177,
+          63,
+          23,
+          69,
+          37
+        ]
+      ],
       "stable-diffusion-webui/modules/sd_unet.py": [
         [
           "apply_unet",
@@ -10616,21 +11028,6 @@
           19
         ]
       ],
-      "stable-diffusion-webui/scripts/sd_upscale.py": [
-        [
-          "run",
-          27,
-          101,
-          66,
-          9,
-          66,
-          177,
-          63,
-          23,
-          69,
-          37
-        ]
-      ],
       "stable-diffusion-webui/modules/sd_vae_taesd.py": [
         [
           "download_model",
@@ -10676,34 +11073,6 @@
           26
         ]
       ],
-      "stable-diffusion-webui/modules/timer.py": [
-        [
-          "__enter__",
-          12,
-          18,
-          18,
-          13,
-          18,
-          75,
-          18,
-          13,
-          18,
-          75
-        ],
-        [
-          "record",
-          49,
-          57,
-          57,
-          13,
-          57,
-          94,
-          57,
-          13,
-          57,
-          94
-        ]
-      ],
       "stable-diffusion-webui/modules/txt2img.py": [
         [
           "txt2img_create_processing",
@@ -10730,6 +11099,34 @@
           9,
           115,
           33
+        ]
+      ],
+      "stable-diffusion-webui/modules/timer.py": [
+        [
+          "__enter__",
+          12,
+          18,
+          18,
+          13,
+          18,
+          75,
+          18,
+          13,
+          18,
+          75
+        ],
+        [
+          "record",
+          49,
+          57,
+          57,
+          13,
+          57,
+          94,
+          57,
+          13,
+          57,
+          94
         ]
       ],
       "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
@@ -10797,49 +11194,6 @@
           13,
           491,
           60
-        ]
-      ],
-      "stable-diffusion-webui/modules/ui.py": [
-        [
-          "process_interrogate",
-          113,
-          133,
-          121,
-          9,
-          121,
-          52,
-          119,
-          9,
-          122,
-          30
-        ],
-        [
-          "process_interrogate",
-          113,
-          133,
-          131,
-          13,
-          131,
-          124,
-          127,
-          13,
-          131,
-          124
-        ]
-      ],
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
-        [
-          "save_preview",
-          803,
-          828,
-          807,
-          13,
-          807,
-          71,
-          807,
-          13,
-          808,
-          83
         ]
       ],
       "stable-diffusion-webui/modules/ui_extensions.py": [
@@ -10922,6 +11276,64 @@
           16,
           345,
           90
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "save_preview",
+          803,
+          828,
+          807,
+          13,
+          807,
+          71,
+          807,
+          13,
+          808,
+          83
+        ]
+      ],
+      "stable-diffusion-webui/modules/upscaler.py": [
+        [
+          "update_status",
+          85,
+          86,
+          86,
+          9,
+          86,
+          68,
+          85,
+          23,
+          86,
+          68
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui.py": [
+        [
+          "process_interrogate",
+          113,
+          133,
+          121,
+          9,
+          121,
+          52,
+          119,
+          9,
+          122,
+          30
+        ],
+        [
+          "process_interrogate",
+          113,
+          133,
+          131,
+          13,
+          131,
+          124,
+          127,
+          13,
+          131,
+          124
         ]
       ],
       "stable-diffusion-webui/extensions-builtin/LDSR/vqvae_quantize.py": [
@@ -11071,21 +11483,6 @@
           15,
           203,
           14
-        ]
-      ],
-      "stable-diffusion-webui/modules/upscaler.py": [
-        [
-          "update_status",
-          85,
-          86,
-          86,
-          9,
-          86,
-          68,
-          85,
-          23,
-          86,
-          68
         ]
       ],
       "stable-diffusion-webui/scripts/xyz_grid.py": [
@@ -11537,21 +11934,6 @@
           139
         ]
       ],
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
-        [
-          "get_metadata",
-          139,
-          152,
-          152,
-          38,
-          152,
-          87,
-          150,
-          40,
-          152,
-          89
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extra_networks_user_metadata.py": [
         [
           "setup_save_handler",
@@ -11605,6 +11987,21 @@
           205,
           9
         ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "get_metadata",
+          139,
+          152,
+          152,
+          38,
+          152,
+          87,
+          150,
+          40,
+          152,
+          89
+        ]
       ]
     },
     "warnings.warn": {
@@ -11651,57 +12048,6 @@
           5,
           40,
           41
-        ]
-      ]
-    },
-    "logging.Formatter": {
-      "stable-diffusion-webui/modules/logging_config.py": [
-        [
-          "setup_logging",
-          28,
-          58,
-          39,
-          17,
-          42,
-          5,
-          39,
-          17,
-          44,
-          42
-        ]
-      ]
-    },
-    "rich.logging.RichHandler": {
-      "stable-diffusion-webui/modules/logging_config.py": [
-        [
-          "setup_logging",
-          28,
-          58,
-          46,
-          19,
-          46,
-          31,
-          45,
-          14,
-          46,
-          15
-        ]
-      ]
-    },
-    "logging.StreamHandler": {
-      "stable-diffusion-webui/modules/logging_config.py": [
-        [
-          "setup_logging",
-          28,
-          58,
-          48,
-          19,
-          48,
-          41,
-          48,
-          19,
-          49,
-          39
         ]
       ]
     },
@@ -11789,6 +12135,57 @@
         ]
       ]
     },
+    "logging.Formatter": {
+      "stable-diffusion-webui/modules/logging_config.py": [
+        [
+          "setup_logging",
+          28,
+          58,
+          39,
+          17,
+          42,
+          5,
+          39,
+          17,
+          44,
+          42
+        ]
+      ]
+    },
+    "rich.logging.RichHandler": {
+      "stable-diffusion-webui/modules/logging_config.py": [
+        [
+          "setup_logging",
+          28,
+          58,
+          46,
+          19,
+          46,
+          31,
+          45,
+          14,
+          46,
+          15
+        ]
+      ]
+    },
+    "logging.StreamHandler": {
+      "stable-diffusion-webui/modules/logging_config.py": [
+        [
+          "setup_logging",
+          28,
+          58,
+          48,
+          19,
+          48,
+          41,
+          48,
+          19,
+          49,
+          39
+        ]
+      ]
+    },
     "str.replace": {
       "stable-diffusion-webui/modules/models/sd3/other_impls.py": [
         [
@@ -11840,7 +12237,126 @@
     }
   },
   "CWE-326": {},
-  "CWE-327": {},
+  "CWE-327": {
+    "hashlib.sha256": {
+      "stable-diffusion-webui/modules/hashes.py": [
+        [
+          "calculate_sha256",
+          11,
+          19,
+          12,
+          19,
+          12,
+          34,
+          11,
+          22,
+          16,
+          55
+        ],
+        [
+          "addnet_hash_safetensors",
+          69,
+          83,
+          71,
+          19,
+          71,
+          34,
+          69,
+          29,
+          80,
+          51
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "image_hash",
+          497,
+          499,
+          499,
+          16,
+          499,
+          51,
+          498,
+          18,
+          499,
+          73
+        ],
+        [
+          "string_hash",
+          501,
+          503,
+          503,
+          16,
+          503,
+          44,
+          502,
+          18,
+          503,
+          66
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_models.py": [
+        [
+          "model_hash",
+          203,
+          215,
+          209,
+          17,
+          209,
+          32,
+          209,
+          17,
+          209,
+          32
+        ]
+      ],
+      "stable-diffusion-webui/modules/sysinfo.py": [
+        [
+          "get",
+          45,
+          53,
+          50,
+          9,
+          50,
+          43,
+          46,
+          11,
+          53,
+          15
+        ],
+        [
+          "check",
+          59,
+          67,
+          66,
+          9,
+          66,
+          47,
+          64,
+          16,
+          67,
+          38
+        ]
+      ]
+    },
+    "hashlib.md5": {
+      "stable-diffusion-webui/modules/processing.py": [
+        [
+          "init",
+          1602,
+          1757,
+          1674,
+          38,
+          1674,
+          63,
+          1674,
+          38,
+          1675,
+          163
+        ]
+      ]
+    }
+  },
   "CWE-329": {
     "random.random": {
       "stable-diffusion-webui/modules/textual_inversion/dataset.py": [
@@ -12132,36 +12648,6 @@
           99
         ]
       ],
-      "stable-diffusion-webui/modules/localization.py": [
-        [
-          "localization_js",
-          26,
-          37,
-          32,
-          22,
-          32,
-          51,
-          30,
-          13,
-          32,
-          51
-        ]
-      ],
-      "stable-diffusion-webui/modules/images.py": [
-        [
-          "save_image",
-          624,
-          767,
-          760,
-          14,
-          760,
-          51,
-          759,
-          22,
-          761,
-          35
-        ]
-      ],
       "stable-diffusion-webui/modules/launch_utils.py": [
         [
           "git_tag",
@@ -12214,6 +12700,36 @@
           10,
           482,
           19
+        ]
+      ],
+      "stable-diffusion-webui/modules/localization.py": [
+        [
+          "localization_js",
+          26,
+          37,
+          32,
+          22,
+          32,
+          51,
+          30,
+          13,
+          32,
+          51
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "save_image",
+          624,
+          767,
+          760,
+          14,
+          760,
+          51,
+          759,
+          22,
+          761,
+          35
         ]
       ],
       "stable-diffusion-webui/modules/options.py": [
@@ -12272,21 +12788,6 @@
           47
         ]
       ],
-      "stable-diffusion-webui/modules/textual_inversion/saving_settings.py": [
-        [
-          "save_settings_to_file",
-          52,
-          64,
-          63,
-          10,
-          63,
-          57,
-          60,
-          5,
-          64,
-          41
-        ]
-      ],
       "stable-diffusion-webui/modules/safe.py": [
         [
           "check_pt",
@@ -12300,6 +12801,21 @@
           5,
           103,
           29
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/saving_settings.py": [
+        [
+          "save_settings_to_file",
+          52,
+          64,
+          63,
+          10,
+          63,
+          57,
+          60,
+          5,
+          64,
+          41
         ]
       ],
       "stable-diffusion-webui/modules/processing.py": [
@@ -12401,6 +12917,21 @@
           72
         ]
       ],
+      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
+        [
+          "write_loss",
+          326,
+          348,
+          334,
+          10,
+          334,
+          70,
+          332,
+          24,
+          337,
+          27
+        ]
+      ],
       "stable-diffusion-webui/modules/ui_common.py": [
         [
           "update_logfile",
@@ -12455,21 +12986,6 @@
           61
         ]
       ],
-      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
-        [
-          "write_loss",
-          326,
-          348,
-          334,
-          10,
-          334,
-          70,
-          332,
-          24,
-          337,
-          27
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extensions.py": [
         [
           "save_config_state",
@@ -12485,21 +13001,6 @@
           138
         ]
       ],
-      "stable-diffusion-webui/modules/ui.py": [
-        [
-          "process_interrogate",
-          113,
-          133,
-          131,
-          53,
-          131,
-          123,
-          127,
-          13,
-          131,
-          124
-        ]
-      ],
       "stable-diffusion-webui/modules/ui_extra_networks_user_metadata.py": [
         [
           "write_user_metadata",
@@ -12513,21 +13014,6 @@
           29,
           139,
           57
-        ]
-      ],
-      "stable-diffusion-webui/modules/ui_extra_networks.py": [
-        [
-          "find_description",
-          671,
-          684,
-          680,
-          22,
-          680,
-          72,
-          679,
-          13,
-          680,
-          72
         ]
       ],
       "stable-diffusion-webui/modules/ui_loadsave.py": [
@@ -12556,6 +13042,36 @@
           23,
           147,
           78
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui.py": [
+        [
+          "process_interrogate",
+          113,
+          133,
+          131,
+          53,
+          131,
+          123,
+          127,
+          13,
+          131,
+          124
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "find_description",
+          671,
+          684,
+          680,
+          22,
+          680,
+          72,
+          679,
+          13,
+          680,
+          72
         ]
       ],
       "stable-diffusion-webui/modules/util.py": [
@@ -12609,10 +13125,1818 @@
       ]
     }
   },
-  "CWE-502": {},
+  "CWE-502": {
+    "json.load": {
+      "stable-diffusion-webui/modules/cache.py": [
+        [
+          "convert_old_cached_data",
+          31,
+          53,
+          34,
+          20,
+          34,
+          34,
+          34,
+          30,
+          34,
+          34
+        ]
+      ],
+      "stable-diffusion-webui/modules/config_states.py": [
+        [
+          "list_config_states",
+          18,
+          45,
+          30,
+          25,
+          30,
+          36,
+          30,
+          35,
+          30,
+          36
+        ]
+      ],
+      "stable-diffusion-webui/modules/extra_networks.py": [
+        [
+          "get_user_metadata",
+          209,
+          225,
+          221,
+          28,
+          221,
+          42,
+          221,
+          38,
+          221,
+          42
+        ]
+      ],
+      "stable-diffusion-webui/modules/initialize_util.py": [
+        [
+          "restore_config_state_file",
+          75,
+          92,
+          88,
+          28,
+          88,
+          39,
+          86,
+          9,
+          90,
+          56
+        ]
+      ],
+      "stable-diffusion-webui/modules/launch_utils.py": [
+        [
+          "list_extensions",
+          244,
+          262,
+          249,
+          24,
+          249,
+          38,
+          249,
+          34,
+          249,
+          38
+        ]
+      ],
+      "stable-diffusion-webui/modules/localization.py": [
+        [
+          "localization_js",
+          26,
+          37,
+          33,
+          33,
+          33,
+          47,
+          33,
+          43,
+          33,
+          47
+        ]
+      ],
+      "stable-diffusion-webui/modules/options.py": [
+        [
+          "load",
+          197,
+          227,
+          200,
+          29,
+          200,
+          43,
+          200,
+          39,
+          200,
+          43
+        ]
+      ],
+      "stable-diffusion-webui/modules/sysinfo.py": [
+        [
+          "get_config",
+          206,
+          215,
+          213,
+          24,
+          213,
+          35,
+          213,
+          34,
+          213,
+          35
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_loadsave.py": [
+        [
+          "read_from_file",
+          141,
+          143,
+          143,
+          20,
+          143,
+          34,
+          141,
+          24,
+          143,
+          34
+        ]
+      ]
+    },
+    "torch.load": {
+      "stable-diffusion-webui/modules/deepbooru.py": [
+        [
+          "load",
+          16,
+          31,
+          28,
+          36,
+          28,
+          75,
+          20,
+          17,
+          31,
+          49
+        ]
+      ],
+      "stable-diffusion-webui/modules/models/diffusion/ddpm_edit.py": [
+        [
+          "init_from_ckpt",
+          202,
+          241,
+          205,
+          14,
+          205,
+          49,
+          203,
+          9,
+          206,
+          42
+        ]
+      ],
+      "stable-diffusion-webui/modules/hypernetworks/hypernetwork.py": [
+        [
+          "load",
+          243,
+          304,
+          248,
+          22,
+          248,
+          61,
+          248,
+          22,
+          256,
+          69
+        ],
+        [
+          "load",
+          243,
+          304,
+          275,
+          32,
+          275,
+          87,
+          275,
+          32,
+          275,
+          87
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/ldsr_model_arch.py": [
+        [
+          "load_model_from_config",
+          22,
+          52,
+          34,
+          25,
+          34,
+          70,
+          34,
+          25,
+          34,
+          21
+        ]
+      ],
+      "stable-diffusion-webui/modules/safe.py": [
+        [
+          "load_with_extra",
+          111,
+          156,
+          156,
+          12,
+          156,
+          55,
+          156,
+          12,
+          156,
+          55
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/sd_hijack_autoencoder.py": [
+        [
+          "init_from_ckpt",
+          84,
+          97,
+          85,
+          14,
+          85,
+          49,
+          84,
+          24,
+          87,
+          21
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/LDSR/sd_hijack_ddpm_v1.py": [
+        [
+          "init_from_ckpt",
+          185,
+          201,
+          186,
+          14,
+          186,
+          49,
+          185,
+          24,
+          187,
+          42
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_models.py": [
+        [
+          "read_state_dict",
+          312,
+          329,
+          323,
+          17,
+          323,
+          101,
+          323,
+          45,
+          323,
+          13
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_vae_taesd.py": [
+        [
+          "__init__",
+          61,
+          70,
+          70,
+          13,
+          70,
+          99,
+          70,
+          51,
+          70,
+          100
+        ],
+        [
+          "__init__",
+          77,
+          86,
+          86,
+          13,
+          86,
+          99,
+          86,
+          51,
+          86,
+          100
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_vae_approx.py": [
+        [
+          "model",
+          42,
+          67,
+          62,
+          38,
+          62,
+          122,
+          62,
+          74,
+          65,
+          40
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
+        [
+          "load_from_file",
+          157,
+          192,
+          178,
+          20,
+          178,
+          55,
+          178,
+          20,
+          178,
+          16
+        ],
+        [
+          "train_embedding",
+          400,
+          688,
+          483,
+          36,
+          483,
+          86,
+          483,
+          36,
+          484,
+          77
+        ],
+        [
+          "train_embedding",
+          400,
+          688,
+          642,
+          32,
+          642,
+          58,
+          642,
+          43,
+          642,
+          58
+        ]
+      ]
+    },
+    "configparser.ConfigParser.read": {
+      "stable-diffusion-webui/modules/extensions.py": [
+        [
+          "__init__",
+          43,
+          57,
+          50,
+          13,
+          50,
+          38,
+          50,
+          30,
+          50,
+          38
+        ]
+      ]
+    },
+    "json.loads": {
+      "stable-diffusion-webui/modules/extras.py": [
+        [
+          "run_modelmerger",
+          88,
+          330,
+          269,
+          29,
+          269,
+          53,
+          269,
+          40,
+          269,
+          53
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/image_embedding.py": [
+        [
+          "embedding_from_b64",
+          37,
+          39,
+          39,
+          12,
+          39,
+          46,
+          37,
+          24,
+          39,
+          46
+        ],
+        [
+          "extract_image_data_embed",
+          116,
+          134,
+          134,
+          12,
+          134,
+          49,
+          124,
+          24,
+          134,
+          49
+        ]
+      ],
+      "stable-diffusion-webui/modules/infotext_utils.py": [
+        [
+          "unquote",
+          63,
+          70,
+          68,
+          16,
+          68,
+          31,
+          68,
+          27,
+          68,
+          31
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "read_info_from_image",
+          777,
+          817,
+          808,
+          25,
+          808,
+          52,
+          808,
+          25,
+          808,
+          52
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_models.py": [
+        [
+          "read_metadata_from_safetensors",
+          284,
+          309,
+          298,
+          24,
+          298,
+          44,
+          298,
+          35,
+          298,
+          44
+        ],
+        [
+          "read_metadata_from_safetensors",
+          284,
+          309,
+          303,
+          34,
+          303,
+          46,
+          303,
+          45,
+          303,
+          46
+        ]
+      ],
+      "stable-diffusion-webui/modules/processing_scripts/seed.py": [
+        [
+          "copy_seed",
+          86,
+          97,
+          89,
+          24,
+          89,
+          50,
+          89,
+          35,
+          89,
+          50
+        ]
+      ],
+      "stable-diffusion-webui/modules/txt2img.py": [
+        [
+          "txt2img_upscale",
+          58,
+          99,
+          68,
+          15,
+          68,
+          41,
+          60,
+          5,
+          70,
+          76
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_common.py": [
+        [
+          "update_generation_info",
+          20,
+          29,
+          22,
+          27,
+          22,
+          53,
+          22,
+          38,
+          22,
+          53
+        ],
+        [
+          "save_files",
+          64,
+          152,
+          76,
+          12,
+          76,
+          30,
+          64,
+          16,
+          84,
+          17
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extensions.py": [
+        [
+          "apply_and_restart",
+          26,
+          56,
+          29,
+          16,
+          29,
+          39,
+          26,
+          23,
+          30,
+          33
+        ],
+        [
+          "apply_and_restart",
+          26,
+          56,
+          32,
+          14,
+          32,
+          36,
+          30,
+          5,
+          33,
+          31
+        ],
+        [
+          "check_updates",
+          100,
+          122,
+          103,
+          16,
+          103,
+          39,
+          100,
+          19,
+          104,
+          33
+        ],
+        [
+          "refresh_available_extensions",
+          407,
+          418,
+          414,
+          28,
+          414,
+          43,
+          407,
+          34,
+          418,
+          67
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "fetch_cover_images",
+          114,
+          136,
+          125,
+          20,
+          125,
+          68,
+          125,
+          20,
+          126,
+          60
+        ],
+        [
+          "find_embedded_preview",
+          660,
+          669,
+          666,
+          99,
+          666,
+          139,
+          666,
+          77,
+          666,
+          146
+        ]
+      ]
+    },
+    "PIL.Image.open": {
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "read",
+          852,
+          856,
+          853,
+          13,
+          853,
+          36,
+          852,
+          10,
+          856,
+          16
+        ]
+      ],
+      "stable-diffusion-webui/test/test_face_restorers.py": [
+        [
+          "test_face_restorers",
+          11,
+          29,
+          24,
+          11,
+          24,
+          68,
+          24,
+          11,
+          27,
+          44
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/textual_inversion.py": [
+        [
+          "load_from_file",
+          157,
+          192,
+          166,
+          27,
+          166,
+          42,
+          166,
+          27,
+          167,
+          43
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui_extra_networks.py": [
+        [
+          "fetch_cover_images",
+          114,
+          136,
+          131,
+          17,
+          131,
+          53,
+          131,
+          17,
+          131,
+          53
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui.py": [
+        [
+          "process_interrogate",
+          113,
+          133,
+          128,
+          19,
+          128,
+          35,
+          127,
+          13,
+          131,
+          124
+        ]
+      ]
+    },
+    "numpy.load": {
+      "stable-diffusion-webui/extensions-builtin/LDSR/vqvae_quantize.py": [
+        [
+          "__init__",
+          39,
+          63,
+          52,
+          55,
+          52,
+          73,
+          52,
+          13,
+          55,
+          44
+        ]
+      ]
+    }
+  },
   "CWE-643": {},
-  "CWE-760": {},
-  "CWE-918": {},
+  "CWE-760": {
+    "hashlib.sha256": {
+      "stable-diffusion-webui/modules/hashes.py": [
+        [
+          "calculate_sha256",
+          11,
+          19,
+          12,
+          19,
+          12,
+          34,
+          11,
+          22,
+          16,
+          55
+        ],
+        [
+          "addnet_hash_safetensors",
+          69,
+          83,
+          71,
+          19,
+          71,
+          34,
+          69,
+          29,
+          80,
+          51
+        ]
+      ],
+      "stable-diffusion-webui/modules/images.py": [
+        [
+          "image_hash",
+          497,
+          499,
+          499,
+          16,
+          499,
+          51,
+          498,
+          18,
+          499,
+          73
+        ],
+        [
+          "string_hash",
+          501,
+          503,
+          503,
+          16,
+          503,
+          44,
+          502,
+          18,
+          503,
+          66
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_models.py": [
+        [
+          "model_hash",
+          203,
+          215,
+          209,
+          17,
+          209,
+          32,
+          209,
+          17,
+          209,
+          32
+        ]
+      ],
+      "stable-diffusion-webui/modules/sysinfo.py": [
+        [
+          "get",
+          45,
+          53,
+          50,
+          9,
+          50,
+          43,
+          46,
+          11,
+          53,
+          15
+        ],
+        [
+          "check",
+          59,
+          67,
+          66,
+          9,
+          66,
+          47,
+          64,
+          16,
+          67,
+          38
+        ]
+      ]
+    },
+    "hashlib.md5": {
+      "stable-diffusion-webui/modules/processing.py": [
+        [
+          "init",
+          1602,
+          1757,
+          1674,
+          38,
+          1674,
+          63,
+          1674,
+          38,
+          1675,
+          163
+        ]
+      ]
+    }
+  },
+  "CWE-918": {
+    "requests.get": {
+      "stable-diffusion-webui/modules/textual_inversion/autocrop.py": [
+        [
+          "download_and_cache_models",
+          310,
+          317,
+          314,
+          20,
+          314,
+          42,
+          312,
+          9,
+          316,
+          37
+        ]
+      ],
+      "stable-diffusion-webui/modules/api/api.py": [
+        [
+          "decode_base64_to_image",
+          77,
+          99,
+          86,
+          20,
+          86,
+          70,
+          85,
+          19,
+          88,
+          26
+        ]
+      ],
+      "stable-diffusion-webui/modules/launch_utils.py": [
+        [
+          "version_check",
+          211,
+          225,
+          214,
+          19,
+          214,
+          115,
+          214,
+          32,
+          214,
+          115
+        ]
+      ],
+      "stable-diffusion-webui/test/test_utils.py": [
+        [
+          "test_options_write",
+          5,
+          18,
+          7,
+          16,
+          7,
+          40,
+          5,
+          24,
+          8,
+          38
+        ],
+        [
+          "test_options_write",
+          5,
+          18,
+          14,
+          16,
+          14,
+          40,
+          12,
+          5,
+          15,
+          38
+        ],
+        [
+          "test_get_api_url",
+          32,
+          33,
+          33,
+          12,
+          33,
+          44,
+          32,
+          22,
+          33,
+          63
+        ]
+      ]
+    },
+    "urllib.parse.urlparse": {
+      "stable-diffusion-webui/modules/api/api.py": [
+        [
+          "verify_url",
+          58,
+          74,
+          64,
+          22,
+          64,
+          34,
+          58,
+          16,
+          64,
+          34
+        ]
+      ],
+      "stable-diffusion-webui/modules/modelloader.py": [
+        [
+          "friendly_name",
+          93,
+          99,
+          95,
+          16,
+          95,
+          29,
+          95,
+          16,
+          95,
+          12
+        ],
+        [
+          "load_file_from_url",
+          20,
+          41,
+          34,
+          17,
+          34,
+          29,
+          34,
+          17,
+          35,
+          17
+        ]
+      ]
+    },
+    "ipaddress.ip_address": {
+      "stable-diffusion-webui/modules/api/api.py": [
+        [
+          "verify_url",
+          58,
+          74,
+          68,
+          23,
+          68,
+          46,
+          68,
+          44,
+          68,
+          46
+        ]
+      ]
+    },
+    "urllib.request.urlretrieve": {
+      "stable-diffusion-webui/modules/sd_models.py": [
+        [
+          "load_model_wrapper",
+          570,
+          580,
+          577,
+          13,
+          577,
+          61,
+          576,
+          13,
+          578,
+          45
+        ]
+      ]
+    },
+    "requests.post": {
+      "stable-diffusion-webui/test/test_extras.py": [
+        [
+          "test_simple_upscaling_performed",
+          4,
+          20,
+          20,
+          12,
+          20,
+          81,
+          4,
+          37,
+          20,
+          100
+        ],
+        [
+          "test_png_info_performed",
+          23,
+          27,
+          27,
+          12,
+          27,
+          81,
+          23,
+          29,
+          27,
+          100
+        ],
+        [
+          "test_interrogate_performed",
+          30,
+          35,
+          35,
+          12,
+          35,
+          81,
+          30,
+          32,
+          35,
+          100
+        ]
+      ],
+      "stable-diffusion-webui/test/test_img2img.py": [
+        [
+          "test_img2img_simple_performed",
+          50,
+          51,
+          51,
+          12,
+          51,
+          66,
+          50,
+          35,
+          51,
+          85
+        ],
+        [
+          "test_inpainting_masked_performed",
+          54,
+          56,
+          56,
+          12,
+          56,
+          66,
+          54,
+          38,
+          56,
+          85
+        ],
+        [
+          "test_inpainting_with_inverted_masked_performed",
+          59,
+          62,
+          62,
+          12,
+          62,
+          66,
+          59,
+          52,
+          62,
+          85
+        ],
+        [
+          "test_img2img_sd_upscale_performed",
+          65,
+          68,
+          68,
+          12,
+          68,
+          66,
+          65,
+          39,
+          68,
+          85
+        ]
+      ],
+      "stable-diffusion-webui/test/test_utils.py": [
+        [
+          "test_options_write",
+          5,
+          18,
+          12,
+          12,
+          12,
+          74,
+          8,
+          5,
+          12,
+          93
+        ],
+        [
+          "test_options_write",
+          5,
+          18,
+          18,
+          5,
+          18,
+          61,
+          16,
+          5,
+          18,
+          61
+        ]
+      ],
+      "stable-diffusion-webui/test/test_txt2img.py": [
+        [
+          "test_txt2img_simple_performed",
+          43,
+          44,
+          44,
+          12,
+          44,
+          66,
+          43,
+          35,
+          44,
+          85
+        ],
+        [
+          "test_txt2img_with_negative_prompt_performed",
+          47,
+          49,
+          49,
+          12,
+          49,
+          66,
+          47,
+          49,
+          49,
+          85
+        ],
+        [
+          "test_txt2img_with_complex_prompt_performed",
+          52,
+          54,
+          54,
+          12,
+          54,
+          66,
+          52,
+          48,
+          54,
+          85
+        ],
+        [
+          "test_txt2img_not_square_image_performed",
+          57,
+          59,
+          59,
+          12,
+          59,
+          66,
+          57,
+          45,
+          59,
+          85
+        ],
+        [
+          "test_txt2img_with_hrfix_performed",
+          62,
+          64,
+          64,
+          12,
+          64,
+          66,
+          62,
+          39,
+          64,
+          85
+        ],
+        [
+          "test_txt2img_with_tiling_performed",
+          67,
+          69,
+          69,
+          12,
+          69,
+          66,
+          67,
+          40,
+          69,
+          85
+        ],
+        [
+          "test_txt2img_with_restore_faces_performed",
+          72,
+          74,
+          74,
+          12,
+          74,
+          66,
+          72,
+          47,
+          74,
+          85
+        ],
+        [
+          "test_txt2img_with_vanilla_sampler_performed",
+          78,
+          80,
+          80,
+          12,
+          80,
+          66,
+          78,
+          49,
+          80,
+          85
+        ],
+        [
+          "test_txt2img_multiple_batches_performed",
+          83,
+          85,
+          85,
+          12,
+          85,
+          66,
+          83,
+          45,
+          85,
+          85
+        ],
+        [
+          "test_txt2img_batch_performed",
+          88,
+          90,
+          90,
+          12,
+          90,
+          66,
+          88,
+          34,
+          90,
+          85
+        ]
+      ]
+    },
+    "urllib.request.urlopen": {
+      "stable-diffusion-webui/modules/ui_extensions.py": [
+        [
+          "refresh_available_extensions",
+          407,
+          418,
+          411,
+          10,
+          411,
+          36,
+          407,
+          34,
+          418,
+          67
+        ]
+      ]
+    }
+  },
   "CWE-943": {},
-  "CWE-1333": {}
+  "CWE-1333": {
+    "re.sub": {
+      "stable-diffusion-webui/modules/processing_scripts/comments.py": [
+        [
+          "strip_comments",
+          5,
+          9,
+          6,
+          12,
+          6,
+          52,
+          5,
+          20,
+          9,
+          15
+        ],
+        [
+          "strip_comments",
+          5,
+          9,
+          7,
+          12,
+          7,
+          46,
+          5,
+          20,
+          9,
+          15
+        ]
+      ],
+      "stable-diffusion-webui/modules/textual_inversion/dataset.py": [
+        [
+          "__init__",
+          33,
+          150,
+          82,
+          33,
+          82,
+          78,
+          81,
+          33,
+          83,
+          26
+        ]
+      ],
+      "stable-diffusion-webui/modules/deepbooru.py": [
+        [
+          "tag_multi",
+          49,
+          95,
+          89,
+          33,
+          89,
+          74,
+          89,
+          33,
+          89,
+          29
+        ]
+      ],
+      "stable-diffusion-webui/modules/extra_networks.py": [
+        [
+          "parse_prompt",
+          178,
+          191,
+          189,
+          14,
+          189,
+          48,
+          178,
+          18,
+          191,
+          22
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/Lora/scripts/lora_script.py": [
+        [
+          "infotext_pasted",
+          77,
+          97,
+          97,
+          19,
+          97,
+          67,
+          82,
+          48,
+          97,
+          15
+        ]
+      ],
+      "stable-diffusion-webui/modules/scripts.py": [
+        [
+          "elem_id",
+          334,
+          342,
+          340,
+          17,
+          340,
+          83,
+          339,
+          19,
+          342,
+          51
+        ],
+        [
+          "elem_id",
+          334,
+          342,
+          340,
+          43,
+          340,
+          82,
+          339,
+          19,
+          342,
+          51
+        ]
+      ],
+      "stable-diffusion-webui/modules/sd_models.py": [
+        [
+          "get_closet_checkpoint_match",
+          183,
+          200,
+          195,
+          38,
+          195,
+          81,
+          195,
+          38,
+          197,
+          12
+        ]
+      ],
+      "stable-diffusion-webui/modules/sysinfo.py": [
+        [
+          "check",
+          59,
+          67,
+          64,
+          16,
+          64,
+          72,
+          64,
+          16,
+          67,
+          38
+        ]
+      ]
+    },
+    "re.compile": {
+      "stable-diffusion-webui/modules/textual_inversion/dataset.py": [
+        [
+          "__init__",
+          33,
+          150,
+          34,
+          19,
+          34,
+          69,
+          34,
+          19,
+          34,
+          69
+        ]
+      ],
+      "stable-diffusion-webui/modules/extras.py": [
+        [
+          "run_modelmerger",
+          88,
+          330,
+          239,
+          17,
+          239,
+          43,
+          239,
+          17,
+          240,
+          32
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/Lora/networks.py": [
+        [
+          "match",
+          57,
+          69,
+          60,
+          21,
+          60,
+          42,
+          60,
+          21,
+          61,
+          35
+        ]
+      ]
+    },
+    "str.startswith": {
+      "stable-diffusion-webui/modules/esrgan_model.py": [
+        [
+          "load_model",
+          38,
+          53,
+          39,
+          12,
+          39,
+          34,
+          38,
+          20,
+          39,
+          34
+        ]
+      ],
+      "stable-diffusion-webui/modules/modelloader.py": [
+        [
+          "friendly_name",
+          93,
+          99,
+          94,
+          8,
+          94,
+          30,
+          93,
+          19,
+          94,
+          30
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/Lora/network.py": [
+        [
+          "detect_version",
+          61,
+          69,
+          62,
+          12,
+          62,
+          82,
+          61,
+          24,
+          62,
+          82
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/ScuNET/scripts/scunet_model.py": [
+        [
+          "load_model",
+          57,
+          64,
+          59,
+          12,
+          59,
+          34,
+          57,
+          20,
+          59,
+          34
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/SwinIR/scripts/swinir_model.py": [
+        [
+          "load_model",
+          60,
+          81,
+          61,
+          12,
+          61,
+          34,
+          60,
+          20,
+          61,
+          34
+        ]
+      ]
+    },
+    "re.split": {
+      "stable-diffusion-webui/modules/extensions.py": [
+        [
+          "parse_list",
+          79,
+          86,
+          86,
+          28,
+          86,
+          60,
+          86,
+          28,
+          86,
+          66
+        ]
+      ],
+      "stable-diffusion-webui/modules/prompt_parser.py": [
+        [
+          "parse_prompt_attention",
+          370,
+          458,
+          434,
+          21,
+          434,
+          44,
+          434,
+          21,
+          435,
+          43
+        ]
+      ],
+      "stable-diffusion-webui/modules/sysinfo.py": [
+        [
+          "dictcomp",
+          159,
+          159,
+          159,
+          20,
+          159,
+          47,
+          159,
+          20,
+          159,
+          47
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/Lora/ui_edit_user_metadata.py": [
+        [
+          "select_tag",
+          183,
+          191,
+          186,
+          21,
+          186,
+          55,
+          183,
+          24,
+          187,
+          27
+        ]
+      ]
+    },
+    "re.search": {
+      "stable-diffusion-webui/modules/extras.py": [
+        [
+          "run_modelmerger",
+          88,
+          330,
+          241,
+          16,
+          241,
+          36,
+          240,
+          13,
+          241,
+          36
+        ]
+      ],
+      "stable-diffusion-webui/modules/initialize_util.py": [
+        [
+          "fix_torch_version",
+          19,
+          25,
+          25,
+          29,
+          25,
+          71,
+          24,
+          34,
+          25,
+          25
+        ]
+      ],
+      "stable-diffusion-webui/scripts/postprocessing_upscale.py": [
+        [
+          "on_selected_upscale_method",
+          59,
+          67,
+          63,
+          21,
+          63,
+          67,
+          63,
+          21,
+          64,
+          24
+        ]
+      ],
+      "stable-diffusion-webui/modules/sysinfo.py": [
+        [
+          "check",
+          59,
+          67,
+          60,
+          9,
+          60,
+          33,
+          59,
+          11,
+          61,
+          12
+        ]
+      ]
+    },
+    "re.match": {
+      "stable-diffusion-webui/modules/infotext_versions.py": [
+        [
+          "parse_version",
+          12,
+          23,
+          16,
+          9,
+          16,
+          43,
+          16,
+          9,
+          17,
+          8
+        ]
+      ],
+      "stable-diffusion-webui/modules/launch_utils.py": [
+        [
+          "requirements_met",
+          283,
+          315,
+          297,
+          17,
+          297,
+          46,
+          297,
+          17,
+          298,
+          24
+        ]
+      ],
+      "stable-diffusion-webui/extensions-builtin/Lora/networks.py": [
+        [
+          "match",
+          57,
+          69,
+          63,
+          13,
+          63,
+          32,
+          63,
+          13,
+          64,
+          16
+        ],
+        [
+          "listcomp",
+          68,
+          68,
+          68,
+          38,
+          68,
+          59,
+          68,
+          72,
+          68,
+          59
+        ]
+      ]
+    },
+    "pydantic.Field": {
+      "stable-diffusion-webui/modules/api/models.py": [
+        [
+          "dictcomp",
+          92,
+          93,
+          93,
+          37,
+          93,
+          110,
+          93,
+          117,
+          93,
+          110
+        ]
+      ],
+      "stable-diffusion-webui/modules/ui.py": [
+        [
+          "setup_ui_api",
+          1207,
+          1235,
+          1211,
+          21,
+          1211,
+          66,
+          1211,
+          21,
+          1212,
+          68
+        ],
+        [
+          "setup_ui_api",
+          1207,
+          1235,
+          1212,
+          22,
+          1212,
+          68,
+          1211,
+          21,
+          1212,
+          68
+        ]
+      ]
+    },
+    "str.endswith": {
+      "stable-diffusion-webui/modules/shared_gradio_themes.py": [
+        [
+          "resolve_var",
+          74,
+          112,
+          112,
+          29,
+          112,
+          50,
+          110,
+          16,
+          112,
+          50
+        ]
+      ]
+    },
+    "re.findall": {
+      "stable-diffusion-webui/extensions-builtin/Lora/ui_edit_user_metadata.py": [
+        [
+          "build_tags",
+          21,
+          45,
+          35,
+          25,
+          35,
+          49,
+          34,
+          13,
+          35,
+          49
+        ]
+      ]
+    }
+  }
 }
