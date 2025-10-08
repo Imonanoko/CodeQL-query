@@ -1,0 +1,31 @@
+ #      Precompiled CodeQL query
+---
+format:
+- 202308110
+creator: 2.22.4
+name: FLinesOfDuplicatedCode.ql
+dbscheme: 5af903da088e3746aa283700a43a779302453523
+stages:
+- offset: 1
+results:
+  '#select':
+    resultArranger: 2"f"ei11"n"i
+    sortFields:
+    - -2
+inputsDigest: 428c23063613c54bd488c898650d2fb2
+metadata:
+  deprecated: ""
+  name: Duplicated lines in files
+  description: |-
+    The number of lines in a file, including code, comment and whitespace lines,
+                  which are duplicated in at least one other place.
+  kind: treemap
+  treemap.warnOn: highValues
+  metricType: file
+  metricAggregate: avg sum max
+  tags: testability
+  id: py/duplicated-lines-in-files
+
+---
+...
+dQLXst:20231115xÚÍ]NÃ0Çß{ŠÐ=×n)â!•"MÚÄP–x4Z>Ú$Õ4îÀ'Ù!Yyè%ü–e»ï(qp†ÐÏÖ’Ç³ó'dŒ¦J8I«<rÿAG.N!û,OºÊÊ_Q—88[M3yE>ÕyìãcÐ",P«ƒçY_ws­ñjhÚe£„áA‚ÈPyýjÚ–)É,7ÄŽJS(úte}ý^§%ùPPßuÛb‹)ü›Wì)z%¾î”¥ðv|™G­$»tó¤Ëçæ~ÇÞÛúýFÜ¤!—â©^êâîŒD©(

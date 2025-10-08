@@ -1,0 +1,13 @@
+---
+library: true
+warnOnImplicitThis: true
+compileForOverlayEval: false
+name: codeql/controlflow
+version: 2.0.13
+buildMetadata:
+  sha: 57378ec4e4fea5949e18db35b4c84123ad950065
+  cliVersion: 2.22.4
+dependencies:
+  codeql/util: 2.0.16
+groups:
+ - shared

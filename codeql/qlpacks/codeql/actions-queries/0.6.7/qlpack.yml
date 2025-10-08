@@ -1,0 +1,18 @@
+---
+library: false
+warnOnImplicitThis: true
+compileForOverlayEval: false
+name: codeql/actions-queries
+version: 0.6.7
+buildMetadata:
+  sha: 57378ec4e4fea5949e18db35b4c84123ad950065
+  cliVersion: 2.22.4
+dependencies:
+  codeql/actions-all: 0.4.15
+  codeql/suite-helpers: 1.0.29
+suites: codeql-suites
+extractor: actions
+groups:
+ - actions
+ - queries
+defaultSuiteFile: codeql-suites/actions-code-scanning.qls

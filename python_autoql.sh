@@ -5,9 +5,9 @@ if [[ $# -ne 2 ]]; then
     exit 1
 fi
 
-codeql_db_dir="/home/sixsquare/codeQL/db"
-output_dir="/home/sixsquare/codeQL/python_query_output/$1"
-ql_dir="/home/sixsquare/codeQL/python-ql"
+codeql_db_dir="$(pwd)/db"
+output_dir="$(pwd)/python_query_output/$1"
+ql_dir="$(pwd)/python-ql"
 echo "建立輸出資料夾: $output_dir"
 mkdir -p "$output_dir"
 ql_list=("CWE-022" "CWE-078" "CWE-079" "CWE-095" "CWE-113" "CWE-117" "CWE-326" "CWE-327" "CWE-329" "CWE-347" "CWE-377" "CWE-502" "CWE-643" "CWE-760" "CWE-918" "CWE-943" "CWE-1333")

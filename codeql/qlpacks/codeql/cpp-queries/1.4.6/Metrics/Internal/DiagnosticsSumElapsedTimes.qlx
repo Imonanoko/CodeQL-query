@@ -1,0 +1,27 @@
+ #      Precompiled CodeQL query
+---
+format:
+- 202308110
+creator: 2.22.4
+name: DiagnosticsSumElapsedTimes.ql
+dbscheme: 5340d6d5f428557632b1a50113e406430f29ef7d
+stages:
+- offset: 1
+results:
+  '#select':
+    resultArranger: 2"sum_frontend_elapsed_seconds"f"sum_extractor_elapsed_seconds"f
+inputsDigest: 314508005bf45be64bba623d02baffec
+metadata:
+  name: Sum of frontend and extractor time
+  description: |-
+    The sum of elapsed frontend time, and the sum of elapsed extractor time.
+                  This query is for internal use only and may change without notice.
+  kind: table
+  id: cpp/frontend-and-extractor-time
+
+---
+...
+dQLXst:20231115xÚÍRËrÛ ÝóÔZ.ÈIšI¦NãN´è*ÙkB62B2 IÓOèwôC’Úã¤ÍtÕ÷œs9÷±TZ×˜]w­¢n°V9úØ¹õªmšË®RGÿA¸•
+´rãÇsoÍ|Œì/sÙ÷óí œVž|×=sN =À(#rNÉ1úÁ‰1~@ÆÐ³Hc;	" Õƒ—kÕªÙv›c]a;´x£m…}$ÙÊcÙµ½6"èÎ–A·
+-—ÈÙÍÈ—Õ!Å#Ï8*/þƒ–|UÁiéiaƒrVz£ÅÊv>ÄàÝÐ.è½ªîcQžlÍìŠ±Ÿw8“¢Kž5¶¥[{$Ì4o€1TAÁr¸w]£dÈ2¯Lú&O™Œîi,8›dù+ylãµV5æ;Sñ`éà/Øƒü·ÁæOj–ÄX>rÿêÉH›>)ò7*’Ež:0Jj'_S–Q•ù¡-ãHÚM’ñã4«€õ~yÎQþAúÆ¬ÇLÀ'ä¡¬‘V Õõ{ðƒÎØÄ¸=f|þ821>¼ŽÜá
+HåâôRíº¸¶*Õ´å¾õ	Tß‚2tî=Zôvwôî)C.

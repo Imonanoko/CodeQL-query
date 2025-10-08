@@ -45,7 +45,7 @@ fi
 mkdir -p "$PROJECTS_ROOT"
 
 COUNT=0
-awk -v FPAT='([^,]*)|("[^"]*")' 'NR>1 {print $2 "\t" $4 "\t" $6}' "$CSV_FILE" \
+awk -v FPAT='([^,]*)|("[^"]*")' 'NR>1 {print $2 "\t" $4 "\t" $6}' "$CSV_FILE" | \
 while IFS=$'\t' read -r full_name clone_url language; do
   full_name="${full_name%\"}"; full_name="${full_name#\"}"
   clone_url="${clone_url%\"}"; clone_url="${clone_url#\"}"

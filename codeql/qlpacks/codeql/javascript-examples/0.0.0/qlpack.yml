@@ -1,0 +1,13 @@
+---
+library: false
+warnOnImplicitThis: true
+compileForOverlayEval: false
+name: codeql/javascript-examples
+buildMetadata:
+  sha: 57378ec4e4fea5949e18db35b4c84123ad950065
+  cliVersion: 2.22.4
+dependencies:
+  codeql/javascript-all: 2.6.9
+groups:
+ - javascript
+ - examples

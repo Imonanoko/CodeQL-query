@@ -1,0 +1,26 @@
+---
+library: true
+warnOnImplicitThis: true
+compileForOverlayEval: false
+name: codeql/csharp-all
+version: 5.2.2
+buildMetadata:
+  sha: 57378ec4e4fea5949e18db35b4c84123ad950065
+  cliVersion: 2.22.4
+dependencies:
+  codeql/controlflow: 2.0.13
+  codeql/dataflow: 2.0.13
+  codeql/mad: 1.0.29
+  codeql/ssa: 2.0.5
+  codeql/threat-models: 1.0.29
+  codeql/tutorial: 1.0.29
+  codeql/util: 2.0.16
+  codeql/xml: 1.0.29
+dbscheme: semmlecode.csharp.dbscheme
+extractor: csharp
+upgrades: upgrades
+groups:
+ - csharp
+dataExtensions:
+ - ext/*.model.yml
+ - ext/generated/*.model.yml
