@@ -7,7 +7,12 @@ test.csv
 testing_db
 result
 .venv
-codeql
+
+# CodeQL 相關大檔案
 codeql-bundle-linux64.tar.gz
-__pycache__
-needfix.txt
+codeql/cpp/tools/linux64/cpp-telemetry
+codeql/cpp/tools/linux64/extractor
+codeql/cpp/tools/linux64/extractor-static
+codeql/cpp/tools/linux64/trap-cache-reader
+codeql/cpp/tools/
+codeql/
