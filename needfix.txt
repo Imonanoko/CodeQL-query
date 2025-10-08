@@ -1,4 +1,0 @@
-batch_autoql_from_csv.sh 48行 |
-readme提醒 python_autoql.sh 8 9 10行要改路徑
-沒問題專案:AutoGPT, awesome-machine-learning, django, fastapi, funNLP, pytorch, transformers
-transformers確定沒跑完前處理 、django似乎跑一半?pytorch好像也沒跑完

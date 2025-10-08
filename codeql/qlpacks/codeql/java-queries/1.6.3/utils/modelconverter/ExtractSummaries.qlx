@@ -1,32 +1,0 @@
- #      Precompiled CodeQL query
----
-format:
-- 202308110
-creator: 2.22.4
-name: ExtractSummaries.ql
-dbscheme: 1b8f5f4c747e4249f4731796ccaa0661c7434d8a
-stages:
-- offset: 1
-results:
-  '#select':
-    resultArranger: (10)"package"s"type"s"subtypes"b"name"s"signature"s"ext"s"input"s"output"s"kind"s"provenance"s
-    sortFields:
-    - 0
-    - 1
-    - 3
-    - 4
-    - 6
-    - 7
-    - 8
-inputsDigest: 812b610ba0e80fe2f494d1cda2322b2d
-metadata:
-  name: Extract MaD summary model rows.
-  description: This extracts the Models as data summary model rows.
-  id: java/utils/modelconverter/generate-data-extensions-summary
-overlayVersion: 4
-
----
-...
-dQLXst:20231115xÚÝ’Ín1Çïû&9gmoÚ„ÑJ•Z”CÅR…Ô‰w’¸ñÇÆö¦¼Aß…ª„í±¹qˆÂ‡õ|Ùû›¿ç£÷s¿_’”e®¬FêZcÐÑGëÖÔ£Ö
-ÂÖxdpK´±öù›Ã5È‘_Îà¶0Ø´è$úò³lÊ|é>K»IÊËQ9¤å!¥äÜAŽwkA):Žuì€’“9Ek°Pö‘JÐPôúioÜÄh²—Öør£TïI…%’°køvžvOèèÉ¥Ð:$øˆ4MˆmCÚÖÒÔ¤qv‹Œ@¢¡žÕñ¸Öàv·G+ÎèÂ:Wà‘þøúü2cÿŸÎ]y³¨ß¾ó·ÕIUíþb:íjL9ï‹JLÎëhÌ£ÌE[±c•Ùß@Ñ_«.V;£rñ~‹NA.»VyÄÃ1$=)dÿÏ(odáØ›»Ë/“û%Æ„€õý§Â3Æ«áÙùhüzRÔlÆ‡¿aÿ‰±mƒTžêÔ‘°&ÊûM“è@„¹ÝtÑFõ¦|¼:‘¶}
-Eè'’]qÁ~ñê'Ÿéª

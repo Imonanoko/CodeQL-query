@@ -7,3 +7,7 @@ test.csv
 testing_db
 result
 .venv
+codeql
+codeql-bundle-linux64.tar.gz
+__pycache__
+needfix.txt
