@@ -1,0 +1,126 @@
+rank,full_name,stargazers_count,clone_url,html_url,language,description
+1,tensorflow/tensorflow,191352,https://github.com/tensorflow/tensorflow.git,https://github.com/tensorflow/tensorflow,C++,An Open Source Machine Learning Framework for Everyone
+2,facebook/react-native,123550,https://github.com/facebook/react-native.git,https://github.com/facebook/react-native,C++,A framework for building native applications using React
+3,electron/electron,118051,https://github.com/electron/electron.git,https://github.com/electron/electron,C++,":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+4,godotengine/godot,100617,https://github.com/godotengine/godot.git,https://github.com/godotengine/godot,C++,Godot Engine – Multi-platform 2D and 3D game engine
+5,microsoft/terminal,99334,https://github.com/microsoft/terminal.git,https://github.com/microsoft/terminal,C++,"The new Windows Terminal and the original Windows console host, all in the same place!"
+6,ggml-org/llama.cpp,85578,https://github.com/ggml-org/llama.cpp.git,https://github.com/ggml-org/llama.cpp,C++,LLM inference in C/C++
+7,bitcoin/bitcoin,85218,https://github.com/bitcoin/bitcoin.git,https://github.com/bitcoin/bitcoin,C++,Bitcoin Core integration/staging tree
+8,opencv/opencv,83700,https://github.com/opencv/opencv.git,https://github.com/opencv/opencv,C++,Open Source Computer Vision Library
+9,nomic-ai/gpt4all,76557,https://github.com/nomic-ai/gpt4all.git,https://github.com/nomic-ai/gpt4all,C++,GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.
+10,tesseract-ocr/tesseract,69089,https://github.com/tesseract-ocr/tesseract.git,https://github.com/tesseract-ocr/tesseract,C++,Tesseract Open Source OCR Engine (main repository)
+11,swiftlang/swift,68987,https://github.com/swiftlang/swift.git,https://github.com/swiftlang/swift,C++,The Swift Programming Language
+12,protocolbuffers/protobuf,68893,https://github.com/protocolbuffers/protobuf.git,https://github.com/protocolbuffers/protobuf,C++,Protocol Buffers - Google's data interchange format
+13,ocornut/imgui,67826,https://github.com/ocornut/imgui.git,https://github.com/ocornut/imgui,C++,Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
+14,WerWolv/ImHex,50251,https://github.com/WerWolv/ImHex.git,https://github.com/WerWolv/ImHex,C++,"🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM."
+15,LadybirdBrowser/ladybird,47005,https://github.com/LadybirdBrowser/ladybird.git,https://github.com/LadybirdBrowser/ladybird,C++,Truly independent web browser
+16,nlohmann/json,46989,https://github.com/nlohmann/json.git,https://github.com/nlohmann/json,C++,JSON for Modern C++
+17,x64dbg/x64dbg,46769,https://github.com/x64dbg/x64dbg.git,https://github.com/x64dbg/x64dbg,C++,An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.
+18,grpc/grpc,43546,https://github.com/grpc/grpc.git,https://github.com/grpc/grpc,C++,"C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
+19,ggml-org/whisper.cpp,42716,https://github.com/ggml-org/whisper.cpp.git,https://github.com/ggml-org/whisper.cpp,C++,Port of OpenAI's Whisper model in C/C++
+20,ClickHouse/ClickHouse,42543,https://github.com/ClickHouse/ClickHouse.git,https://github.com/ClickHouse/ClickHouse,C++,ClickHouse® is a real-time analytics database management system
+21,Light-City/CPlusPlusThings,41885,https://github.com/Light-City/CPlusPlusThings.git,https://github.com/Light-City/CPlusPlusThings,C++,C++那些事
+22,zhongyang219/TrafficMonitor,40634,https://github.com/zhongyang219/TrafficMonitor.git,https://github.com/zhongyang219/TrafficMonitor,C++,这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。
+23,aria2/aria2,38558,https://github.com/aria2/aria2.git,https://github.com/aria2/aria2,C++,"aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink."
+24,google/leveldb,38039,https://github.com/google/leveldb.git,https://github.com/google/leveldb,C++,LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+25,google/googletest,36916,https://github.com/google/googletest.git,https://github.com/google/googletest,C++,GoogleTest - Google Testing and Mocking Framework
+26,facebookresearch/faiss,36807,https://github.com/facebookresearch/faiss.git,https://github.com/facebookresearch/faiss,C++,A library for efficient similarity search and clustering of dense vectors.
+27,huihut/interview,36674,https://github.com/huihut/interview.git,https://github.com/huihut/interview,C++,"📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C/C++ technology, including language, program library, data structure, algorithm, system, network, link loading library, interview experience, recruitment, recommendation, etc."
+28,zen-browser/desktop,35664,https://github.com/zen-browser/desktop.git,https://github.com/zen-browser/desktop,C++,Welcome to a calmer internet
+29,BVLC/caffe,34506,https://github.com/BVLC/caffe.git,https://github.com/BVLC/caffe,C++,Caffe: a fast open framework for deep learning.
+30,aseprite/aseprite,33496,https://github.com/aseprite/aseprite.git,https://github.com/aseprite/aseprite,C++,"Animated sprite editor & pixel art tool (Windows, macOS, Linux)"
+31,carbon-language/carbon-lang,33165,https://github.com/carbon-language/carbon-lang.git,https://github.com/carbon-language/carbon-lang,C++,"Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)"
+32,CMU-Perceptual-Computing-Lab/openpose,32953,https://github.com/CMU-Perceptual-Computing-Lab/openpose.git,https://github.com/CMU-Perceptual-Computing-Lab/openpose,C++,"OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation"
+33,TheAlgorithms/C-Plus-Plus,32712,https://github.com/TheAlgorithms/C-Plus-Plus.git,https://github.com/TheAlgorithms/C-Plus-Plus,C++,"Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes."
+34,qbittorrent/qBittorrent,32694,https://github.com/qbittorrent/qBittorrent.git,https://github.com/qbittorrent/qBittorrent,C++,qBittorrent BitTorrent client
+35,duckdb/duckdb,32317,https://github.com/duckdb/duckdb.git,https://github.com/duckdb/duckdb,C++,DuckDB is an analytical in-process SQL database management system
+36,SerenityOS/serenity,32247,https://github.com/SerenityOS/serenity.git,https://github.com/SerenityOS/serenity,C++,The Serenity Operating System 🐞
+37,google-ai-edge/mediapipe,31103,https://github.com/google-ai-edge/mediapipe.git,https://github.com/google-ai-edge/mediapipe,C++,"Cross-platform, customizable ML solutions for live and streaming media."
+38,microsoft/calculator,30557,https://github.com/microsoft/calculator.git,https://github.com/microsoft/calculator,C++,Windows Calculator: A simple yet powerful calculator that ships with Windows
+39,facebook/rocksdb,30379,https://github.com/facebook/rocksdb.git,https://github.com/facebook/rocksdb,C++,"A library that provides an embeddable, persistent key-value store for fast storage."
+40,hyprwm/Hyprland,29763,https://github.com/hyprwm/Hyprland.git,https://github.com/hyprwm/Hyprland,C++,"Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks."
+41,facebook/folly,29707,https://github.com/facebook/folly.git,https://github.com/facebook/folly,C++,An open-source C++ library developed and used at Facebook.
+42,microsoft/WSL,29654,https://github.com/microsoft/WSL.git,https://github.com/microsoft/WSL,C++,Windows Subsystem for Linux
+43,ariya/phantomjs,29478,https://github.com/ariya/phantomjs.git,https://github.com/ariya/phantomjs,C++,Scriptable Headless Browser
+44,dragonflydb/dragonfly,28777,https://github.com/dragonflydb/dragonfly.git,https://github.com/dragonflydb/dragonfly,C++,A modern replacement for Redis and Memcached
+45,LizardByte/Sunshine,28394,https://github.com/LizardByte/Sunshine.git,https://github.com/LizardByte/Sunshine,C++,Self-hosted game stream host for Moonlight.
+46,telegramdesktop/tdesktop,28364,https://github.com/telegramdesktop/tdesktop.git,https://github.com/telegramdesktop/tdesktop,C++,Telegram Desktop messaging app
+47,flameshot-org/flameshot,27658,https://github.com/flameshot-org/flameshot.git,https://github.com/flameshot-org/flameshot,C++,Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:
+48,ossrs/srs,27562,https://github.com/ossrs/srs.git,https://github.com/ossrs/srs,C++,"SRS is a simple, high-efficiency, real-time media server supporting RTMP, WebRTC, HLS, HTTP-FLV, HTTP-TS, SRT, MPEG-DASH, and GB28181."
+49,ValveSoftware/Proton,27522,https://github.com/ValveSoftware/Proton.git,https://github.com/ValveSoftware/Proton,C++,Compatibility tool for Steam Play based on Wine and additional components
+50,taichi-dev/taichi,27467,https://github.com/taichi-dev/taichi.git,https://github.com/taichi-dev/taichi,C++,"Productive, portable, and performant GPU programming in Python."
+51,mongodb/mongo,27466,https://github.com/mongodb/mongo.git,https://github.com/mongodb/mongo,C++,The MongoDB Database
+52,dmlc/xgboost,27279,https://github.com/dmlc/xgboost.git,https://github.com/dmlc/xgboost,C++,"Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow"
+53,gabime/spdlog,27147,https://github.com/gabime/spdlog.git,https://github.com/gabime/spdlog,C++,Fast C++ logging library.
+54,rethinkdb/rethinkdb,26929,https://github.com/rethinkdb/rethinkdb.git,https://github.com/rethinkdb/rethinkdb,C++,The open-source database for the realtime web.
+55,emscripten-core/emscripten,26757,https://github.com/emscripten-core/emscripten.git,https://github.com/emscripten-core/emscripten,C++,Emscripten: An LLVM-to-WebAssembly Compiler
+56,mozilla/DeepSpeech,26577,https://github.com/mozilla/DeepSpeech.git,https://github.com/mozilla/DeepSpeech,C++,"DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers."
+57,aristocratos/btop,26554,https://github.com/aristocratos/btop.git,https://github.com/aristocratos/btop,C++,A monitor of resources
+58,cmderdev/cmder,26534,https://github.com/cmderdev/cmder.git,https://github.com/cmderdev/cmder,C++,Lovely console emulator package for Windows
+59,envoyproxy/envoy,26466,https://github.com/envoyproxy/envoy.git,https://github.com/envoyproxy/envoy,C++,Cloud-native high-performance edge/middle/service proxy
+60,FreeCAD/FreeCAD,25966,https://github.com/FreeCAD/FreeCAD.git,https://github.com/FreeCAD/FreeCAD,C++,"Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler."
+61,ApolloAuto/apollo,25941,https://github.com/ApolloAuto/apollo.git,https://github.com/ApolloAuto/apollo,C++,An open autonomous driving platform
+62,shadps4-emu/shadPS4,25892,https://github.com/shadps4-emu/shadPS4.git,https://github.com/shadps4-emu/shadPS4,C++,"PlayStation 4 emulator for Windows, Linux and macOS written in C++"
+63,barry-ran/QtScrcpy,25739,https://github.com/barry-ran/QtScrcpy.git,https://github.com/barry-ran/QtScrcpy,C++,Android real-time display control software
+64,notepad-plus-plus/notepad-plus-plus,25522,https://github.com/notepad-plus-plus/notepad-plus-plus.git,https://github.com/notepad-plus-plus/notepad-plus-plus,C++,Notepad++ official repository
+65,argotorg/solidity,25052,https://github.com/argotorg/solidity.git,https://github.com/argotorg/solidity,C++,"Solidity, the Smart Contract Programming Language"
+66,changkun/modern-cpp-tutorial,25049,https://github.com/changkun/modern-cpp-tutorial.git,https://github.com/changkun/modern-cpp-tutorial,C++,📚 Modern C++ Tutorial: C++11/14/17/20 On the Fly | https://changkun.de/modern-cpp/
+67,microsoft/winget-cli,24697,https://github.com/microsoft/winget-cli.git,https://github.com/microsoft/winget-cli,C++,"WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface)."
+68,google/flatbuffers,24664,https://github.com/google/flatbuffers.git,https://github.com/google/flatbuffers,C++,FlatBuffers: Memory Efficient Serialization Library
+69,v8/v8,24388,https://github.com/v8/v8.git,https://github.com/v8/v8,C++,The official mirror of the V8 Git repository
+70,typesense/typesense,24223,https://github.com/typesense/typesense.git,https://github.com/typesense/typesense,C++,"Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences"
+71,keepassxreboot/keepassxc,23991,https://github.com/keepassxreboot/keepassxc.git,https://github.com/keepassxreboot/keepassxc,C++,KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
+72,redis/RedisDesktopManager,23166,https://github.com/redis/RedisDesktopManager.git,https://github.com/redis/RedisDesktopManager,C++,
+73,PaddlePaddle/Paddle,23165,https://github.com/PaddlePaddle/Paddle.git,https://github.com/PaddlePaddle/Paddle,C++,PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）
+74,Mozilla-Ocho/llamafile,23014,https://github.com/Mozilla-Ocho/llamafile.git,https://github.com/Mozilla-Ocho/llamafile,C++,Distribute and run LLMs with a single file.
+75,sqlitebrowser/sqlitebrowser,22834,https://github.com/sqlitebrowser/sqlitebrowser.git,https://github.com/sqlitebrowser/sqlitebrowser,C++,"Official home of the DB Browser for SQLite (DB4S) project. Previously known as ""SQLite Database Browser"" and ""Database Browser for SQLite"". Website at: "
+76,osquery/osquery,22677,https://github.com/osquery/osquery.git,https://github.com/osquery/osquery,C++,"SQL powered operating system instrumentation, monitoring, and analytics."
+77,ssloy/tinyrenderer,22437,https://github.com/ssloy/tinyrenderer.git,https://github.com/ssloy/tinyrenderer,C++,A brief computer graphics / rendering course
+78,fmtlib/fmt,22256,https://github.com/fmtlib/fmt.git,https://github.com/fmtlib/fmt,C++,A modern formatting library
+79,ml-explore/mlx,22043,https://github.com/ml-explore/mlx.git,https://github.com/ml-explore/mlx,C++,MLX: An array framework for Apple silicon
+80,Tencent/ncnn,21968,https://github.com/Tencent/ncnn.git,https://github.com/Tencent/ncnn,C++,ncnn is a high-performance neural network inference framework optimized for the mobile platform
+81,chromium/chromium,21540,https://github.com/chromium/chromium.git,https://github.com/chromium/chromium,C++,The official GitHub mirror of the Chromium source
+82,electronicarts/CnC_Remastered_Collection,21190,https://github.com/electronicarts/CnC_Remastered_Collection.git,https://github.com/electronicarts/CnC_Remastered_Collection,C++,Command & Conquer: Remastered Collection
+83,simdjson/simdjson,21114,https://github.com/simdjson/simdjson.git,https://github.com/simdjson/simdjson,C++,"Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
+84,apache/mxnet,20823,https://github.com/apache/mxnet.git,https://github.com/apache/mxnet,C++,"Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more"
+85,scottbez1/smartknob,20776,https://github.com/scottbez1/smartknob.git,https://github.com/scottbez1/smartknob,C++,Haptic input knob with software-defined endstops and virtual detents
+86,pqrs-org/Karabiner-Elements,20590,https://github.com/pqrs-org/Karabiner-Elements.git,https://github.com/pqrs-org/Karabiner-Elements,C++,Karabiner-Elements is a powerful tool for customizing keyboards on macOS
+87,deskflow/deskflow,19812,https://github.com/deskflow/deskflow.git,https://github.com/deskflow/deskflow,C++,Share a single keyboard and mouse between multiple computers.
+88,xbmc/xbmc,19787,https://github.com/xbmc/xbmc.git,https://github.com/xbmc/xbmc,C++,"Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows."
+89,catchorg/Catch2,19725,https://github.com/catchorg/Catch2.git,https://github.com/catchorg/Catch2,C++,"A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+90,trojan-gfw/trojan,19399,https://github.com/trojan-gfw/trojan.git,https://github.com/trojan-gfw/trojan,C++,An unidentifiable mechanism that helps you bypass GFW.
+91,lettier/3d-game-shaders-for-beginners,19040,https://github.com/lettier/3d-game-shaders-for-beginners.git,https://github.com/lettier/3d-game-shaders-for-beginners,C++,"🎮 A step-by-step guide to implementing SSAO, depth of field, lighting, normal mapping, and more for your 3D game."
+92,google/filament,18787,https://github.com/google/filament.git,https://github.com/google/filament,C++,"Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2"
+93,swoole/swoole-src,18737,https://github.com/swoole/swoole-src.git,https://github.com/swoole/swoole-src,C++,🚀 Coroutine-based concurrency library for PHP
+94,cocos2d/cocos2d-x,18695,https://github.com/cocos2d/cocos2d-x.git,https://github.com/cocos2d/cocos2d-x,C++,"Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. Its core has evolved to serve as the foundation for Cocos Creator 1.x & 2.x."
+95,qinguoyi/TinyWebServer,18537,https://github.com/qinguoyi/TinyWebServer.git,https://github.com/qinguoyi/TinyWebServer,C++,:fire: Linux下C++轻量级WebServer服务器
+96,alibaba/weex,18506,https://github.com/alibaba/weex.git,https://github.com/alibaba/weex,C++,A framework for building Mobile cross-platform UI
+97,facebook/hhvm,18478,https://github.com/facebook/hhvm.git,https://github.com/facebook/hhvm,C++,A virtual machine for executing programs written in Hack.
+98,uNetworking/uWebSockets,18217,https://github.com/uNetworking/uWebSockets.git,https://github.com/uNetworking/uWebSockets,C++,"Simple, secure & standards compliant web server for the most demanding of applications"
+99,Tencent/MMKV,18153,https://github.com/Tencent/MMKV.git,https://github.com/Tencent/MMKV,C++,"An efficient, small mobile key-value storage framework developed by WeChat. Works on Android, iOS, macOS, Windows, POSIX, and OHOS."
+100,78/xiaozhi-esp32,18024,https://github.com/78/xiaozhi-esp32.git,https://github.com/78/xiaozhi-esp32,C++,An MCP-based chatbot | 一个基于MCP的聊天机器人
+101,facebook/yoga,18010,https://github.com/facebook/yoga.git,https://github.com/facebook/yoga,C++,Yoga is an embeddable layout engine targeting web standards.
+102,haoel/leetcode,17895,https://github.com/haoel/leetcode.git,https://github.com/haoel/leetcode,C++,LeetCode Problems' Solutions 
+103,TranslucentTB/TranslucentTB,17807,https://github.com/TranslucentTB/TranslucentTB.git,https://github.com/TranslucentTB/TranslucentTB,C++,A lightweight utility that makes the Windows taskbar translucent/transparent.
+104,kyleneideck/BackgroundMusic,17787,https://github.com/kyleneideck/BackgroundMusic.git,https://github.com/kyleneideck/BackgroundMusic,C++,"Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio."
+105,MaaAssistantArknights/MaaAssistantArknights,17740,https://github.com/MaaAssistantArknights/MaaAssistantArknights.git,https://github.com/MaaAssistantArknights/MaaAssistantArknights,C++,"《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients."
+106,microsoft/onnxruntime,17666,https://github.com/microsoft/onnxruntime.git,https://github.com/microsoft/onnxruntime,C++,"ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+107,microsoft/CNTK,17588,https://github.com/microsoft/CNTK.git,https://github.com/microsoft/CNTK,C++,"Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit"
+108,microsoft/LightGBM,17546,https://github.com/microsoft/LightGBM.git,https://github.com/microsoft/LightGBM,C++,"A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks."
+109,Tencent/mars,17543,https://github.com/Tencent/mars.git,https://github.com/Tencent/mars,C++,Mars is a cross-platform network component  developed by WeChat.
+110,google/libphonenumber,17475,https://github.com/google/libphonenumber.git,https://github.com/google/libphonenumber,C++,"Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers."
+111,microsoft/AirSim,17437,https://github.com/microsoft/AirSim.git,https://github.com/microsoft/AirSim,C++,"Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research"
+112,RPCS3/rpcs3,17339,https://github.com/RPCS3/rpcs3.git,https://github.com/RPCS3/rpcs3,C++,PlayStation 3 emulator and debugger
+113,apache/brpc,17273,https://github.com/apache/brpc.git,https://github.com/apache/brpc,C++,"brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. ""brpc"" means ""better RPC""."
+114,pybind/pybind11,17186,https://github.com/pybind/pybind11.git,https://github.com/pybind/pybind11,C++,Seamless operability between C++11 and Python
+115,rizinorg/cutter,17033,https://github.com/rizinorg/cutter.git,https://github.com/rizinorg/cutter,C++,Free and Open Source Reverse Engineering Platform powered by rizin
+116,Qv2ray/Qv2ray,16964,https://github.com/Qv2ray/Qv2ray.git,https://github.com/Qv2ray/Qv2ray,C++,:star: Linux / Windows / macOS 跨平台 V2Ray 客户端 | 支持 VMess / VLESS / SSR / Trojan / Trojan-Go / NaiveProxy / HTTP / HTTPS / SOCKS5 | 使用 C++ / Qt 开发 | 可拓展插件式设计 :star:
+117,microsoft/react-native-windows,16961,https://github.com/microsoft/react-native-windows.git,https://github.com/microsoft/react-native-windows,C++,A framework for building native Windows apps with React.
+118,MarlinFirmware/Marlin,16952,https://github.com/MarlinFirmware/Marlin.git,https://github.com/MarlinFirmware/Marlin,C++,Marlin is an optimized firmware for RepRap 3D printers based on the Arduino platform. Many commercial 3D printers come with Marlin installed. Check with your vendor if you need source code for your specific machine.
+119,id-Software/DOOM,16845,https://github.com/id-Software/DOOM.git,https://github.com/id-Software/DOOM,C++,DOOM Open Source Release
+120,Atmosphere-NX/Atmosphere,16825,https://github.com/Atmosphere-NX/Atmosphere.git,https://github.com/Atmosphere-NX/Atmosphere,C++,Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.
+121,wled/WLED,16602,https://github.com/wled/WLED.git,https://github.com/wled/WLED,C++,Control WS2812B and many more types of digital RGB LEDs with an ESP32 over WiFi!
+122,microsoft/IoT-For-Beginners,16434,https://github.com/microsoft/IoT-For-Beginners.git,https://github.com/microsoft/IoT-For-Beginners,C++,"12 Weeks, 24 Lessons, IoT for All!"
+123,esp8266/Arduino,16406,https://github.com/esp8266/Arduino.git,https://github.com/esp8266/Arduino,C++,ESP8266 core for Arduino
+124,upx/upx,16368,https://github.com/upx/upx.git,https://github.com/upx/upx,C++,UPX - the Ultimate Packer for eXecutables
+125,abseil/abseil-cpp,16259,https://github.com/abseil/abseil-cpp.git,https://github.com/abseil/abseil-cpp,C++,Abseil Common Libraries (C++)
