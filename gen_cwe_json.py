@@ -112,6 +112,7 @@ def materialize_lists(data_for_cwe: dict) -> dict:
     return out
 
 def main():
+    # example: python3 gen_cwe_json.py ./python_query_output/transformers/ transformers
     ap = argparse.ArgumentParser(description="將CodeQl解析完的CWE-xxx.csv轉成之後挖洞用的json")
     ap.add_argument("csv_dir", help="放入codeQL解析完後CSV所在的資料夾")
     ap.add_argument("name", help="專案名稱")
