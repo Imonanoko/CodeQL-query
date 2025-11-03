@@ -1,126 +1,125 @@
 rank_seen,full_name,stargazers_count,clone_url,html_url,language,description,cmake_indicator
-6,ggml-org/llama.cpp,88525,https://github.com/ggml-org/llama.cpp.git,https://github.com/ggml-org/llama.cpp,C++,LLM inference in C/C++,targets
-7,bitcoin/bitcoin,86538,https://github.com/bitcoin/bitcoin.git,https://github.com/bitcoin/bitcoin,C++,Bitcoin Core integration/staging tree,targets
-10,tesseract-ocr/tesseract,70616,https://github.com/tesseract-ocr/tesseract.git,https://github.com/tesseract-ocr/tesseract,C++,Tesseract Open Source OCR Engine (main repository),targets
-11,protocolbuffers/protobuf,69491,https://github.com/protocolbuffers/protobuf.git,https://github.com/protocolbuffers/protobuf,C++,Protocol Buffers - Google's data interchange format,targets
-16,nlohmann/json,47725,https://github.com/nlohmann/json.git,https://github.com/nlohmann/json,C++,JSON for Modern C++,targets
-17,x64dbg/x64dbg,47134,https://github.com/x64dbg/x64dbg.git,https://github.com/x64dbg/x64dbg,C++,An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.,targets
-18,ggml-org/whisper.cpp,44145,https://github.com/ggml-org/whisper.cpp.git,https://github.com/ggml-org/whisper.cpp,C++,Port of OpenAI's Whisper model in C/C++,targets
-20,ClickHouse/ClickHouse,43696,https://github.com/ClickHouse/ClickHouse.git,https://github.com/ClickHouse/ClickHouse,C++,ClickHouse® is a real-time analytics database management system,targets
-24,google/leveldb,38286,https://github.com/google/leveldb.git,https://github.com/google/leveldb,C++,LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.,targets
-31,duckdb/duckdb,33825,https://github.com/duckdb/duckdb.git,https://github.com/duckdb/duckdb,C++,DuckDB is an analytical in-process SQL database management system,targets
-36,SerenityOS/serenity,32532,https://github.com/SerenityOS/serenity.git,https://github.com/SerenityOS/serenity,C++,The Serenity Operating System 🐞,targets
-38,hyprwm/Hyprland,31637,https://github.com/hyprwm/Hyprland.git,https://github.com/hyprwm/Hyprland,C++,"Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",targets
-39,facebook/rocksdb,30892,https://github.com/facebook/rocksdb.git,https://github.com/facebook/rocksdb,C++,"A library that provides an embeddable, persistent key-value store for fast storage.",targets
-43,facebook/folly,30001,https://github.com/facebook/folly.git,https://github.com/facebook/folly,C++,An open-source C++ library developed and used at Facebook.,targets
-46,flameshot-org/flameshot,28111,https://github.com/flameshot-org/flameshot.git,https://github.com/flameshot-org/flameshot,C++,Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:,targets
-49,aristocratos/btop,27729,https://github.com/aristocratos/btop.git,https://github.com/aristocratos/btop,C++,A monitor of resources,targets
-52,gabime/spdlog,27562,https://github.com/gabime/spdlog.git,https://github.com/gabime/spdlog,C++,Fast C++ logging library.,targets
-53,dmlc/xgboost,27553,https://github.com/dmlc/xgboost.git,https://github.com/dmlc/xgboost,C++,"Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow",targets
-57,shadps4-emu/shadPS4,26857,https://github.com/shadps4-emu/shadPS4.git,https://github.com/shadps4-emu/shadPS4,C++,"PlayStation 4 emulator for Windows, Linux and macOS written in C++",targets
-66,google/flatbuffers,24941,https://github.com/google/flatbuffers.git,https://github.com/google/flatbuffers,C++,FlatBuffers: Memory Efficient Serialization Library,targets
-67,typesense/typesense,24615,https://github.com/typesense/typesense.git,https://github.com/typesense/typesense,C++,"Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",targets
-73,sqlitebrowser/sqlitebrowser,23136,https://github.com/sqlitebrowser/sqlitebrowser.git,https://github.com/sqlitebrowser/sqlitebrowser,C++,"Official home of the DB Browser for SQLite (DB4S) project. Previously known as ""SQLite Database Browser"" and ""Database Browser for SQLite"". Website at: ",targets
-74,osquery/osquery,22839,https://github.com/osquery/osquery.git,https://github.com/osquery/osquery,C++,"SQL powered operating system instrumentation, monitoring, and analytics.",targets
-75,fmtlib/fmt,22769,https://github.com/fmtlib/fmt.git,https://github.com/fmtlib/fmt,C++,A modern formatting library,targets
-76,ssloy/tinyrenderer,22735,https://github.com/ssloy/tinyrenderer.git,https://github.com/ssloy/tinyrenderer,C++,A brief computer graphics / rendering course,targets
-77,simdjson/simdjson,22646,https://github.com/simdjson/simdjson.git,https://github.com/simdjson/simdjson,C++,"Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",targets
-78,ml-explore/mlx,22633,https://github.com/ml-explore/mlx.git,https://github.com/ml-explore/mlx,C++,MLX: An array framework for Apple silicon,targets
-79,Tencent/ncnn,22213,https://github.com/Tencent/ncnn.git,https://github.com/Tencent/ncnn,C++,ncnn is a high-performance neural network inference framework optimized for the mobile platform,targets
-85,xbmc/xbmc,19979,https://github.com/xbmc/xbmc.git,https://github.com/xbmc/xbmc,C++,"Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.",targets
-87,trojan-gfw/trojan,19489,https://github.com/trojan-gfw/trojan.git,https://github.com/trojan-gfw/trojan,C++,An unidentifiable mechanism that helps you bypass GFW.,targets
-92,swoole/swoole-src,18772,https://github.com/swoole/swoole-src.git,https://github.com/swoole/swoole-src,C++,🚀 Coroutine-based concurrency library for PHP,targets
-96,MaaAssistantArknights/MaaAssistantArknights,18463,https://github.com/MaaAssistantArknights/MaaAssistantArknights.git,https://github.com/MaaAssistantArknights/MaaAssistantArknights,C++,"《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.",targets
-103,SFML/SFML,11401,https://github.com/SFML/SFML.git,https://github.com/SFML/SFML,C++,Simple and Fast Multimedia Library,targets
-104,manticoresoftware/manticoresearch,11381,https://github.com/manticoresoftware/manticoresearch.git,https://github.com/manticoresoftware/manticoresearch,C++,Easy to use open source fast database for search | Good alternative to Elasticsearch now | Drop-in replacement for E in the ELK stack,targets
-105,taskflow/taskflow,11346,https://github.com/taskflow/taskflow.git,https://github.com/taskflow/taskflow,C++,A General-purpose Task-parallel Programming System using Modern C++,targets
-109,SoftFever/OrcaSlicer,11294,https://github.com/SoftFever/OrcaSlicer.git,https://github.com/SoftFever/OrcaSlicer,C++,"G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",targets
-112,google-deepmind/mujoco,10981,https://github.com/google-deepmind/mujoco.git,https://github.com/google-deepmind/mujoco,C++,Multi-Joint dynamics with Contact. A general purpose physics simulator.,targets
-114,apache/thrift,10814,https://github.com/apache/thrift.git,https://github.com/apache/thrift,C++,Apache Thrift,targets
-118,zeromq/libzmq,10588,https://github.com/zeromq/libzmq.git,https://github.com/zeromq/libzmq,C++,"ZeroMQ core engine in C++, implements ZMTP/3.1",targets
-125,PX4/PX4-Autopilot,10351,https://github.com/PX4/PX4-Autopilot.git,https://github.com/PX4/PX4-Autopilot,C++,PX4 Autopilot Software,targets
-130,rr-debugger/rr,10199,https://github.com/rr-debugger/rr.git,https://github.com/rr-debugger/rr,C++,Record and Replay Framework,targets
-131,colmap/colmap,10159,https://github.com/colmap/colmap.git,https://github.com/colmap/colmap,C++,COLMAP - Structure-from-Motion and Multi-View Stereo,targets
-135,raulmur/ORB_SLAM2,9984,https://github.com/raulmur/ORB_SLAM2.git,https://github.com/raulmur/ORB_SLAM2,C++,"Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities",targets
-136,monero-project/monero,9980,https://github.com/monero-project/monero.git,https://github.com/monero-project/monero,C++,"Monero: the secure, private, untraceable cryptocurrency",targets
-139,google/benchmark,9799,https://github.com/google/benchmark.git,https://github.com/google/benchmark,C++,A microbenchmark support library,targets
-140,bpftrace/bpftrace,9698,https://github.com/bpftrace/bpftrace.git,https://github.com/bpftrace/bpftrace,C++,High-level tracing language for Linux,targets
-148,google/re2,9482,https://github.com/google/re2.git,https://github.com/google/re2,C++,"RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.",targets
-164,ange-yaghi/engine-sim,9165,https://github.com/ange-yaghi/engine-sim.git,https://github.com/ange-yaghi/engine-sim,C++,Combustion engine simulator that generates realistic audio.,targets
-166,Stellarium/stellarium,9146,https://github.com/Stellarium/stellarium.git,https://github.com/Stellarium/stellarium,C++,"Stellarium is a free GPL software which renders realistic skies in real time with OpenGL. It is available for Linux/Unix, Windows and macOS. With Stellarium, you really see what you can see with your eyes, binoculars or a small telescope.",targets
-167,nodegui/nodegui,9145,https://github.com/nodegui/nodegui.git,https://github.com/nodegui/nodegui,C++,A library for building cross-platform native desktop applications with Node.js and CSS  🚀.  React NodeGui : https://react.nodegui.org and Vue NodeGui: https://vue.nodegui.org,targets
-170,diasurgical/DevilutionX,9084,https://github.com/diasurgical/DevilutionX.git,https://github.com/diasurgical/DevilutionX,C++,Diablo build for modern operating systems,targets
-171,electronicarts/EASTL,9008,https://github.com/electronicarts/EASTL.git,https://github.com/electronicarts/EASTL,C++,EASTL stands for Electronic Arts Standard Template Library.  It is an extensive and robust implementation that has an emphasis on high performance.,targets
-174,ArthurSonzogni/FTXUI,8987,https://github.com/ArthurSonzogni/FTXUI.git,https://github.com/ArthurSonzogni/FTXUI,C++,:computer: C++ Functional Terminal User Interface. :heart:,targets
-176,scylladb/seastar,8933,https://github.com/scylladb/seastar.git,https://github.com/scylladb/seastar,C++,High performance server-side application framework,targets
-178,ggerganov/kbd-audio,8921,https://github.com/ggerganov/kbd-audio.git,https://github.com/ggerganov/kbd-audio,C++,🎤⌨️ Acoustic keyboard eavesdropping,targets
-179,KDE/krita,8897,https://github.com/KDE/krita.git,https://github.com/KDE/krita,C++,Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.,targets
-180,gperftools/gperftools,8854,https://github.com/gperftools/gperftools.git,https://github.com/gperftools/gperftools,C++,Main gperftools repository,targets
-183,olive-editor/olive,8820,https://github.com/olive-editor/olive.git,https://github.com/olive-editor/olive,C++,Free open-source non-linear video editor,targets
-185,canonical/multipass,8732,https://github.com/canonical/multipass.git,https://github.com/canonical/multipass,C++,Multipass orchestrates virtual Ubuntu instances,targets
-188,NVIDIA/cutlass,8702,https://github.com/NVIDIA/cutlass.git,https://github.com/NVIDIA/cutlass,C++,CUDA Templates and Python DSLs for High-Performance Linear Algebra,targets
-192,Tencent/libco,8623,https://github.com/Tencent/libco.git,https://github.com/Tencent/libco,C++,libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.,targets
-195,cemu-project/Cemu,8592,https://github.com/cemu-project/Cemu.git,https://github.com/cemu-project/Cemu,C++,Cemu - Wii U emulator,targets
-196,prusa3d/PrusaSlicer,8588,https://github.com/prusa3d/PrusaSlicer.git,https://github.com/prusa3d/PrusaSlicer,C++,"G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)",targets
-202,intel/hyperscan,5175,https://github.com/intel/hyperscan.git,https://github.com/intel/hyperscan,C++,High-performance regular expression matching library,targets
-207,asmuth/clip,5154,https://github.com/asmuth/clip.git,https://github.com/asmuth/clip,C++,Create charts from the command line,targets
-209,valhalla/valhalla,5133,https://github.com/valhalla/valhalla.git,https://github.com/valhalla/valhalla,C++,Open Source Routing Engine for OpenStreetMap,targets
-211,lief-project/LIEF,5111,https://github.com/lief-project/LIEF.git,https://github.com/lief-project/LIEF,C++,"LIEF - Library to Instrument Executable Formats (C++, Python, Rust)",targets
-212,google/highway,5100,https://github.com/google/highway.git,https://github.com/google/highway,C++,"Performance-portable, length-agnostic SIMD with runtime dispatch",targets
-213,patriciogonzalezvivo/glslViewer,5098,https://github.com/patriciogonzalezvivo/glslViewer.git,https://github.com/patriciogonzalezvivo/glslViewer,C++,Console-based GLSL Sandbox for 2D/3D shaders,targets
-214,harfbuzz/harfbuzz,5075,https://github.com/harfbuzz/harfbuzz.git,https://github.com/harfbuzz/harfbuzz,C++,HarfBuzz text shaping engine,targets
-221,mmp/pbrt-v3,5033,https://github.com/mmp/pbrt-v3.git,https://github.com/mmp/pbrt-v3,C++,"Source code for pbrt, the renderer described in the third edition of ""Physically Based Rendering: From Theory To Implementation"", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.",targets
-223,XRPLF/rippled,5017,https://github.com/XRPLF/rippled.git,https://github.com/XRPLF/rippled,C++,Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger protocol in C++,targets
-224,wangyu-/UDPspeeder,5015,https://github.com/wangyu-/UDPspeeder.git,https://github.com/wangyu-/UDPspeeder,C++,"A Tunnel which Improves your Network Quality on a High-latency Lossy Link by using Forward Error Correction, possible for All Traffics(TCP/UDP/ICMP)",targets
-226,luau-lang/luau,4980,https://github.com/luau-lang/luau.git,https://github.com/luau-lang/luau,C++,"A fast, small, safe, gradually typed embeddable scripting language derived from Lua",targets
-229,nmslib/hnswlib,4961,https://github.com/nmslib/hnswlib.git,https://github.com/nmslib/hnswlib,C++,Header-only C++/python library for fast approximate nearest neighbors,targets
-231,supertuxkart/stk-code,4945,https://github.com/supertuxkart/stk-code.git,https://github.com/supertuxkart/stk-code,C++,The code base of SuperTuxKart,targets
-246,wjakob/nanogui,4815,https://github.com/wjakob/nanogui.git,https://github.com/wjakob/nanogui,C++,Minimalistic GUI library for OpenGL,targets
-248,arrayfire/arrayfire,4812,https://github.com/arrayfire/arrayfire.git,https://github.com/arrayfire/arrayfire,C++,ArrayFire: a general purpose GPU library.,targets
-249,MegEngine/MegEngine,4804,https://github.com/MegEngine/MegEngine.git,https://github.com/MegEngine/MegEngine,C++,MegEngine 是一个快速、可拓展、易于使用且支持自动求导的深度学习框架,targets
-251,ThePhD/sol2,4751,https://github.com/ThePhD/sol2.git,https://github.com/ThePhD/sol2,C++,"Sol3 (sol2 v3.0) - a C++ <-> Lua API wrapper with advanced features and top notch performance - is here, and it's great! Documentation:",targets
-258,lava/matplotlib-cpp,4685,https://github.com/lava/matplotlib-cpp.git,https://github.com/lava/matplotlib-cpp,C++,Extremely simple yet powerful header-only C++ plotting library built on the popular matplotlib,targets
-259,boostorg/beast,4679,https://github.com/boostorg/beast.git,https://github.com/boostorg/beast,C++,HTTP and WebSocket built on Boost.Asio in C++11,targets
-260,shader-slang/slang,4679,https://github.com/shader-slang/slang.git,https://github.com/shader-slang/slang,C++,Making it easier to work with shaders,targets
-265,dfranx/SHADERed,4644,https://github.com/dfranx/SHADERed.git,https://github.com/dfranx/SHADERed,C++,"Lightweight, cross-platform & full-featured shader IDE",targets
-266,paolo-projects/auto-unlocker,4640,https://github.com/paolo-projects/auto-unlocker.git,https://github.com/paolo-projects/auto-unlocker,C++,Unlocker for VMWare macOS,targets
-268,yedf2/handy,4617,https://github.com/yedf2/handy.git,https://github.com/yedf2/handy,C++,🔥简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework,targets
-272,jarro2783/cxxopts,4601,https://github.com/jarro2783/cxxopts.git,https://github.com/jarro2783/cxxopts,C++,Lightweight C++ command line option parser,targets
-274,Tencent/TNN,4587,https://github.com/Tencent/TNN.git,https://github.com/Tencent/TNN,C++,"TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile、desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. ",targets
-278,sylar-yin/sylar,4561,https://github.com/sylar-yin/sylar.git,https://github.com/sylar-yin/sylar,C++,"C++高性能分布式服务器框架,webserver,websocket server,自定义tcp_server（包含日志模块，配置模块，线程模块，协程模块，协程调度模块，io协程调度模块，hook模块，socket模块，bytearray序列化，http模块，TcpServer模块，Websocket模块，Https模块等, Smtp邮件模块, MySQL, SQLite3, ORM,Redis,Zookeeper)",targets
-280,USCiLab/cereal,4540,https://github.com/USCiLab/cereal.git,https://github.com/USCiLab/cereal,C++,A C++11 library for serialization,targets
-284,Chlumsky/msdfgen,4512,https://github.com/Chlumsky/msdfgen.git,https://github.com/Chlumsky/msdfgen,C++,Multi-channel signed distance field generator,targets
-285,leejet/stable-diffusion.cpp,4498,https://github.com/leejet/stable-diffusion.cpp.git,https://github.com/leejet/stable-diffusion.cpp,C++,"Diffusion model(SD,Flux,Wan,Qwen Image,...) inference in pure C/C++",targets
-288,jmpews/Dobby,4482,https://github.com/jmpews/Dobby.git,https://github.com/jmpews/Dobby,C++,"a lightweight, multi-platform, multi-architecture hook framework.",targets
-291,JakubVojvoda/design-patterns-cpp,4464,https://github.com/JakubVojvoda/design-patterns-cpp.git,https://github.com/JakubVojvoda/design-patterns-cpp,C++,C++ Design Patterns,targets
-293,CrowCpp/Crow,4444,https://github.com/CrowCpp/Crow.git,https://github.com/CrowCpp/Crow,C++,A Fast and Easy to use microframework for the web.,targets
-296,sorayuki/obs-multi-rtmp,4422,https://github.com/sorayuki/obs-multi-rtmp.git,https://github.com/sorayuki/obs-multi-rtmp,C++,OBS複数サイト同時配信プラグイン,targets
-299,andreasfertig/cppinsights,4403,https://github.com/andreasfertig/cppinsights.git,https://github.com/andreasfertig/cppinsights,C++,C++ Insights - See your source code with the eyes of a compiler,targets
-300,zeux/pugixml,4403,https://github.com/zeux/pugixml.git,https://github.com/zeux/pugixml,C++,"Light-weight, simple and fast XML parser for C++ with XPath support",targets
-301,greg7mdp/parallel-hashmap,3073,https://github.com/greg7mdp/parallel-hashmap.git,https://github.com/greg7mdp/parallel-hashmap,C++,"A family of header-only, very fast and memory-friendly hashmap and btree containers.",targets
-303,ARM-software/ComputeLibrary,3068,https://github.com/ARM-software/ComputeLibrary.git,https://github.com/ARM-software/ComputeLibrary,C++,The Compute Library is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies.,targets
-306,shogun-toolbox/shogun,3054,https://github.com/shogun-toolbox/shogun.git,https://github.com/shogun-toolbox/shogun,C++,Shōgun,targets
-315,heavyai/heavydb,3032,https://github.com/heavyai/heavydb.git,https://github.com/heavyai/heavydb,C++,HeavyDB (formerly MapD/OmniSciDB),targets
-316,bloomberg/blazingmq,3030,https://github.com/bloomberg/blazingmq.git,https://github.com/bloomberg/blazingmq,C++,A modern high-performance open source message queuing system,targets
-320,PixarAnimationStudios/OpenSubdiv,3012,https://github.com/PixarAnimationStudios/OpenSubdiv.git,https://github.com/PixarAnimationStudios/OpenSubdiv,C++,An Open-Source subdivision surface library.,targets
-323,Kitware/VTK,3006,https://github.com/Kitware/VTK.git,https://github.com/Kitware/VTK,C++,Mirror of Visualization Toolkit repository,targets
-326,NVIDIAGameWorks/Falcor,3002,https://github.com/NVIDIAGameWorks/Falcor.git,https://github.com/NVIDIAGameWorks/Falcor,C++,Real-Time Rendering Framework,targets
-329,hku-mars/FAST-LIVO2,2988,https://github.com/hku-mars/FAST-LIVO2.git,https://github.com/hku-mars/FAST-LIVO2,C++,"FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",targets
-330,gflags/gflags,2987,https://github.com/gflags/gflags.git,https://github.com/gflags/gflags,C++,The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used. Online documentation available at:,targets
-332,microsoft/proxy,2980,https://github.com/microsoft/proxy.git,https://github.com/microsoft/proxy,C++,Proxy: Next Generation Polymorphism in C++,targets
-334,uncrustify/uncrustify,2971,https://github.com/uncrustify/uncrustify.git,https://github.com/uncrustify/uncrustify,C++,Code beautifier,targets
-335,li-plus/chatglm.cpp,2970,https://github.com/li-plus/chatglm.cpp.git,https://github.com/li-plus/chatglm.cpp,C++,C++ implementation of ChatGLM-6B & ChatGLM2-6B & ChatGLM3 & GLM4(V),targets
-337,SerenityOS/jakt,2964,https://github.com/SerenityOS/jakt.git,https://github.com/SerenityOS/jakt,C++,The Jakt Programming Language,targets
-340,DescentDevelopers/Descent3,2957,https://github.com/DescentDevelopers/Descent3.git,https://github.com/DescentDevelopers/Descent3,C++,Descent 3 by Outrage Entertainment,targets
-350,ttttupup/wxhelper,2927,https://github.com/ttttupup/wxhelper.git,https://github.com/ttttupup/wxhelper,C++,Hook  WeChat  / 微信逆向,targets
-351,facebook/wdt,2923,https://github.com/facebook/wdt.git,https://github.com/facebook/wdt,C++,Warp speed Data Transfer (WDT)  is an embeddedable library (and command line tool) aiming to transfer data between 2 systems as fast as possible over multiple TCP paths.,targets
-357,aardappel/treesheets,2907,https://github.com/aardappel/treesheets.git,https://github.com/aardappel/treesheets,C++,TreeSheets : Free Form Data Organizer (see strlen.com/treesheets),targets
-361,FEX-Emu/FEX,2904,https://github.com/FEX-Emu/FEX.git,https://github.com/FEX-Emu/FEX,C++,A fast usermode x86 and x86-64 emulator for Arm64 Linux,targets
-362,qt-creator/qt-creator,2904,https://github.com/qt-creator/qt-creator.git,https://github.com/qt-creator/qt-creator,C++,A cross-platform Qt IDE,targets
-364,BinomialLLC/basis_universal,2903,https://github.com/BinomialLLC/basis_universal.git,https://github.com/BinomialLLC/basis_universal,C++,Basis Universal GPU Texture Codec,targets
-366,subsurface/subsurface,2900,https://github.com/subsurface/subsurface.git,https://github.com/subsurface/subsurface,C++,This is the official upstream of the Subsurface divelog program,targets
-386,hosseinmoein/DataFrame,2838,https://github.com/hosseinmoein/DataFrame.git,https://github.com/hosseinmoein/DataFrame,C++,"C++ DataFrame for statistical, financial, and ML analysis in modern C++",targets
-387,namazso/SecureUxTheme,2838,https://github.com/namazso/SecureUxTheme.git,https://github.com/namazso/SecureUxTheme,C++,🎨 A secure boot compatible in-memory UxTheme patcher,targets
-390,Almamu/linux-wallpaperengine,2834,https://github.com/Almamu/linux-wallpaperengine.git,https://github.com/Almamu/linux-wallpaperengine,C++,Wallpaper Engine backgrounds for Linux!,targets
-395,shouxieai/tensorRT_Pro,2822,https://github.com/shouxieai/tensorRT_Pro.git,https://github.com/shouxieai/tensorRT_Pro,C++,C++ library based on tensorrt integration,targets
-397,opengl-tutorials/ogl,2820,https://github.com/opengl-tutorials/ogl.git,https://github.com/opengl-tutorials/ogl,C++,,targets
+7,bitcoin/bitcoin,86538,https://github.com/bitcoin/bitcoin.git,https://github.com/bitcoin/bitcoin,cpp,Bitcoin Core integration/staging tree,targets
+10,tesseract-ocr/tesseract,70616,https://github.com/tesseract-ocr/tesseract.git,https://github.com/tesseract-ocr/tesseract,cpp,Tesseract Open Source OCR Engine (main repository),targets
+11,protocolbuffers/protobuf,69491,https://github.com/protocolbuffers/protobuf.git,https://github.com/protocolbuffers/protobuf,cpp,Protocol Buffers - Google's data interchange format,targets
+16,nlohmann/json,47725,https://github.com/nlohmann/json.git,https://github.com/nlohmann/json,cpp,JSON for Modern C++,targets
+17,x64dbg/x64dbg,47134,https://github.com/x64dbg/x64dbg.git,https://github.com/x64dbg/x64dbg,cpp,An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.,targets
+18,ggml-org/whisper.cpp,44145,https://github.com/ggml-org/whisper.cpp.git,https://github.com/ggml-org/whisper.cpp,cpp,Port of OpenAI's Whisper model in C/C++,targets
+20,ClickHouse/ClickHouse,43696,https://github.com/ClickHouse/ClickHouse.git,https://github.com/ClickHouse/ClickHouse,cpp,ClickHouse® is a real-time analytics database management system,targets
+24,google/leveldb,38286,https://github.com/google/leveldb.git,https://github.com/google/leveldb,cpp,LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.,targets
+31,duckdb/duckdb,33825,https://github.com/duckdb/duckdb.git,https://github.com/duckdb/duckdb,cpp,DuckDB is an analytical in-process SQL database management system,targets
+36,SerenityOS/serenity,32532,https://github.com/SerenityOS/serenity.git,https://github.com/SerenityOS/serenity,cpp,The Serenity Operating System 🐞,targets
+38,hyprwm/Hyprland,31637,https://github.com/hyprwm/Hyprland.git,https://github.com/hyprwm/Hyprland,cpp,"Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",targets
+39,facebook/rocksdb,30892,https://github.com/facebook/rocksdb.git,https://github.com/facebook/rocksdb,cpp,"A library that provides an embeddable, persistent key-value store for fast storage.",targets
+43,facebook/folly,30001,https://github.com/facebook/folly.git,https://github.com/facebook/folly,cpp,An open-source C++ library developed and used at Facebook.,targets
+46,flameshot-org/flameshot,28111,https://github.com/flameshot-org/flameshot.git,https://github.com/flameshot-org/flameshot,cpp,Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:,targets
+49,aristocratos/btop,27729,https://github.com/aristocratos/btop.git,https://github.com/aristocratos/btop,cpp,A monitor of resources,targets
+52,gabime/spdlog,27562,https://github.com/gabime/spdlog.git,https://github.com/gabime/spdlog,cpp,Fast C++ logging library.,targets
+53,dmlc/xgboost,27553,https://github.com/dmlc/xgboost.git,https://github.com/dmlc/xgboost,cpp,"Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow",targets
+57,shadps4-emu/shadPS4,26857,https://github.com/shadps4-emu/shadPS4.git,https://github.com/shadps4-emu/shadPS4,cpp,"PlayStation 4 emulator for Windows, Linux and macOS written in C++",targets
+66,google/flatbuffers,24941,https://github.com/google/flatbuffers.git,https://github.com/google/flatbuffers,cpp,FlatBuffers: Memory Efficient Serialization Library,targets
+67,typesense/typesense,24615,https://github.com/typesense/typesense.git,https://github.com/typesense/typesense,cpp,"Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",targets
+73,sqlitebrowser/sqlitebrowser,23136,https://github.com/sqlitebrowser/sqlitebrowser.git,https://github.com/sqlitebrowser/sqlitebrowser,cpp,"Official home of the DB Browser for SQLite (DB4S) project. Previously known as ""SQLite Database Browser"" and ""Database Browser for SQLite"". Website at: ",targets
+74,osquery/osquery,22839,https://github.com/osquery/osquery.git,https://github.com/osquery/osquery,cpp,"SQL powered operating system instrumentation, monitoring, and analytics.",targets
+75,fmtlib/fmt,22769,https://github.com/fmtlib/fmt.git,https://github.com/fmtlib/fmt,cpp,A modern formatting library,targets
+76,ssloy/tinyrenderer,22735,https://github.com/ssloy/tinyrenderer.git,https://github.com/ssloy/tinyrenderer,cpp,A brief computer graphics / rendering course,targets
+77,simdjson/simdjson,22646,https://github.com/simdjson/simdjson.git,https://github.com/simdjson/simdjson,cpp,"Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",targets
+78,ml-explore/mlx,22633,https://github.com/ml-explore/mlx.git,https://github.com/ml-explore/mlx,cpp,MLX: An array framework for Apple silicon,targets
+79,Tencent/ncnn,22213,https://github.com/Tencent/ncnn.git,https://github.com/Tencent/ncnn,cpp,ncnn is a high-performance neural network inference framework optimized for the mobile platform,targets
+85,xbmc/xbmc,19979,https://github.com/xbmc/xbmc.git,https://github.com/xbmc/xbmc,cpp,"Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.",targets
+87,trojan-gfw/trojan,19489,https://github.com/trojan-gfw/trojan.git,https://github.com/trojan-gfw/trojan,cpp,An unidentifiable mechanism that helps you bypass GFW.,targets
+92,swoole/swoole-src,18772,https://github.com/swoole/swoole-src.git,https://github.com/swoole/swoole-src,cpp,🚀 Coroutine-based concurrency library for PHP,targets
+96,MaaAssistantArknights/MaaAssistantArknights,18463,https://github.com/MaaAssistantArknights/MaaAssistantArknights.git,https://github.com/MaaAssistantArknights/MaaAssistantArknights,cpp,"《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.",targets
+103,SFML/SFML,11401,https://github.com/SFML/SFML.git,https://github.com/SFML/SFML,cpp,Simple and Fast Multimedia Library,targets
+104,manticoresoftware/manticoresearch,11381,https://github.com/manticoresoftware/manticoresearch.git,https://github.com/manticoresoftware/manticoresearch,cpp,Easy to use open source fast database for search | Good alternative to Elasticsearch now | Drop-in replacement for E in the ELK stack,targets
+105,taskflow/taskflow,11346,https://github.com/taskflow/taskflow.git,https://github.com/taskflow/taskflow,cpp,A General-purpose Task-parallel Programming System using Modern C++,targets
+109,SoftFever/OrcaSlicer,11294,https://github.com/SoftFever/OrcaSlicer.git,https://github.com/SoftFever/OrcaSlicer,cpp,"G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",targets
+112,google-deepmind/mujoco,10981,https://github.com/google-deepmind/mujoco.git,https://github.com/google-deepmind/mujoco,cpp,Multi-Joint dynamics with Contact. A general purpose physics simulator.,targets
+114,apache/thrift,10814,https://github.com/apache/thrift.git,https://github.com/apache/thrift,cpp,Apache Thrift,targets
+118,zeromq/libzmq,10588,https://github.com/zeromq/libzmq.git,https://github.com/zeromq/libzmq,cpp,"ZeroMQ core engine in C++, implements ZMTP/3.1",targets
+125,PX4/PX4-Autopilot,10351,https://github.com/PX4/PX4-Autopilot.git,https://github.com/PX4/PX4-Autopilot,cpp,PX4 Autopilot Software,targets
+130,rr-debugger/rr,10199,https://github.com/rr-debugger/rr.git,https://github.com/rr-debugger/rr,cpp,Record and Replay Framework,targets
+131,colmap/colmap,10159,https://github.com/colmap/colmap.git,https://github.com/colmap/colmap,cpp,COLMAP - Structure-from-Motion and Multi-View Stereo,targets
+135,raulmur/ORB_SLAM2,9984,https://github.com/raulmur/ORB_SLAM2.git,https://github.com/raulmur/ORB_SLAM2,cpp,"Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities",targets
+136,monero-project/monero,9980,https://github.com/monero-project/monero.git,https://github.com/monero-project/monero,cpp,"Monero: the secure, private, untraceable cryptocurrency",targets
+139,google/benchmark,9799,https://github.com/google/benchmark.git,https://github.com/google/benchmark,cpp,A microbenchmark support library,targets
+140,bpftrace/bpftrace,9698,https://github.com/bpftrace/bpftrace.git,https://github.com/bpftrace/bpftrace,cpp,High-level tracing language for Linux,targets
+148,google/re2,9482,https://github.com/google/re2.git,https://github.com/google/re2,cpp,"RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.",targets
+164,ange-yaghi/engine-sim,9165,https://github.com/ange-yaghi/engine-sim.git,https://github.com/ange-yaghi/engine-sim,cpp,Combustion engine simulator that generates realistic audio.,targets
+166,Stellarium/stellarium,9146,https://github.com/Stellarium/stellarium.git,https://github.com/Stellarium/stellarium,cpp,"Stellarium is a free GPL software which renders realistic skies in real time with OpenGL. It is available for Linux/Unix, Windows and macOS. With Stellarium, you really see what you can see with your eyes, binoculars or a small telescope.",targets
+167,nodegui/nodegui,9145,https://github.com/nodegui/nodegui.git,https://github.com/nodegui/nodegui,cpp,A library for building cross-platform native desktop applications with Node.js and CSS  🚀.  React NodeGui : https://react.nodegui.org and Vue NodeGui: https://vue.nodegui.org,targets
+170,diasurgical/DevilutionX,9084,https://github.com/diasurgical/DevilutionX.git,https://github.com/diasurgical/DevilutionX,cpp,Diablo build for modern operating systems,targets
+171,electronicarts/EASTL,9008,https://github.com/electronicarts/EASTL.git,https://github.com/electronicarts/EASTL,cpp,EASTL stands for Electronic Arts Standard Template Library.  It is an extensive and robust implementation that has an emphasis on high performance.,targets
+174,ArthurSonzogni/FTXUI,8987,https://github.com/ArthurSonzogni/FTXUI.git,https://github.com/ArthurSonzogni/FTXUI,cpp,:computer: C++ Functional Terminal User Interface. :heart:,targets
+176,scylladb/seastar,8933,https://github.com/scylladb/seastar.git,https://github.com/scylladb/seastar,cpp,High performance server-side application framework,targets
+178,ggerganov/kbd-audio,8921,https://github.com/ggerganov/kbd-audio.git,https://github.com/ggerganov/kbd-audio,cpp,🎤⌨️ Acoustic keyboard eavesdropping,targets
+179,KDE/krita,8897,https://github.com/KDE/krita.git,https://github.com/KDE/krita,cpp,Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.,targets
+180,gperftools/gperftools,8854,https://github.com/gperftools/gperftools.git,https://github.com/gperftools/gperftools,cpp,Main gperftools repository,targets
+183,olive-editor/olive,8820,https://github.com/olive-editor/olive.git,https://github.com/olive-editor/olive,cpp,Free open-source non-linear video editor,targets
+185,canonical/multipass,8732,https://github.com/canonical/multipass.git,https://github.com/canonical/multipass,cpp,Multipass orchestrates virtual Ubuntu instances,targets
+188,NVIDIA/cutlass,8702,https://github.com/NVIDIA/cutlass.git,https://github.com/NVIDIA/cutlass,cpp,CUDA Templates and Python DSLs for High-Performance Linear Algebra,targets
+192,Tencent/libco,8623,https://github.com/Tencent/libco.git,https://github.com/Tencent/libco,cpp,libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.,targets
+195,cemu-project/Cemu,8592,https://github.com/cemu-project/Cemu.git,https://github.com/cemu-project/Cemu,cpp,Cemu - Wii U emulator,targets
+196,prusa3d/PrusaSlicer,8588,https://github.com/prusa3d/PrusaSlicer.git,https://github.com/prusa3d/PrusaSlicer,cpp,"G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)",targets
+202,intel/hyperscan,5175,https://github.com/intel/hyperscan.git,https://github.com/intel/hyperscan,cpp,High-performance regular expression matching library,targets
+207,asmuth/clip,5154,https://github.com/asmuth/clip.git,https://github.com/asmuth/clip,cpp,Create charts from the command line,targets
+209,valhalla/valhalla,5133,https://github.com/valhalla/valhalla.git,https://github.com/valhalla/valhalla,cpp,Open Source Routing Engine for OpenStreetMap,targets
+211,lief-project/LIEF,5111,https://github.com/lief-project/LIEF.git,https://github.com/lief-project/LIEF,cpp,"LIEF - Library to Instrument Executable Formats (C++, Python, Rust)",targets
+212,google/highway,5100,https://github.com/google/highway.git,https://github.com/google/highway,cpp,"Performance-portable, length-agnostic SIMD with runtime dispatch",targets
+213,patriciogonzalezvivo/glslViewer,5098,https://github.com/patriciogonzalezvivo/glslViewer.git,https://github.com/patriciogonzalezvivo/glslViewer,cpp,Console-based GLSL Sandbox for 2D/3D shaders,targets
+214,harfbuzz/harfbuzz,5075,https://github.com/harfbuzz/harfbuzz.git,https://github.com/harfbuzz/harfbuzz,cpp,HarfBuzz text shaping engine,targets
+221,mmp/pbrt-v3,5033,https://github.com/mmp/pbrt-v3.git,https://github.com/mmp/pbrt-v3,cpp,"Source code for pbrt, the renderer described in the third edition of ""Physically Based Rendering: From Theory To Implementation"", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.",targets
+223,XRPLF/rippled,5017,https://github.com/XRPLF/rippled.git,https://github.com/XRPLF/rippled,cpp,Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger protocol in C++,targets
+224,wangyu-/UDPspeeder,5015,https://github.com/wangyu-/UDPspeeder.git,https://github.com/wangyu-/UDPspeeder,cpp,"A Tunnel which Improves your Network Quality on a High-latency Lossy Link by using Forward Error Correction, possible for All Traffics(TCP/UDP/ICMP)",targets
+226,luau-lang/luau,4980,https://github.com/luau-lang/luau.git,https://github.com/luau-lang/luau,cpp,"A fast, small, safe, gradually typed embeddable scripting language derived from Lua",targets
+229,nmslib/hnswlib,4961,https://github.com/nmslib/hnswlib.git,https://github.com/nmslib/hnswlib,cpp,Header-only C++/python library for fast approximate nearest neighbors,targets
+231,supertuxkart/stk-code,4945,https://github.com/supertuxkart/stk-code.git,https://github.com/supertuxkart/stk-code,cpp,The code base of SuperTuxKart,targets
+246,wjakob/nanogui,4815,https://github.com/wjakob/nanogui.git,https://github.com/wjakob/nanogui,cpp,Minimalistic GUI library for OpenGL,targets
+248,arrayfire/arrayfire,4812,https://github.com/arrayfire/arrayfire.git,https://github.com/arrayfire/arrayfire,cpp,ArrayFire: a general purpose GPU library.,targets
+249,MegEngine/MegEngine,4804,https://github.com/MegEngine/MegEngine.git,https://github.com/MegEngine/MegEngine,cpp,MegEngine 是一个快速、可拓展、易于使用且支持自动求导的深度学习框架,targets
+251,ThePhD/sol2,4751,https://github.com/ThePhD/sol2.git,https://github.com/ThePhD/sol2,cpp,"Sol3 (sol2 v3.0) - a C++ <-> Lua API wrapper with advanced features and top notch performance - is here, and it's great! Documentation:",targets
+258,lava/matplotlib-cpp,4685,https://github.com/lava/matplotlib-cpp.git,https://github.com/lava/matplotlib-cpp,cpp,Extremely simple yet powerful header-only C++ plotting library built on the popular matplotlib,targets
+259,boostorg/beast,4679,https://github.com/boostorg/beast.git,https://github.com/boostorg/beast,cpp,HTTP and WebSocket built on Boost.Asio in C++11,targets
+260,shader-slang/slang,4679,https://github.com/shader-slang/slang.git,https://github.com/shader-slang/slang,cpp,Making it easier to work with shaders,targets
+265,dfranx/SHADERed,4644,https://github.com/dfranx/SHADERed.git,https://github.com/dfranx/SHADERed,cpp,"Lightweight, cross-platform & full-featured shader IDE",targets
+266,paolo-projects/auto-unlocker,4640,https://github.com/paolo-projects/auto-unlocker.git,https://github.com/paolo-projects/auto-unlocker,cpp,Unlocker for VMWare macOS,targets
+268,yedf2/handy,4617,https://github.com/yedf2/handy.git,https://github.com/yedf2/handy,cpp,🔥简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework,targets
+272,jarro2783/cxxopts,4601,https://github.com/jarro2783/cxxopts.git,https://github.com/jarro2783/cxxopts,cpp,Lightweight C++ command line option parser,targets
+274,Tencent/TNN,4587,https://github.com/Tencent/TNN.git,https://github.com/Tencent/TNN,cpp,"TNN: developed by Tencent Youtu Lab and Guangying Lab, a uniform deep learning inference framework for mobile、desktop and server. TNN is distinguished by several outstanding features, including its cross-platform capability, high performance, model compression and code pruning. Based on ncnn and Rapidnet, TNN further strengthens the support and performance optimization for mobile devices, and also draws on the advantages of good extensibility and high performance from existed open source efforts. TNN has been deployed in multiple Apps from Tencent, such as Mobile QQ, Weishi, Pitu, etc. Contributions are welcome to work in collaborative with us and make TNN a better framework. ",targets
+278,sylar-yin/sylar,4561,https://github.com/sylar-yin/sylar.git,https://github.com/sylar-yin/sylar,cpp,"C++高性能分布式服务器框架,webserver,websocket server,自定义tcp_server（包含日志模块，配置模块，线程模块，协程模块，协程调度模块，io协程调度模块，hook模块，socket模块，bytearray序列化，http模块，TcpServer模块，Websocket模块，Https模块等, Smtp邮件模块, MySQL, SQLite3, ORM,Redis,Zookeeper)",targets
+280,USCiLab/cereal,4540,https://github.com/USCiLab/cereal.git,https://github.com/USCiLab/cereal,cpp,A C++11 library for serialization,targets
+284,Chlumsky/msdfgen,4512,https://github.com/Chlumsky/msdfgen.git,https://github.com/Chlumsky/msdfgen,cpp,Multi-channel signed distance field generator,targets
+285,leejet/stable-diffusion.cpp,4498,https://github.com/leejet/stable-diffusion.cpp.git,https://github.com/leejet/stable-diffusion.cpp,cpp,"Diffusion model(SD,Flux,Wan,Qwen Image,...) inference in pure C/C++",targets
+288,jmpews/Dobby,4482,https://github.com/jmpews/Dobby.git,https://github.com/jmpews/Dobby,cpp,"a lightweight, multi-platform, multi-architecture hook framework.",targets
+291,JakubVojvoda/design-patterns-cpp,4464,https://github.com/JakubVojvoda/design-patterns-cpp.git,https://github.com/JakubVojvoda/design-patterns-cpp,cpp,C++ Design Patterns,targets
+293,CrowCpp/Crow,4444,https://github.com/CrowCpp/Crow.git,https://github.com/CrowCpp/Crow,cpp,A Fast and Easy to use microframework for the web.,targets
+296,sorayuki/obs-multi-rtmp,4422,https://github.com/sorayuki/obs-multi-rtmp.git,https://github.com/sorayuki/obs-multi-rtmp,cpp,OBS複数サイト同時配信プラグイン,targets
+299,andreasfertig/cppinsights,4403,https://github.com/andreasfertig/cppinsights.git,https://github.com/andreasfertig/cppinsights,cpp,C++ Insights - See your source code with the eyes of a compiler,targets
+300,zeux/pugixml,4403,https://github.com/zeux/pugixml.git,https://github.com/zeux/pugixml,cpp,"Light-weight, simple and fast XML parser for C++ with XPath support",targets
+301,greg7mdp/parallel-hashmap,3073,https://github.com/greg7mdp/parallel-hashmap.git,https://github.com/greg7mdp/parallel-hashmap,cpp,"A family of header-only, very fast and memory-friendly hashmap and btree containers.",targets
+303,ARM-software/ComputeLibrary,3068,https://github.com/ARM-software/ComputeLibrary.git,https://github.com/ARM-software/ComputeLibrary,cpp,The Compute Library is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies.,targets
+306,shogun-toolbox/shogun,3054,https://github.com/shogun-toolbox/shogun.git,https://github.com/shogun-toolbox/shogun,cpp,Shōgun,targets
+315,heavyai/heavydb,3032,https://github.com/heavyai/heavydb.git,https://github.com/heavyai/heavydb,cpp,HeavyDB (formerly MapD/OmniSciDB),targets
+316,bloomberg/blazingmq,3030,https://github.com/bloomberg/blazingmq.git,https://github.com/bloomberg/blazingmq,cpp,A modern high-performance open source message queuing system,targets
+320,PixarAnimationStudios/OpenSubdiv,3012,https://github.com/PixarAnimationStudios/OpenSubdiv.git,https://github.com/PixarAnimationStudios/OpenSubdiv,cpp,An Open-Source subdivision surface library.,targets
+323,Kitware/VTK,3006,https://github.com/Kitware/VTK.git,https://github.com/Kitware/VTK,cpp,Mirror of Visualization Toolkit repository,targets
+326,NVIDIAGameWorks/Falcor,3002,https://github.com/NVIDIAGameWorks/Falcor.git,https://github.com/NVIDIAGameWorks/Falcor,cpp,Real-Time Rendering Framework,targets
+329,hku-mars/FAST-LIVO2,2988,https://github.com/hku-mars/FAST-LIVO2.git,https://github.com/hku-mars/FAST-LIVO2,cpp,"FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",targets
+330,gflags/gflags,2987,https://github.com/gflags/gflags.git,https://github.com/gflags/gflags,cpp,The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used. Online documentation available at:,targets
+332,microsoft/proxy,2980,https://github.com/microsoft/proxy.git,https://github.com/microsoft/proxy,cpp,Proxy: Next Generation Polymorphism in C++,targets
+334,uncrustify/uncrustify,2971,https://github.com/uncrustify/uncrustify.git,https://github.com/uncrustify/uncrustify,cpp,Code beautifier,targets
+335,li-plus/chatglm.cpp,2970,https://github.com/li-plus/chatglm.cpp.git,https://github.com/li-plus/chatglm.cpp,cpp,C++ implementation of ChatGLM-6B & ChatGLM2-6B & ChatGLM3 & GLM4(V),targets
+337,SerenityOS/jakt,2964,https://github.com/SerenityOS/jakt.git,https://github.com/SerenityOS/jakt,cpp,The Jakt Programming Language,targets
+340,DescentDevelopers/Descent3,2957,https://github.com/DescentDevelopers/Descent3.git,https://github.com/DescentDevelopers/Descent3,cpp,Descent 3 by Outrage Entertainment,targets
+350,ttttupup/wxhelper,2927,https://github.com/ttttupup/wxhelper.git,https://github.com/ttttupup/wxhelper,cpp,Hook  WeChat  / 微信逆向,targets
+351,facebook/wdt,2923,https://github.com/facebook/wdt.git,https://github.com/facebook/wdt,cpp,Warp speed Data Transfer (WDT)  is an embeddedable library (and command line tool) aiming to transfer data between 2 systems as fast as possible over multiple TCP paths.,targets
+357,aardappel/treesheets,2907,https://github.com/aardappel/treesheets.git,https://github.com/aardappel/treesheets,cpp,TreeSheets : Free Form Data Organizer (see strlen.com/treesheets),targets
+361,FEX-Emu/FEX,2904,https://github.com/FEX-Emu/FEX.git,https://github.com/FEX-Emu/FEX,cpp,A fast usermode x86 and x86-64 emulator for Arm64 Linux,targets
+362,qt-creator/qt-creator,2904,https://github.com/qt-creator/qt-creator.git,https://github.com/qt-creator/qt-creator,cpp,A cross-platform Qt IDE,targets
+364,BinomialLLC/basis_universal,2903,https://github.com/BinomialLLC/basis_universal.git,https://github.com/BinomialLLC/basis_universal,cpp,Basis Universal GPU Texture Codec,targets
+366,subsurface/subsurface,2900,https://github.com/subsurface/subsurface.git,https://github.com/subsurface/subsurface,cpp,This is the official upstream of the Subsurface divelog program,targets
+386,hosseinmoein/DataFrame,2838,https://github.com/hosseinmoein/DataFrame.git,https://github.com/hosseinmoein/DataFrame,cpp,"C++ DataFrame for statistical, financial, and ML analysis in modern C++",targets
+387,namazso/SecureUxTheme,2838,https://github.com/namazso/SecureUxTheme.git,https://github.com/namazso/SecureUxTheme,cpp,🎨 A secure boot compatible in-memory UxTheme patcher,targets
+390,Almamu/linux-wallpaperengine,2834,https://github.com/Almamu/linux-wallpaperengine.git,https://github.com/Almamu/linux-wallpaperengine,cpp,Wallpaper Engine backgrounds for Linux!,targets
+395,shouxieai/tensorRT_Pro,2822,https://github.com/shouxieai/tensorRT_Pro.git,https://github.com/shouxieai/tensorRT_Pro,cpp,C++ library based on tensorrt integration,targets
+397,opengl-tutorials/ogl,2820,https://github.com/opengl-tutorials/ogl.git,https://github.com/opengl-tutorials/ogl,cpp,,targets

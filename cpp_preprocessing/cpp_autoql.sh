@@ -27,4 +27,5 @@ for cwe_number in "${ql_list[@]}";do
 done
 python3 /home/sixsquare/codeQL/gen_cwe_json.py ${output_dir} $DB_NAME
 rm -f "${output_dir}"/*.bqrs
+rm -rf "$codeql_db_dir/$DB_NAME"
 exit 0
