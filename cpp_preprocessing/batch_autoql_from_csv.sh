@@ -75,8 +75,8 @@ while IFS=$'\t' read -r orig_line full_name clone_url language; do
   # echo $repo_name
   # echo $dest
   rm -rf "$dest"
-
-  if ! git clone --depth "$GIT_DEPTH" "$clone_url" "$dest"; then
+  # 需要加上--recurse-submodules來下載這專案使用到的其他repo
+  if ! git clone --depth "$GIT_DEPTH" --recurse-submodules --shallow-submodules "$clone_url" "$dest"; then
     echo "!! clone 失敗：$repo_slug"
     echo "${orig_line},clone_failed" >> "$FAIL_CSV"
     [[ "$SLEEP_BETWEEN" -gt 0 ]] && sleep "$SLEEP_BETWEEN"
