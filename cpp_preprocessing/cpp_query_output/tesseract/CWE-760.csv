@@ -6,4 +6,3 @@
 "Path: /home/sixsquare/codeQL/projects/tesseract/include/tesseract/ocrclass.h","call function: 123:16-124:67","call in function: ETEXT_DESC@122-125","callee=std::time","basic block: 122:61-122:12"
 "Path: /home/sixsquare/codeQL/projects/tesseract/src/training/common/errorcounter.cpp","call function: 56:18-56:22","call in function: ComputeErrorRate@45-105","callee=clock","basic block: 55:25-56:24"
 "Path: /home/sixsquare/codeQL/projects/tesseract/src/training/common/errorcounter.cpp","call function: 100:26-100:30","call in function: ComputeErrorRate@45-105","callee=clock","basic block: 98:46-102:50"
-"Path: /home/sixsquare/codeQL/projects/tesseract/src/training/degradeimage.cpp","call function: 187:5-187:9","call in function: PrepareDistortedPix@179-217","callee=srand","basic block: 184:75-190:20"
