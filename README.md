@@ -133,7 +133,10 @@ codeql掃描的部分建議參考[官方查詢](https://docs.github.com/en/code-
     ```
 
 ## check_cwe_csvs.py
-檢查前處理有哪些專案不完全
+檢查前處理有哪些專案是好的或壞的
 ```bash
-python3 check_cwe_csvs.py   --input-csv repos_python.csv   --base-dir ./python_query_output   --output-csv missing.csv
+# 找成功前處理的
+python3 ./check_cwe_csvs.py --input-csv ./repos/cmake_candidates_2nd.csv --base-dir ./cpp_query_output/ --output-csv complete.csv --mode complete
+# 找失敗前處理的
+python3 check_cwe_csvs.py --input-csv repos_python.csv --base-dir ./python_query_output --output-csv missing.csv
 ```

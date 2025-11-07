@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 import argparse
 import csv
 import os
@@ -34,9 +33,19 @@ def main():
     parser = argparse.ArgumentParser(description="Check for required CWE CSVs per repo folder.")
     parser.add_argument("--input-csv", required=True, help="Path to the input CSV containing at least a 'full_name' column.")
     parser.add_argument("--base-dir", required=True, help="Root directory that contains per-repo folders (<base-dir>/<repo>/).")
-    parser.add_argument("--output-csv", required=True, help="Path to write rows where required files are missing.")
-    parser.add_argument("--include-missing-list", action="store_true",
-                        help="Append a 'missing_files' column with a semicolon-separated list of missing CSVs.")
+    parser.add_argument("--output-csv", required=True, help="Path to write filtered rows.")
+    parser.add_argument(
+        "--mode",
+        choices=["missing", "complete"],
+        default="missing",
+        help="missing: output rows where required files are missing (default); "
+             "complete: output rows where all required files exist.",
+    )
+    parser.add_argument(
+        "--include-missing-list",
+        action="store_true",
+        help="Append a 'missing_files' column with a semicolon-separated list of missing CSVs (for 'missing' mode).",
+    )
     args = parser.parse_args()
 
     with open(args.input_csv, newline="", encoding="utf-8") as f_in:
@@ -60,11 +69,18 @@ def main():
                 target_folder = folder_for_row(args.base_dir, full_name)
                 missing = missing_required_files(target_folder)
 
-                if missing:
-                    if args.include_missing_list:
-                        row = dict(row)
-                        row["missing_files"] = ";".join(missing)
-                    writer.writerow(row)
+                if args.mode == "missing":
+                    if missing:
+                        if args.include_missing_list:
+                            row = dict(row)
+                            row["missing_files"] = ";".join(missing)
+                        writer.writerow(row)
+                else:
+                    if not missing:
+                        if args.include_missing_list:
+                            row = dict(row)
+                            row["missing_files"] = ""
+                        writer.writerow(row)
 
 if __name__ == "__main__":
     main()
