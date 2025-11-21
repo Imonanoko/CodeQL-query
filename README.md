@@ -140,3 +140,13 @@ python3 ./check_cwe_csvs.py --input-csv ./repos/cmake_candidates_2nd.csv --base-
 # 找失敗前處理的
 python3 check_cwe_csvs.py --input-csv repos_python.csv --base-dir ./python_query_output --output-csv missing.csv
 ```
+## cpp_preprocessing/cpp_cwe_scan.sh
+靜態分析器安裝
+```bash
+sudo apt install flawfinder cppcheck
+```
+使用範例
+```bash
+cd cpp_preprocessing
+bash cpp_cwe_scan.sh --project ../projects/casadi/ --cwe "022, 078, 327" --out ./results_c_cpp --threads 8
+```
