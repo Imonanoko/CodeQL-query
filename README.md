@@ -74,7 +74,7 @@ pip install bandit semgrep
 安裝CodeQL
 [參考](https://medium.com/ricos-note/codeql%E5%9C%A8ubuntu%E5%BB%BA%E7%BD%AE%E5%92%8C%E5%88%86%E6%9E%90-net-90b7a7eb008f)
 ```bash
-wget https://github.com/github/codeql-action/releases/download/codeql-bundle-v2.16.1/codeql-bundle-linux64.tar.gz
+wget https://github.com/github/codeql-action/releases/download/codeql-bundle-v2.22.4/codeql-bundle-linux64.tar.gz
 
 tar -xvzf codeql-bundle-linux64.tar.gz
 
