@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/CommandLineRunner.java","call function: 86:42-86:61","call in function: main@50-106","callee=java.lang.Runtime.getRuntime","basic block: 86:42-86:61"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/CommandLineRunner.java","call function: 89:34-89:73","call in function: main@50-106","callee=java.util.concurrent.Executors.newFixedThreadPool","basic block: 89:34-89:73"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/CommandLineRunner.java","call function: 92:21-92:73","call in function: main@50-106","callee=java.util.concurrent.ExecutorService.submit","basic block: 92:21-92:73"

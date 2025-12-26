@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/utilcode/src/main/java/com/blankj/utilcode/util/ConvertUtils.java","call function: 326:19-326:72","call in function: bytes2Object@322-340","callee=java.io.ObjectInputStream.<init>","basic block: 326:19-326:72"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/utilcode/src/main/java/com/blankj/utilcode/util/ConvertUtils.java","call function: 327:20-327:35","call in function: bytes2Object@322-340","callee=java.io.ObjectInputStream.readObject","basic block: 327:20-327:35"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/utilcode/src/main/java/com/blankj/utilcode/util/ConvertUtils.java","call function: 350:19-350:76","call in function: serializable2Bytes@345-365","callee=java.io.ObjectOutputStream.<init>","basic block: 350:19-350:76"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/utilcode/src/main/java/com/blankj/utilcode/util/ConvertUtils.java","call function: 351:13-351:41","call in function: serializable2Bytes@345-365","callee=java.io.ObjectOutputStream.writeObject","basic block: 351:13-351:41"

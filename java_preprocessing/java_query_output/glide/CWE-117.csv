@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/glide/instrumentation/src/androidTest/java/com/bumptech/glide/LoadResourcesWithDownsamplerTest.java","call function: 283:19-289:65","call in function: getInputStreamForResource@278-294","callee=java.lang.String.format","basic block: 283:19-289:65"
+"Path: /home/sixsquare/codeQL/projects/glide/library/src/main/java/com/bumptech/glide/util/pool/GlideTrace.java","call function: 35:38-35:64","call in function: beginSectionFormat@33-37","callee=java.lang.String.format","basic block: 35:38-35:64"
+"Path: /home/sixsquare/codeQL/projects/glide/library/src/main/java/com/bumptech/glide/util/pool/GlideTrace.java","call function: 41:38-41:70","call in function: beginSectionFormat@39-43","callee=java.lang.String.format","basic block: 41:38-41:70"
+"Path: /home/sixsquare/codeQL/projects/glide/library/src/main/java/com/bumptech/glide/util/pool/GlideTrace.java","call function: 47:38-47:76","call in function: beginSectionFormat@45-49","callee=java.lang.String.format","basic block: 47:38-47:76"
+"Path: /home/sixsquare/codeQL/projects/glide/samples/flickr/src/main/java/com/bumptech/glide/samples/flickr/api/Api.java","call function: 95:12-96:98","call in function: getCacheableUrl@94-97","callee=java.lang.String.format","basic block: 95:12-96:98"
+"Path: /home/sixsquare/codeQL/projects/glide/samples/flickr/src/main/java/com/bumptech/glide/samples/flickr/api/Api.java","call function: 112:12-112:48","call in function: getUrlForMethod@111-113","callee=java.lang.String.format","basic block: 112:12-112:48"

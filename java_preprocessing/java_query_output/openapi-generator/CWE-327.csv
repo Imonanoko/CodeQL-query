@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/openapi-generator/modules/openapi-generator-maven-plugin/src/main/java/org/openapitools/codegen/plugin/CodeGenMojo.java","call function: 1049:16-1049:31","call in function: calculateInputSpecHash@1042-1053","callee=com.google.common.hash.Hashing.sha256","basic block: 1049:16-1049:31"
+"Path: /home/sixsquare/codeQL/projects/openapi-generator/samples/client/petstore/java/jersey3/src/main/java/org/openapitools/client/auth/HttpSignatureAuth.java","call function: 260:51-260:124","call in function: applyToParams@244-279","callee=java.security.MessageDigest.digest","basic block: 260:51-260:124"
+"Path: /home/sixsquare/codeQL/projects/openapi-generator/samples/client/petstore/java/jersey3/src/main/java/org/openapitools/client/auth/HttpSignatureAuth.java","call function: 260:51-260:97","call in function: applyToParams@244-279","callee=java.security.MessageDigest.getInstance","basic block: 260:51-260:97"

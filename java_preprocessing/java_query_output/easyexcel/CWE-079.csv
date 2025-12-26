@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/easyexcel/easyexcel-core/src/main/java/com/alibaba/excel/util/FileUtils.java","call function: 134:17-134:56","call in function: writeToFile@127-154","callee=java.io.OutputStream.write","basic block: 134:17-134:56"
+"Path: /home/sixsquare/codeQL/projects/easyexcel/easyexcel-core/src/main/java/com/alibaba/excel/util/IoUtils.java","call function: 79:13-79:38","call in function: copy@74-86","callee=java.io.OutputStream.write","basic block: 79:13-79:38"

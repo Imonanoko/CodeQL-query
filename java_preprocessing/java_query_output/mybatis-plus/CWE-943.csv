@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mybatis-plus/mybatis-plus-core/src/main/java/com/baomidou/mybatisplus/core/MybatisPlusVersion.java","call function: 52:40-52:74","call in function: determineSpringBootVersion@41-62","callee=java.net.URL.openConnection","basic block: 52:40-52:74"

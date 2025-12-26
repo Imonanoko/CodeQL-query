@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/conversions/IPv6Converter.java","call function: 34:28-34:61","call in function: ipv4ToIpv6@29-52","callee=java.net.InetAddress.getByName","basic block: 34:28-34:61"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/conversions/IPv6Converter.java","call function: 63:28-63:61","call in function: ipv6ToIpv4@62-74","callee=java.net.InetAddress.getByName","basic block: 63:28-63:61"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/conversions/IPv6Converter.java","call function: 70:20-70:40","call in function: ipv6ToIpv4@62-74","callee=java.net.InetAddress.getHostAddress","basic block: 70:20-70:40"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 130:18-130:36","call in function: main@65-202","callee=java.lang.String.equals","basic block: 130:18-130:36"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 244:30-244:57","call in function: test@244-244","callee=java.lang.String.endsWith","basic block: 244:30-244:57"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 256:13-256:40","call in function: getOutputPath@252-269","callee=java.lang.String.equals","basic block: 256:13-256:40"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 312:17-312:45","call in function: splitContent@306-329","callee=java.lang.String.startsWith","basic block: 312:17-312:45"

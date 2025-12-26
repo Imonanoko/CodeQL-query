@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/12-strings/code/src/com/kunal/Comparison.java","call function: 17:28-17:46","call in function: main@4-19","callee=java.lang.String.equals","basic block: 17:28-17:46"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/14-recursion/code/src/com/kunal/strings/Stream.java","call function: 40:13-40:34","call in function: skipApple@36-45","callee=java.lang.String.startsWith","basic block: 40:13-40:34"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/14-recursion/code/src/com/kunal/strings/Stream.java","call function: 51:13-51:32","call in function: skipAppNotApple@47-56","callee=java.lang.String.startsWith","basic block: 51:13-51:32"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/14-recursion/code/src/com/kunal/strings/Stream.java","call function: 51:38-51:59","call in function: skipAppNotApple@47-56","callee=java.lang.String.startsWith","basic block: 51:38-51:59"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/17-oop/code/src/com/kunal/exceptionHandling/Main.java","call function: 11:17-11:36","call in function: main@4-24","callee=java.lang.String.equals","basic block: 11:17-11:36"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/20-trees/code/Advance questions/WordLadder.java","call function: 25:29-25:51","call in function: ladderLength@2-38","callee=java.lang.String.equals","basic block: 25:29-25:51"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/25-hashmaps/code/KarpRabin/KarpRabin.java","call function: 25:12-25:61","call in function: search@18-34","callee=java.lang.String.equals","basic block: 25:12-25:61"

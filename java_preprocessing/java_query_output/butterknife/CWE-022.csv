@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/butterknife/butterknife-compiler/src/main/java/butterknife/compiler/ButterKnifeProcessor.java","call function: 406:23-406:49","call in function: logParsingError@403-408","callee=java.io.PrintWriter.<init>","basic block: 406:23-406:49"
+"Path: /home/sixsquare/codeQL/projects/butterknife/butterknife-compiler/src/main/java/butterknife/compiler/ButterKnifeProcessor.java","call function: 1034:27-1034:53","call in function: findAndParseListener@1025-1040","callee=java.io.PrintWriter.<init>","basic block: 1034:27-1034:53"
+"Path: /home/sixsquare/codeQL/projects/butterknife/butterknife-runtime/src/test/java/butterknife/ClasspathParentBindTest.java","call function: 248:36-248:64","call in function: compileSources@240-257","callee=java.io.File.getCanonicalPath","basic block: 248:36-248:64"
+"Path: /home/sixsquare/codeQL/projects/butterknife/butterknife-runtime/src/test/java/butterknife/ClasspathParentBindTest.java","call function: 248:73-248:101","call in function: compileSources@240-257","callee=java.io.File.getCanonicalPath","basic block: 248:73-248:101"

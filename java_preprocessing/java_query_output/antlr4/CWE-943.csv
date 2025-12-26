@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/antlr4/runtime-testsuite/test/org/antlr/v4/test/runtime/java/api/perf/TimeLexerSpeed.java","call function: 498:9-498:57","call in function: getResourceSize@493-505","callee=java.net.URL.openConnection","basic block: 498:9-498:57"

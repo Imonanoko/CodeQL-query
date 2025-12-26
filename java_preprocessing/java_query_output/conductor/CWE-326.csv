@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/conductor/core/src/main/java/com/netflix/conductor/core/reconciliation/WorkflowSweeper.java","call function: 192:23-192:65","call in function: workflowOffsetWithJitter@190-194","callee=java.util.Random.nextInt","basic block: 192:23-192:65"
+"Path: /home/sixsquare/codeQL/projects/conductor/core/src/main/java/com/netflix/conductor/core/reconciliation/WorkflowSweeper.java","call function: 192:23-192:34","call in function: workflowOffsetWithJitter@190-194","callee=java.util.Random.<init>","basic block: 192:23-192:34"

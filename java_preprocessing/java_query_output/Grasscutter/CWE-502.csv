@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/utils/lang/Language.java","call function: 285:17-286:100","call in function: loadTextMapsCache@283-291","callee=java.io.ObjectInputStream.<init>","basic block: 285:17-286:100"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/utils/lang/Language.java","call function: 289:49-289:65","call in function: loadTextMapsCache@283-291","callee=java.io.ObjectInputStream.readObject","basic block: 289:49-289:65"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/utils/lang/Language.java","call function: 296:17-298:112","call in function: saveTextMapsCache@293-302","callee=java.io.ObjectOutputStream.<init>","basic block: 296:17-298:112"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/utils/lang/Language.java","call function: 300:13-300:35","call in function: saveTextMapsCache@293-302","callee=java.io.ObjectOutputStream.writeObject","basic block: 300:13-300:35"

@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/src/main/java/org/apache/ibatis/jdbc/ScriptRunner.java","call function: 308:7-308:24","call in function: print@306-311","callee=java.io.PrintWriter.print","basic block: 308:7-308:24"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/src/main/java/org/apache/ibatis/jdbc/ScriptRunner.java","call function: 315:7-315:26","call in function: println@313-318","callee=java.io.PrintWriter.println","basic block: 315:7-315:26"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/src/main/java/org/apache/ibatis/jdbc/ScriptRunner.java","call function: 322:7-322:31","call in function: printlnError@320-325","callee=java.io.PrintWriter.println","basic block: 322:7-322:31"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/src/test/java/org/apache/ibatis/submitted/language/VelocitySqlSource.java","call function: 70:31-70:59","call in function: getBoundSql@68-82","callee=org.apache.velocity.VelocityContext.<init>","basic block: 70:31-70:59"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/src/test/java/org/apache/ibatis/submitted/language/VelocitySqlSource.java","call function: 72:5-72:29","call in function: getBoundSql@68-82","callee=org.apache.velocity.Template.merge","basic block: 72:5-72:29"

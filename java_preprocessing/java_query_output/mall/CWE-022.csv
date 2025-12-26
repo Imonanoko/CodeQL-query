@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mall/mall-admin/src/main/java/com/macro/mall/controller/MinioController.java","call function: 65:31-65:56","call in function: upload@45-86","callee=org.springframework.web.multipart.MultipartFile.getOriginalFilename","basic block: 65:31-65:56"

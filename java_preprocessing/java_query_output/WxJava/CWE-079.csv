@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/WxJava/weixin-graal/src/main/java/com/github/binarywang/wx/graal/GraalProcessor.java","call function: 119:9-119:27","call in function: writeFiles@92-136","callee=java.io.Writer.write","basic block: 119:9-119:27"
+"Path: /home/sixsquare/codeQL/projects/WxJava/weixin-graal/src/main/java/com/github/binarywang/wx/graal/GraalProcessor.java","call function: 125:13-125:29","call in function: writeFiles@92-136","callee=java.io.Writer.write","basic block: 125:13-125:29"
+"Path: /home/sixsquare/codeQL/projects/WxJava/weixin-graal/src/main/java/com/github/binarywang/wx/graal/GraalProcessor.java","call function: 127:11-127:51","call in function: writeFiles@92-136","callee=java.io.Writer.write","basic block: 127:11-127:51"
+"Path: /home/sixsquare/codeQL/projects/WxJava/weixin-graal/src/main/java/com/github/binarywang/wx/graal/GraalProcessor.java","call function: 130:9-130:25","call in function: writeFiles@92-136","callee=java.io.Writer.write","basic block: 130:9-130:25"
+"Path: /home/sixsquare/codeQL/projects/WxJava/weixin-java-pay/src/main/java/com/github/binarywang/wxpay/util/RequestUtils.java","call function: 27:12-27:30","call in function: readData@23-47","callee=javax.servlet.ServletRequest.getReader","basic block: 27:12-27:30"

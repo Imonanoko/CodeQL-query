@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/leetcode/basic/sorting/HeapSort/Main.java","call function: 8:22-8:43","call in function: main@7-22","callee=java.util.Scanner.<init>","basic block: 8:22-8:43"
+"Path: /home/sixsquare/codeQL/projects/leetcode/lcof/面试题37. 序列化二叉树/Solution.java","call function: 38:25-38:39","call in function: deserialize@34-57","callee=java.lang.String.split","basic block: 38:25-38:39"
+"Path: /home/sixsquare/codeQL/projects/leetcode/solution/3400-3499/3484.Design Spreadsheet/Solution.java","call function: 17:28-17:60","call in function: getValue@15-22","callee=java.lang.String.split","basic block: 17:28-17:60"

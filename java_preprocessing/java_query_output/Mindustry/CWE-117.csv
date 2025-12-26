@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/server/src/mindustry/server/ServerControl.java","call function: 143:21-143:75","call in function: log@130-148","callee=java.io.PrintWriter.println","basic block: 143:21-143:75"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/annotations/src/main/java/mindustry/annotations/impl/AssetsProcess.java","call function: 51:127-51:173","call in function: get@46-52","callee=java.lang.String.format","basic block: 51:127-51:173"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/annotations/src/main/java/mindustry/annotations/impl/AssetsProcess.java","call function: 72:127-72:156","call in function: processUI@30-123","callee=java.lang.String.format","basic block: 72:127-72:156"

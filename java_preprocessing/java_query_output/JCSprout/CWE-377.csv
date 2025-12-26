@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java","call function: 39:21-39:34","call in function: main@36-49","callee=java.io.File.<init>","basic block: 39:21-39:34"

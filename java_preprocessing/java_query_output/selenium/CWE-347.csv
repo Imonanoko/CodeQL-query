@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/selenium/java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java","call function: 252:29-252:57","call in function: shouldBeAbleToSendMessagesOverSecureWebSocket@193-279","callee=javax.net.ssl.SSLContext.getInstance","basic block: 252:29-252:57"
+"Path: /home/sixsquare/codeQL/projects/selenium/java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java","call function: 253:5-253:80","call in function: shouldBeAbleToSendMessagesOverSecureWebSocket@193-279","callee=javax.net.ssl.SSLContext.init","basic block: 253:5-253:80"

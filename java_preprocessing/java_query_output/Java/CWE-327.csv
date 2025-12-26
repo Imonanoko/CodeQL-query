@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/ciphers/AESEncryption.java","call function: 69:21-69:59","call in function: encryptText@67-72","callee=javax.crypto.Cipher.getInstance","basic block: 69:21-69:59"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/ciphers/AESEncryption.java","call function: 70:9-70:51","call in function: encryptText@67-72","callee=javax.crypto.Cipher.init","basic block: 70:9-70:51"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/ciphers/AESEncryption.java","call function: 71:16-71:54","call in function: encryptText@67-72","callee=javax.crypto.Cipher.doFinal","basic block: 71:16-71:54"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/ciphers/AESEncryption.java","call function: 81:35-81:73","call in function: decryptText@79-86","callee=javax.crypto.Cipher.getInstance","basic block: 81:35-81:73"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/ciphers/AESEncryption.java","call function: 82:45-82:88","call in function: decryptText@79-86","callee=javax.crypto.spec.GCMParameterSpec.<init>","basic block: 82:45-82:88"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/ciphers/AESEncryption.java","call function: 84:32-84:71","call in function: decryptText@79-86","callee=javax.crypto.Cipher.doFinal","basic block: 84:32-84:71"
+"Path: /home/sixsquare/codeQL/projects/Java/src/main/java/com/thealgorithms/ciphers/AESEncryption.java","call function: 83:9-83:76","call in function: decryptText@79-86","callee=javax.crypto.Cipher.init","basic block: 83:9-83:76"

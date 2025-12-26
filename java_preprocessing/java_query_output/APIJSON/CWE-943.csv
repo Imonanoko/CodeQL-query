@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/APIJSON/APIJSONORM/src/main/java/apijson/orm/AbstractVerifier.java","call function: 1450:5-1450:24","call in function: verifyType@1404-1508","callee=java.net.URL.<init>","basic block: 1450:5-1450:24"

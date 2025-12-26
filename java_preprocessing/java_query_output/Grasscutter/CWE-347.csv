@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/server/packet/recv/HandlerGetPlayerTokenReq.java","call function: 127:40-127:77","call in function: handle@23-149","callee=java.security.Signature.getInstance","basic block: 127:40-127:77"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/server/packet/recv/HandlerGetPlayerTokenReq.java","call function: 129:17-129:50","call in function: handle@23-149","callee=java.security.Signature.update","basic block: 129:17-129:50"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/utils/Crypto.java","call function: 123:38-123:75","call in function: encryptAndSignRegionData@98-132","callee=java.security.Signature.getInstance","basic block: 123:38-123:75"
+"Path: /home/sixsquare/codeQL/projects/Grasscutter/src/main/java/emu/grasscutter/utils/Crypto.java","call function: 125:9-125:43","call in function: encryptAndSignRegionData@98-132","callee=java.security.Signature.update","basic block: 125:9-125:43"

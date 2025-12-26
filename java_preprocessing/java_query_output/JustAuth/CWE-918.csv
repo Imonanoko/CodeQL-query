@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JustAuth/src/main/java/me/zhyd/oauth/utils/IpUtils.java","call function: 21:20-21:62","call in function: getLocalIp@19-26","callee=java.net.InetAddress.getHostAddress","basic block: 21:20-21:62"

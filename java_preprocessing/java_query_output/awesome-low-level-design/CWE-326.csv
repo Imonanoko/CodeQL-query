@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/awesome-low-level-design/solutions/java/src/cricinfo/CommentaryManager.java","call function: 14:35-14:46","call in function: <obinit>@12-12","callee=java.util.Random.<init>","basic block: 14:35-14:46"
+"Path: /home/sixsquare/codeQL/projects/awesome-low-level-design/solutions/java/src/cricinfo/CommentaryManager.java","call function: 96:41-96:72","call in function: generateCommentary@92-105","callee=java.util.Random.nextInt","basic block: 96:41-96:72"
+"Path: /home/sixsquare/codeQL/projects/awesome-low-level-design/solutions/java/src/votingsystem/VotingSystemDemo.java","call function: 28:34-28:58","call in function: call@26-34","callee=java.util.Random.nextInt","basic block: 28:34-28:58"
+"Path: /home/sixsquare/codeQL/projects/awesome-low-level-design/solutions/java/src/votingsystem/VotingSystemDemo.java","call function: 28:34-28:45","call in function: call@26-34","callee=java.util.Random.<init>","basic block: 28:34-28:45"

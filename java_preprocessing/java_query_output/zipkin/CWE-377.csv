@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-tests/src/main/java/zipkin2/TestObjects.java","call function: 94:5-94:16","call in function: <clinit>@21-21","callee=java.util.Random.<init>","basic block: 94:5-94:16"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-storage/cassandra/src/main/java/zipkin2/storage/cassandra/CassandraUtil.java","call function: 115:40-115:68","call in function: <clinit>@94-94","callee=java.util.Random.<init>","basic block: 115:40-115:68"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-storage/cassandra/src/main/java/zipkin2/storage/cassandra/CassandraUtil.java","call function: 105:37-105:50","call in function: map@97-109","callee=java.util.Random.nextInt","basic block: 105:37-105:50"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-server/src/main/java/zipkin2/server/internal/elasticsearch/DynamicCredentialsFileLoader.java","call function: 47:31-47:66","call in function: updateCredentialsFromProperties@45-53","callee=java.io.FileInputStream.<init>","basic block: 47:31-47:66"

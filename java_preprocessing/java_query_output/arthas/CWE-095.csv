@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/arthas/memorycompiler/src/main/java/com/taobao/arthas/compiler/DynamicCompiler.java","call function: 18:47-18:82","call in function: <obinit>@17-17","callee=javax.tools.ToolProvider.getSystemJavaCompiler","basic block: 18:47-18:82"
+"Path: /home/sixsquare/codeQL/projects/arthas/memorycompiler/src/main/java/com/taobao/arthas/compiler/DynamicCompiler.java","call function: 56:45-57:41","call in function: build@48-96","callee=javax.tools.JavaCompiler.getTask","basic block: 56:45-57:41"
+"Path: /home/sixsquare/codeQL/projects/arthas/memorycompiler/src/main/java/com/taobao/arthas/compiler/DynamicCompiler.java","call function: 106:45-107:41","call in function: buildByteCodes@98-146","callee=javax.tools.JavaCompiler.getTask","basic block: 106:45-107:41"
+"Path: /home/sixsquare/codeQL/projects/arthas/core/src/main/java/com/taobao/arthas/core/command/express/OgnlExpress.java","call function: 30:19-30:75","call in function: OgnlExpress@28-31","callee=ognl.OgnlContext.<init>","basic block: 30:19-30:75"
+"Path: /home/sixsquare/codeQL/projects/arthas/core/src/main/java/com/taobao/arthas/core/command/express/OgnlExpress.java","call function: 36:20-36:62","call in function: get@34-41","callee=ognl.Ognl.getValue","basic block: 36:20-36:62"

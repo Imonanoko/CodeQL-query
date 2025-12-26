@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mybatis-plus/mybatis-plus-core/src/main/java/com/baomidou/mybatisplus/core/MybatisPlusVersion.java","call function: 52:40-52:74","call in function: determineSpringBootVersion@41-62","callee=java.net.URL.openConnection","basic block: 52:40-52:74"
+"Path: /home/sixsquare/codeQL/projects/mybatis-plus/mybatis-plus-core/src/main/java/com/baomidou/mybatisplus/core/MybatisPlusVersion.java","call function: 56:57-56:82","call in function: determineSpringBootVersion@41-62","callee=java.net.URL.toURI","basic block: 56:57-56:82"
+"Path: /home/sixsquare/codeQL/projects/mybatis-plus/mybatis-plus-core/src/main/java/com/baomidou/mybatisplus/core/toolkit/NetUtils.java","call function: 61:37-61:63","call in function: findFirstNonLoopbackAddress@49-80","callee=java.net.InetAddress.isLoopbackAddress","basic block: 61:37-61:63"
+"Path: /home/sixsquare/codeQL/projects/mybatis-plus/mybatis-plus-core/src/main/java/com/baomidou/mybatisplus/core/toolkit/NetUtils.java","call function: 88:40-88:63","call in function: isPreferredAddress@82-94","callee=java.net.InetAddress.getHostAddress","basic block: 88:40-88:63"

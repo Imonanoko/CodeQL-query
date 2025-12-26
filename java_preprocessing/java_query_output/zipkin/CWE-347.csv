@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-server/src/main/java/zipkin2/server/internal/elasticsearch/SslUtil.java","call function: 34:7-34:80","call in function: getTrustManagerFactory@29-37","callee=javax.net.ssl.TrustManagerFactory.getInstance","basic block: 34:7-34:80"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-server/src/main/java/zipkin2/server/internal/elasticsearch/SslUtil.java","call function: 35:5-35:35","call in function: getTrustManagerFactory@29-37","callee=javax.net.ssl.TrustManagerFactory.init","basic block: 35:5-35:35"

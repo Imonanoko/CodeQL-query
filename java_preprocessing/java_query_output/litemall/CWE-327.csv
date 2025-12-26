@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-core/src/main/java/org/linlinjava/litemall/core/express/ExpressService.java","call function: 112:28-112:59","call in function: MD5@111-124","callee=java.security.MessageDigest.getInstance","basic block: 112:28-112:59"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-core/src/main/java/org/linlinjava/litemall/core/express/ExpressService.java","call function: 114:25-114:35","call in function: MD5@111-124","callee=java.security.MessageDigest.digest","basic block: 114:25-114:35"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-core/src/main/java/org/linlinjava/litemall/core/express/ExpressService.java","call function: 113:9-113:40","call in function: MD5@111-124","callee=java.security.MessageDigest.update","basic block: 113:9-113:40"

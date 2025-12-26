@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/cache/disc/naming/Md5FileNameGenerator.java","call function: 45:27-45:67","call in function: getMD5@42-52","callee=java.security.MessageDigest.getInstance","basic block: 45:27-45:67"
+"Path: /home/sixsquare/codeQL/projects/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/cache/disc/naming/Md5FileNameGenerator.java","call function: 46:4-46:22","call in function: getMD5@42-52","callee=java.security.MessageDigest.update","basic block: 46:4-46:22"
+"Path: /home/sixsquare/codeQL/projects/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/cache/disc/naming/Md5FileNameGenerator.java","call function: 47:11-47:25","call in function: getMD5@42-52","callee=java.security.MessageDigest.digest","basic block: 47:11-47:25"

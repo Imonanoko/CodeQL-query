@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountApp.java","call function: 63:48-63:64","call in function: main@26-83","callee=java.net.URI.<init>","basic block: 63:48-63:64"
+"Path: /home/sixsquare/codeQL/projects/BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountCombinerApp.java","call function: 66:48-66:64","call in function: main@26-86","callee=java.net.URI.<init>","basic block: 66:48-66:64"
+"Path: /home/sixsquare/codeQL/projects/BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountCombinerPartitionerApp.java","call function: 74:48-74:64","call in function: main@28-94","callee=java.net.URI.<init>","basic block: 74:48-74:64"
+"Path: /home/sixsquare/codeQL/projects/BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java","call function: 72:41-72:56","call in function: generateDataToHDFS@69-85","callee=java.net.URI.<init>","basic block: 72:41-72:56"
+"Path: /home/sixsquare/codeQL/projects/BigData-Notes/code/Hadoop/hdfs-java-api/src/main/java/com/heibaiying/utils/HdfsUtils.java","call function: 28:41-28:58","call in function: <clinit>@16-16","callee=java.net.URI.<init>","basic block: 28:41-28:58"
+"Path: /home/sixsquare/codeQL/projects/BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java","call function: 34:41-34:58","call in function: prepare@29-42","callee=java.net.URI.<init>","basic block: 34:41-34:58"

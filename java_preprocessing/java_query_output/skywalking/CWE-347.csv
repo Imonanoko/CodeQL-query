@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/skywalking/oap-server/server-library/library-elasticsearch-client/src/main/java/org/apache/skywalking/library/elasticsearch/ElasticSearchBuilder.java","call function: 164:17-164:90","call in function: build@149-208","callee=javax.net.ssl.TrustManagerFactory.getInstance","basic block: 164:17-164:90"
+"Path: /home/sixsquare/codeQL/projects/skywalking/oap-server/server-library/library-elasticsearch-client/src/main/java/org/apache/skywalking/library/elasticsearch/ElasticSearchBuilder.java","call function: 169:13-169:48","call in function: build@149-208","callee=javax.net.ssl.TrustManagerFactory.init","basic block: 169:13-169:48"

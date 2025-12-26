@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-demo/demo-oauth/oauth-resource-server/src/main/java/com/xkcoding/oauth/config/OauthResourceTokenConfig.java","call function: 81:31-81:78","call in function: getKeyFromAuthorizationServer@74-88","callee=com.fasterxml.jackson.databind.ObjectMapper.readValue","basic block: 81:31-81:78"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/http/HttpUtils.java","call function: 66:13-66:77","call in function: getConnection@62-75","callee=javax.net.ssl.HttpsURLConnection.setSSLSocketFactory","basic block: 66:13-66:77"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/http/HttpUtils.java","call function: 67:13-67:77","call in function: getConnection@62-75","callee=javax.net.ssl.HttpsURLConnection.setHostnameVerifier","basic block: 67:13-67:77"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/http/SSLConfig.java","call function: 123:41-123:69","call in function: DefaultSSLSocketFactory@121-129","callee=javax.net.ssl.SSLContext.getInstance","basic block: 123:41-123:69"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/http/SSLConfig.java","call function: 124:17-124:81","call in function: DefaultSSLSocketFactory@121-129","callee=javax.net.ssl.SSLContext.init","basic block: 124:17-124:81"

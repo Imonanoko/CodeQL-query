@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/FizzBuzzEnterpriseEdition/src/test/java/FizzBuzzTest.java","call function: 57:44-57:100","call in function: doFizzBuzz@49-59","callee=java.lang.String.replaceAll","basic block: 57:44-57:100"

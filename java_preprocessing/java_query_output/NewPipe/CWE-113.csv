@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/NewPipe/app/src/main/java/org/schabi/newpipe/DownloaderImpl.java","call function: 139:56-142:52","call in function: execute@127-177","callee=okhttp3.Request$Builder.addHeader","basic block: 139:56-142:52"
+"Path: /home/sixsquare/codeQL/projects/NewPipe/app/src/main/java/org/schabi/newpipe/DownloaderImpl.java","call function: 146:13-146:55","call in function: execute@127-177","callee=okhttp3.Request$Builder.addHeader","basic block: 146:13-146:55"
+"Path: /home/sixsquare/codeQL/projects/NewPipe/app/src/main/java/org/schabi/newpipe/DownloaderImpl.java","call function: 152:21-152:69","call in function: accept@151-152","callee=okhttp3.Request$Builder.addHeader","basic block: 152:21-152:69"

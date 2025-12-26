@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/HttpsUtil.java","call function: 75:24-75:35","call in function: doHttpAction@70-130","callee=java.net.URL.<init>","basic block: 75:24-75:35"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/HttpsUtil.java","call function: 76:46-76:66","call in function: doHttpAction@70-130","callee=java.net.URL.openConnection","basic block: 76:46-76:66"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/http/HttpUtils.java","call function: 63:54-63:82","call in function: getConnection@62-75","callee=java.net.URL.openConnection","basic block: 63:54-63:82"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/subutil/src/main/java/com/blankj/subutil/util/http/Request.java","call function: 36:20-36:31","call in function: Request@34-40","callee=java.net.URL.<init>","basic block: 36:20-36:31"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/utilcode/src/main/java/com/blankj/utilcode/util/FileUtils.java","call function: 1196:64-1196:97","call in function: getFileLength@1192-1208","callee=java.net.URL.openConnection","basic block: 1196:64-1196:97"
+"Path: /home/sixsquare/codeQL/projects/AndroidUtilCode/lib/utilcode/src/main/java/com/blankj/utilcode/util/FileUtils.java","call function: 1196:64-1196:80","call in function: getFileLength@1192-1208","callee=java.net.URL.<init>","basic block: 1196:64-1196:80"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java","call function: 115:35-115:80","call in function: onMenuItemClick@71-130","callee=java.lang.String.format","basic block: 115:35-115:80"
+"Path: /home/sixsquare/codeQL/projects/PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java","call function: 151:23-151:118","call in function: onPhotoTap@147-152","callee=java.lang.String.format","basic block: 151:23-151:118"
+"Path: /home/sixsquare/codeQL/projects/PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java","call function: 176:32-176:84","call in function: onFling@175-178","callee=java.lang.String.format","basic block: 176:32-176:84"

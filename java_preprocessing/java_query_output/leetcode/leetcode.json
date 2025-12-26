@@ -1,0 +1,291 @@
+{
+  "CWE-022": {
+    "java.util.Scanner.<init>": {
+      "leetcode/basic/sorting/HeapSort/Main.java": [
+        [
+          "main",
+          7,
+          22,
+          8,
+          22,
+          8,
+          43,
+          8,
+          22,
+          8,
+          43
+        ]
+      ]
+    }
+  },
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {},
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {},
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {},
+  "CWE-643": {
+    "java.lang.StringBuilder.append": {
+      "leetcode/solution/1200-1299/1286.Iterator for Combination/Solution.java": [
+        [
+          "dfs",
+          24,
+          36,
+          32,
+          9,
+          32,
+          38,
+          32,
+          9,
+          32,
+          38
+        ]
+      ],
+      "leetcode/solution/2200-2299/2227.Encrypt and Decrypt Strings/Solution.java": [
+        [
+          "encrypt",
+          14,
+          23,
+          20,
+          13,
+          20,
+          32,
+          20,
+          13,
+          20,
+          32
+        ]
+      ],
+      "leetcode/solution/2200-2299/2296.Design a Text Editor/Solution.java": [
+        [
+          "addText",
+          8,
+          10,
+          9,
+          9,
+          9,
+          25,
+          9,
+          9,
+          9,
+          25
+        ],
+        [
+          "cursorLeft",
+          18,
+          25,
+          21,
+          13,
+          21,
+          56,
+          21,
+          13,
+          21,
+          56
+        ],
+        [
+          "cursorRight",
+          27,
+          34,
+          30,
+          13,
+          30,
+          57,
+          30,
+          13,
+          30,
+          57
+        ]
+      ]
+    }
+  },
+  "CWE-760": {
+    "java.lang.String.equals": {
+      "leetcode/lcof/面试题37. 序列化二叉树/Solution.java": [
+        [
+          "deserialize",
+          34,
+          57,
+          45,
+          18,
+          45,
+          36,
+          45,
+          18,
+          45,
+          36
+        ],
+        [
+          "deserialize",
+          34,
+          57,
+          50,
+          18,
+          50,
+          36,
+          50,
+          18,
+          50,
+          36
+        ]
+      ],
+      "leetcode/solution/0300-0399/0353.Design Snake Game/Solution.java": [
+        [
+          "move",
+          18,
+          48,
+          22,
+          13,
+          22,
+          33,
+          22,
+          13,
+          22,
+          33
+        ],
+        [
+          "move",
+          18,
+          48,
+          24,
+          20,
+          24,
+          40,
+          24,
+          20,
+          24,
+          40
+        ],
+        [
+          "move",
+          18,
+          48,
+          26,
+          20,
+          26,
+          40,
+          26,
+          20,
+          26,
+          40
+        ]
+      ],
+      "leetcode/solution/1300-1399/1348.Tweet Counts Per Frequency/Solution.java": [
+        [
+          "getTweetCountsPerFrequency",
+          13,
+          32,
+          16,
+          13,
+          16,
+          31,
+          16,
+          13,
+          16,
+          31
+        ],
+        [
+          "getTweetCountsPerFrequency",
+          13,
+          32,
+          18,
+          20,
+          18,
+          37,
+          18,
+          20,
+          18,
+          37
+        ]
+      ]
+    },
+    "java.lang.String.compareTo": {
+      "leetcode/solution/0600-0699/0635.Design Log Storage System/Solution.java": [
+        [
+          "retrieve",
+          18,
+          30,
+          25,
+          17,
+          25,
+          30,
+          25,
+          17,
+          25,
+          30
+        ],
+        [
+          "retrieve",
+          18,
+          30,
+          25,
+          40,
+          25,
+          53,
+          25,
+          40,
+          25,
+          53
+        ]
+      ]
+    }
+  },
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {
+    "java.util.Scanner.<init>": {
+      "leetcode/basic/sorting/HeapSort/Main.java": [
+        [
+          "main",
+          7,
+          22,
+          8,
+          22,
+          8,
+          43,
+          8,
+          22,
+          8,
+          43
+        ]
+      ]
+    },
+    "java.lang.String.split": {
+      "leetcode/lcof/面试题37. 序列化二叉树/Solution.java": [
+        [
+          "deserialize",
+          34,
+          57,
+          38,
+          25,
+          38,
+          39,
+          38,
+          25,
+          38,
+          39
+        ]
+      ],
+      "leetcode/solution/3400-3499/3484.Design Spreadsheet/Solution.java": [
+        [
+          "getValue",
+          15,
+          22,
+          17,
+          28,
+          17,
+          60,
+          17,
+          28,
+          17,
+          60
+        ]
+      ]
+    }
+  }
+}

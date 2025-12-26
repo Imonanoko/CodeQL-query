@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieCompositionFactory.java","call function: 645:17-645:45","call in function: fromZipStreamSyncInternal@604-725","callee=java.io.OutputStream.write","basic block: 645:17-645:45"
+"Path: /home/sixsquare/codeQL/projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkCache.java","call function: 105:11-105:39","call in function: writeTempCacheFile@94-116","callee=java.io.OutputStream.write","basic block: 105:11-105:39"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/leetcode/basic/sorting/HeapSort/Main.java","call function: 8:22-8:43","call in function: main@7-22","callee=java.util.Scanner.<init>","basic block: 8:22-8:43"

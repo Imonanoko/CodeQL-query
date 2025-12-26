@@ -1,0 +1,124 @@
+{
+  "CWE-022": {},
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {},
+  "CWE-326": {
+    "java.util.Random.<init>": {
+      "tech-interview-for-developer/Algorithm/code/mergeSort.java": [
+        [
+          "main",
+          8,
+          38,
+          10,
+          14,
+          10,
+          28,
+          10,
+          14,
+          10,
+          28
+        ]
+      ]
+    },
+    "java.util.Random.nextInt": {
+      "tech-interview-for-developer/Algorithm/code/mergeSort.java": [
+        [
+          "main",
+          8,
+          38,
+          21,
+          16,
+          21,
+          26,
+          21,
+          16,
+          21,
+          26
+        ]
+      ]
+    }
+  },
+  "CWE-327": {},
+  "CWE-329": {
+    "java.util.Random.<init>": {
+      "tech-interview-for-developer/Algorithm/code/mergeSort.java": [
+        [
+          "main",
+          8,
+          38,
+          10,
+          14,
+          10,
+          28,
+          10,
+          14,
+          10,
+          28
+        ]
+      ]
+    },
+    "java.util.Random.nextInt": {
+      "tech-interview-for-developer/Algorithm/code/mergeSort.java": [
+        [
+          "main",
+          8,
+          38,
+          21,
+          16,
+          21,
+          26,
+          21,
+          16,
+          21,
+          26
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {
+    "java.util.Random.<init>": {
+      "tech-interview-for-developer/Algorithm/code/mergeSort.java": [
+        [
+          "main",
+          8,
+          38,
+          10,
+          14,
+          10,
+          28,
+          10,
+          14,
+          10,
+          28
+        ]
+      ]
+    },
+    "java.util.Random.nextInt": {
+      "tech-interview-for-developer/Algorithm/code/mergeSort.java": [
+        [
+          "main",
+          8,
+          38,
+          21,
+          16,
+          21,
+          26,
+          21,
+          16,
+          21,
+          26
+        ]
+      ]
+    }
+  },
+  "CWE-502": {},
+  "CWE-643": {},
+  "CWE-760": {},
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {}
+}

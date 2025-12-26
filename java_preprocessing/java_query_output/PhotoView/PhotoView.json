@@ -1,0 +1,236 @@
+{
+  "CWE-022": {},
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {
+    "java.lang.String.format": {
+      "PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java": [
+        [
+          "onMenuItemClick",
+          71,
+          130,
+          115,
+          35,
+          115,
+          80,
+          115,
+          35,
+          115,
+          80
+        ],
+        [
+          "onPhotoTap",
+          147,
+          152,
+          151,
+          23,
+          151,
+          118,
+          151,
+          23,
+          151,
+          118
+        ],
+        [
+          "onFling",
+          175,
+          178,
+          176,
+          32,
+          176,
+          84,
+          176,
+          32,
+          176,
+          84
+        ]
+      ]
+    }
+  },
+  "CWE-326": {
+    "java.util.Random.<init>": {
+      "PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java": [
+        [
+          "onMenuItemClick",
+          71,
+          130,
+          108,
+          36,
+          108,
+          47,
+          108,
+          36,
+          108,
+          47
+        ]
+      ]
+    }
+  },
+  "CWE-327": {},
+  "CWE-329": {
+    "java.util.Random.<init>": {
+      "PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java": [
+        [
+          "onMenuItemClick",
+          71,
+          130,
+          108,
+          36,
+          108,
+          47,
+          108,
+          36,
+          108,
+          47
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {
+    "java.util.Random.<init>": {
+      "PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java": [
+        [
+          "onMenuItemClick",
+          71,
+          130,
+          108,
+          36,
+          108,
+          47,
+          108,
+          36,
+          108,
+          47
+        ]
+      ]
+    }
+  },
+  "CWE-502": {},
+  "CWE-643": {
+    "java.lang.String.format": {
+      "PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java": [
+        [
+          "onMenuItemClick",
+          71,
+          130,
+          115,
+          35,
+          115,
+          80,
+          115,
+          35,
+          115,
+          80
+        ],
+        [
+          "onPhotoTap",
+          147,
+          152,
+          151,
+          23,
+          151,
+          118,
+          151,
+          23,
+          151,
+          118
+        ],
+        [
+          "onFling",
+          175,
+          178,
+          176,
+          32,
+          176,
+          84,
+          176,
+          32,
+          176,
+          84
+        ]
+      ]
+    }
+  },
+  "CWE-760": {
+    "java.lang.System.currentTimeMillis": {
+      "PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java": [
+        [
+          "AnimatedZoomRunnable",
+          734,
+          741,
+          738,
+          26,
+          738,
+          51,
+          738,
+          26,
+          738,
+          51
+        ],
+        [
+          "interpolate",
+          755,
+          760,
+          756,
+          29,
+          756,
+          54,
+          756,
+          29,
+          756,
+          54
+        ]
+      ]
+    }
+  },
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {
+    "java.lang.String.format": {
+      "PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java": [
+        [
+          "onMenuItemClick",
+          71,
+          130,
+          115,
+          35,
+          115,
+          80,
+          115,
+          35,
+          115,
+          80
+        ],
+        [
+          "onPhotoTap",
+          147,
+          152,
+          151,
+          23,
+          151,
+          118,
+          151,
+          23,
+          151,
+          118
+        ],
+        [
+          "onFling",
+          175,
+          178,
+          176,
+          32,
+          176,
+          84,
+          176,
+          32,
+          176,
+          84
+        ]
+      ]
+    }
+  }
+}

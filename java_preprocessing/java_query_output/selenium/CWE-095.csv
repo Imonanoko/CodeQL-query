@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/selenium/java/src/dev/selenium/tools/javadoc/JavadocJarMaker.java","call function: 222:11-222:48","call in function: readSourceFiles@191-233","callee=javax.tools.StandardJavaFileManager.getJavaFileObjects","basic block: 222:11-222:48"

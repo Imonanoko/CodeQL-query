@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mall/mall-common/src/main/java/com/macro/mall/common/config/BaseRedisConfig.java","call function: 47:9-47:118","call in function: redisSerializer@41-50","callee=com.fasterxml.jackson.databind.ObjectMapper.activateDefaultTyping","basic block: 47:9-47:118"

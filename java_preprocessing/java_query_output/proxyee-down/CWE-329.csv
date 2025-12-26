@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/main/src/main/java/org/pdown/gui/extension/mitm/util/ExtensionCertUtil.java","call function: 140:24-140:57","call in function: getCertSHA1@139-144","callee=java.security.MessageDigest.getInstance","basic block: 140:24-140:57"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/main/src/main/java/org/pdown/gui/extension/mitm/util/ExtensionCertUtil.java","call function: 142:5-142:18","call in function: getCertSHA1@139-144","callee=java.security.MessageDigest.update","basic block: 142:5-142:18"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/main/src/main/java/org/pdown/gui/extension/mitm/util/ExtensionCertUtil.java","call function: 143:21-143:31","call in function: getCertSHA1@139-144","callee=java.security.MessageDigest.digest","basic block: 143:21-143:31"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/file/FileUtils.java","call function: 1688:13-1688:44","call in function: writeTextToFile@1662-1698","callee=java.io.Writer.write","basic block: 1688:13-1688:44"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/net/socket/local/LocalClientSocket.java","call function: 231:13-231:40","call in function: sendDataToOutputStream@226-253","callee=java.io.Writer.write","basic block: 231:13-231:40"

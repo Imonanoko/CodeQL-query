@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/.mvn/wrapper/MavenWrapperDownloader.java","call function: 77:49-77:86","call in function: downloadFileFromURL@61-85","callee=java.util.concurrent.ThreadLocalRandom.nextLong","basic block: 77:49-77:86"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/.mvn/wrapper/MavenWrapperDownloader.java","call function: 77:49-77:75","call in function: downloadFileFromURL@61-85","callee=java.util.concurrent.ThreadLocalRandom.current","basic block: 77:49-77:75"

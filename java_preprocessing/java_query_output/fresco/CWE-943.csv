@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/fresco/fbcore/src/main/java/com/facebook/common/util/UriUtil.java","call function: 73:14-73:36","call in function: uriToUrl@67-78","callee=java.net.URL.<init>","basic block: 73:14-73:36"
+"Path: /home/sixsquare/codeQL/projects/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/producers/HttpUrlConnectionNetworkFetcher.java","call function: 207:32-207:51","call in function: openConnectionTo@205-208","callee=java.net.URL.openConnection","basic block: 207:32-207:51"
+"Path: /home/sixsquare/codeQL/projects/fresco/samples/comparison/src/main/java/com/facebook/samples/comparison/urlsfetcher/ImageUrlsFetcher.java","call function: 91:17-91:34","call in function: downloadContentAsString@88-112","callee=java.net.URL.<init>","basic block: 91:17-91:34"
+"Path: /home/sixsquare/codeQL/projects/fresco/samples/comparison/src/main/java/com/facebook/samples/comparison/urlsfetcher/ImageUrlsFetcher.java","call function: 92:52-92:71","call in function: downloadContentAsString@88-112","callee=java.net.URL.openConnection","basic block: 92:52-92:71"

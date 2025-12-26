@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/leetcode/solution/1200-1299/1286.Iterator for Combination/Solution.java","call function: 32:9-32:38","call in function: dfs@24-36","callee=java.lang.StringBuilder.append","basic block: 32:9-32:38"
+"Path: /home/sixsquare/codeQL/projects/leetcode/solution/2200-2299/2227.Encrypt and Decrypt Strings/Solution.java","call function: 20:13-20:32","call in function: encrypt@14-23","callee=java.lang.StringBuilder.append","basic block: 20:13-20:32"
+"Path: /home/sixsquare/codeQL/projects/leetcode/solution/2200-2299/2296.Design a Text Editor/Solution.java","call function: 9:9-9:25","call in function: addText@8-10","callee=java.lang.StringBuilder.append","basic block: 9:9-9:25"
+"Path: /home/sixsquare/codeQL/projects/leetcode/solution/2200-2299/2296.Design a Text Editor/Solution.java","call function: 21:13-21:56","call in function: cursorLeft@18-25","callee=java.lang.StringBuilder.append","basic block: 21:13-21:56"
+"Path: /home/sixsquare/codeQL/projects/leetcode/solution/2200-2299/2296.Design a Text Editor/Solution.java","call function: 30:13-30:57","call in function: cursorRight@27-34","callee=java.lang.StringBuilder.append","basic block: 30:13-30:57"

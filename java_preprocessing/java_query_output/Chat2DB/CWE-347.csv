@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Chat2DB/chat2db-server/chat2db-server-web/chat2db-server-web-api/src/main/java/ai/chat2db/server/web/api/controller/ai/zhipu/util/ZhipuUtils.java","call function: 25:19-25:61","call in function: createJwt@22-40","callee=com.auth0.jwt.algorithms.Algorithm.HMAC256","basic block: 25:19-25:61"

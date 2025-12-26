@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/app/src/main/java/org/lsposed/manager/App.java","call function: 172:17-172:92","call in function: uncaughtException@165-195","callee=java.io.PrintWriter.println","basic block: 172:17-172:92"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/app/src/main/java/org/lsposed/manager/App.java","call function: 173:17-173:32","call in function: uncaughtException@165-195","callee=java.io.PrintWriter.println","basic block: 173:17-173:32"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/app/src/main/java/org/lsposed/manager/App.java","call function: 174:17-174:74","call in function: uncaughtException@165-195","callee=java.io.PrintWriter.println","basic block: 174:17-174:74"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/daemon/src/main/java/org/lsposed/lspd/service/ConfigFileManager.java","call function: 115:13-115:38","call in function: transfer@110-117","callee=java.io.OutputStream.write","basic block: 115:13-115:38"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/daemon/src/main/java/org/lsposed/lspd/service/Dex2OatService.java","call function: 195:21-195:31","call in function: run@170-207","callee=java.io.OutputStream.write","basic block: 195:21-195:31"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/magisk-loader/src/main/java/org/lsposed/lspd/service/ActivityController.java","call function: 132:37-132:96","call in function: onCommand@99-138","callee=java.io.PrintWriter.println","basic block: 132:37-132:96"

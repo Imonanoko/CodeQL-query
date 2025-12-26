@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # python3 run_rm_project_call_function.py --project cpp-jwt --cwe 078
 # python3 run_rm_project_call_function.py --all --cwe 078
+# python3 run_rm_project_call_function.py --all --cwe 078 --one-fn-per-file
 
 import argparse
 import subprocess
@@ -37,7 +38,14 @@ def build_paths(project_name: str, projects_dir: Path, json_root: Path) -> Tuple
     return project_dir, json_path
 
 
-def run_one(target_script: Path, project_dir: Path, json_path: Path, cwe: str, dry_run: bool) -> int:
+def run_one(
+    target_script: Path,
+    project_dir: Path,
+    json_path: Path,
+    cwe: str,
+    dry_run: bool,
+    one_fn_per_file: bool,
+) -> int:
     cmd = [
         "python3",
         str(target_script),
@@ -47,6 +55,10 @@ def run_one(target_script: Path, project_dir: Path, json_path: Path, cwe: str, d
         "--cwe",
         cwe,
     ]
+
+    # NEW: pass-through flag
+    if one_fn_per_file:
+        cmd.append("--one-fn-per-file")
 
     if dry_run:
         print("[DRY-RUN]", " ".join(cmd))
@@ -104,6 +116,13 @@ def main() -> int:
         help="Continue other projects even if one fails (for --all). Default: stop on first failure.",
     )
 
+    # NEW: expose rm_project_call_function.py behavior toggle
+    parser.add_argument(
+        "--one-fn-per-file",
+        action="store_true",
+        help="In each file, only remove within a single enclosing function (pass-through to target script).",
+    )
+
     args = parser.parse_args()
 
     target_script = Path(args.target_script)
@@ -140,7 +159,14 @@ def main() -> int:
             skipped.append((name, f"json missing: {json_path}"))
             continue
 
-        rc = run_one(target_script, project_dir, json_path, cwe, args.dry_run)
+        rc = run_one(
+            target_script=target_script,
+            project_dir=project_dir,
+            json_path=json_path,
+            cwe=cwe,
+            dry_run=args.dry_run,
+            one_fn_per_file=args.one_fn_per_file,
+        )
         if rc != 0:
             print(f"[FAIL] project={name} rc={rc}")
             if not args.continue_on_fail:

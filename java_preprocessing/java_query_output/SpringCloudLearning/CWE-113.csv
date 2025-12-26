@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/SpringCloudLearning/chapter5/service-zuul/src/main/java/com/forezp/MyFilter.java","call function: 36:66-36:88","call in function: run@33-50","callee=javax.servlet.http.HttpServletRequest.getRequestURL","basic block: 36:66-36:88"
+"Path: /home/sixsquare/codeQL/projects/SpringCloudLearning/sc-f-chapter5/service-zuul/src/main/java/com/forezp/servicezuul/filter/MyFilter.java","call function: 40:66-40:88","call in function: run@37-54","callee=javax.servlet.http.HttpServletRequest.getRequestURL","basic block: 40:66-40:88"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/selenium/java/test/org/openqa/selenium/CookieTest.java","call function: 90:45-90:89","call in function: testCookieSerializes@88-100","callee=java.io.ObjectOutputStream.<init>","basic block: 90:45-90:89"
+"Path: /home/sixsquare/codeQL/projects/selenium/java/test/org/openqa/selenium/CookieTest.java","call function: 97:43-97:85","call in function: testCookieSerializes@88-100","callee=java.io.ObjectInputStream.<init>","basic block: 97:43-97:85"
+"Path: /home/sixsquare/codeQL/projects/selenium/java/test/org/openqa/selenium/CookieTest.java","call function: 98:42-98:71","call in function: testCookieSerializes@88-100","callee=java.io.ObjectInputStream.readObject","basic block: 98:42-98:71"
+"Path: /home/sixsquare/codeQL/projects/selenium/java/test/org/openqa/selenium/CookieTest.java","call function: 93:5-93:53","call in function: testCookieSerializes@88-100","callee=java.io.ObjectOutputStream.writeObject","basic block: 93:5-93:53"

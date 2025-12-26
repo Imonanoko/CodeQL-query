@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/awesome-low-level-design/solutions/java/src/chessgame/ChessGame.java","call function: 55:27-55:48","call in function: getPlayerMove@53-71","callee=java.util.Scanner.<init>","basic block: 55:27-55:48"
+"Path: /home/sixsquare/codeQL/projects/awesome-low-level-design/solutions/java/src/loggingframework/strategies/appender/FileAppender.java","call function: 17:27-17:56","call in function: FileAppender@14-21","callee=java.io.FileWriter.<init>","basic block: 17:27-17:56"

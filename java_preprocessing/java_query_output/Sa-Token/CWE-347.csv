@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Sa-Token/sa-token-plugin/sa-token-temp-jwt/src/main/java/cn/dev33/satoken/temp/jwt/SaJwtUtil.java","call function: 68:19-68:71","call in function: createToken@58-77","callee=io.jsonwebtoken.security.Keys.hmacShaKeyFor","basic block: 68:19-68:71"
+"Path: /home/sixsquare/codeQL/projects/Sa-Token/sa-token-plugin/sa-token-temp-jwt/src/main/java/cn/dev33/satoken/temp/jwt/SaJwtUtil.java","call function: 87:19-87:71","call in function: parseToken@85-92","callee=io.jsonwebtoken.security.Keys.hmacShaKeyFor","basic block: 87:19-87:71"
+"Path: /home/sixsquare/codeQL/projects/Sa-Token/sa-token-plugin/sa-token-temp-jwt/src/main/java/cn/dev33/satoken/temp/jwt/SaJwtUtil.java","call function: 88:16-90:12","call in function: parseToken@85-92","callee=io.jsonwebtoken.JwtParserBuilder.build","basic block: 88:16-90:12"
+"Path: /home/sixsquare/codeQL/projects/Sa-Token/sa-token-plugin/sa-token-temp-jwt/src/main/java/cn/dev33/satoken/temp/jwt/SaJwtUtil.java","call function: 88:16-88:28","call in function: parseToken@85-92","callee=io.jsonwebtoken.Jwts.parser","basic block: 88:16-88:28"

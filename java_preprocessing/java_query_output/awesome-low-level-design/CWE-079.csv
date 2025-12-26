@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/awesome-low-level-design/solutions/java/src/loggingframework/strategies/appender/FileAppender.java","call function: 26:13-26:61","call in function: append@24-31","callee=java.io.Writer.write","basic block: 26:13-26:61"

@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jenkins/core/src/main/java/hudson/cli/GroovyCommand.java","call function: 76:30-76:103","call in function: run@64-81","callee=groovy.lang.GroovyShell.<init>","basic block: 76:30-76:103"
+"Path: /home/sixsquare/codeQL/projects/jenkins/core/src/main/java/hudson/cli/GroovyCommand.java","call function: 79:9-79:75","call in function: run@64-81","callee=groovy.lang.GroovyShell.run","basic block: 79:9-79:75"
+"Path: /home/sixsquare/codeQL/projects/jenkins/core/src/main/java/hudson/util/RemotingDiagnostics.java","call function: 148:40-148:66","call in function: call@145-167","callee=org.codehaus.groovy.control.CompilerConfiguration.<init>","basic block: 148:40-148:66"
+"Path: /home/sixsquare/codeQL/projects/jenkins/core/src/main/java/hudson/util/RemotingDiagnostics.java","call function: 154:33-154:70","call in function: call@145-167","callee=groovy.lang.GroovyShell.<init>","basic block: 154:33-154:70"
+"Path: /home/sixsquare/codeQL/projects/jenkins/core/src/main/java/hudson/util/RemotingDiagnostics.java","call function: 171:20-171:41","call in function: evaluateScript@170-172","callee=groovy.lang.GroovyShell.evaluate","basic block: 171:20-171:41"
+"Path: /home/sixsquare/codeQL/projects/jenkins/core/src/main/java/jenkins/util/groovy/GroovyHookScript.java","call function: 148:13-148:37","call in function: execute@145-152","callee=groovy.lang.GroovyShell.evaluate","basic block: 148:13-148:37"
+"Path: /home/sixsquare/codeQL/projects/jenkins/core/src/main/java/jenkins/util/groovy/GroovyHookScript.java","call function: 158:16-158:48","call in function: createShell@157-159","callee=groovy.lang.GroovyShell.<init>","basic block: 158:16-158:48"

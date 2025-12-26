@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java","call function: 213:13-215:34","call in function: toString@209-222","callee=java.lang.StringBuilder.append","basic block: 213:13-215:34"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java","call function: 213:13-214:44","call in function: toString@209-222","callee=java.lang.StringBuilder.append","basic block: 213:13-214:44"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java","call function: 213:13-213:48","call in function: toString@209-222","callee=java.lang.StringBuilder.append","basic block: 213:13-213:48"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java","call function: 213:13-213:36","call in function: toString@209-222","callee=java.lang.StringBuilder.append","basic block: 213:13-213:36"

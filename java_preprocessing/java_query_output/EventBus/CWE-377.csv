@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/EventBus/EventBusTest/src/org/greenrobot/eventbus/EventBusMainThreadRacingTest.java","call function: 60:29-60:40","call in function: testRacingThreads@38-76","callee=java.util.Random.<init>","basic block: 60:29-60:40"
+"Path: /home/sixsquare/codeQL/projects/EventBus/EventBusTest/src/org/greenrobot/eventbus/EventBusMainThreadRacingTest.java","call function: 64:33-64:51","call in function: testRacingThreads@38-76","callee=java.util.Random.nextInt","basic block: 64:33-64:51"

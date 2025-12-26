@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 70:31-70:52","call in function: main@65-202","callee=java.util.Scanner.<init>","basic block: 70:31-70:52"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 72:34-72:51","call in function: main@65-202","callee=java.util.Scanner.nextLine","basic block: 72:34-72:51"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 129:30-129:47","call in function: main@65-202","callee=java.util.Scanner.nextLine","basic block: 129:30-129:47"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 179:47-179:83","call in function: main@65-202","callee=java.lang.String.format","basic block: 179:47-179:83"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 180:48-180:85","call in function: main@65-202","callee=java.lang.String.format","basic block: 180:48-180:85"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 223:29-223:46","call in function: selectLanguage@211-229","callee=java.util.Scanner.nextLine","basic block: 223:29-223:46"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 311:28-311:46","call in function: splitContent@306-329","callee=java.lang.String.split","basic block: 311:28-311:46"

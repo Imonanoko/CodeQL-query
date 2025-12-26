@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/misc/Files1.java","call function: 43:13-43:49","call in function: testWriter@40-45","callee=java.io.Writer.write","basic block: 43:13-43:49"

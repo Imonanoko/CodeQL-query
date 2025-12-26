@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/android/PackageUtils.java","call function: 582:41-582:124","call in function: getSigningCertificateSHA256DigestForPackage@570-586","callee=java.security.MessageDigest.digest","basic block: 582:41-582:124"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/android/PackageUtils.java","call function: 582:41-582:76","call in function: getSigningCertificateSHA256DigestForPackage@570-586","callee=java.security.MessageDigest.getInstance","basic block: 582:41-582:76"

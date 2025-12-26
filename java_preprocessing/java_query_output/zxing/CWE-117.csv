@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/DecodeWorker.java","call function: 175:30-175:60","call in function: decode@124-202","callee=java.lang.String.format","basic block: 175:30-175:60"
+"Path: /home/sixsquare/codeQL/projects/zxing/core/src/main/java/com/google/zxing/aztec/decoder/Decoder.java","call function: 88:51-88:94","call in function: decode@80-92","callee=java.lang.String.format","basic block: 88:51-88:94"
+"Path: /home/sixsquare/codeQL/projects/zxing/core/src/main/java/com/google/zxing/aztec/encoder/Encoder.java","call function: 138:13-138:77","call in function: encode@121-259","callee=java.lang.String.format","basic block: 138:13-138:77"
+"Path: /home/sixsquare/codeQL/projects/zxing/core/src/main/java/com/google/zxing/aztec/encoder/State.java","call function: 179:12-179:114","call in function: toString@178-180","callee=java.lang.String.format","basic block: 179:12-179:114"
+"Path: /home/sixsquare/codeQL/projects/zxing/core/src/main/java/com/google/zxing/pdf417/decoder/DecodedBitStreamParser.java","call function: 186:21-186:63","call in function: decodeMacroBlock@156-283","callee=java.lang.String.format","basic block: 186:21-186:63"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/NewPipe/app/src/main/java/org/schabi/newpipe/player/PlayerService.java","call function: 203:9-203:28","call in function: onTaskRemoved@196-204","callee=java.lang.Runtime.getRuntime","basic block: 203:9-203:28"
+"Path: /home/sixsquare/codeQL/projects/NewPipe/app/src/main/java/org/schabi/newpipe/player/seekbarpreview/SeekbarPreviewThumbnailHolder.java","call function: 49:49-49:83","call in function: resetFrom@43-60","callee=java.util.concurrent.Executors.newSingleThreadExecutor","basic block: 49:49-49:83"
+"Path: /home/sixsquare/codeQL/projects/NewPipe/app/src/main/java/org/schabi/newpipe/player/seekbarpreview/SeekbarPreviewThumbnailHolder.java","call function: 50:9-56:10","call in function: resetFrom@43-60","callee=java.util.concurrent.ExecutorService.submit","basic block: 50:9-56:10"

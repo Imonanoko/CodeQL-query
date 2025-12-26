@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/easyexcel/easyexcel-core/src/main/java/com/alibaba/excel/converters/url/UrlImageConverter.java","call function: 34:43-34:64","call in function: convertToExcelData@30-45","callee=java.net.URL.openConnection","basic block: 34:43-34:64"

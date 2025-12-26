@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/EventBus/EventBusTestJava/src/main/java/org/greenrobot/eventbus/EventBusBasicTest.java","call function: 78:33-78:52","call in function: testUnregisterNotLeaking@77-88","callee=java.lang.Runtime.getRuntime","basic block: 78:33-78:52"

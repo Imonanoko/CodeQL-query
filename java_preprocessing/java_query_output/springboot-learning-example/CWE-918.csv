@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/springboot-learning-example/springboot-webflux-8-websocket/src/test/java/WSClient.java","call function: 14:24-14:61","call in function: main@12-20","callee=java.net.URI.create","basic block: 14:24-14:61"

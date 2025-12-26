@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-web/src/main/java/com/neo/config/RedisConfig.java","call function: 56:9-56:68","call in function: redisTemplate@51-61","callee=com.fasterxml.jackson.databind.ObjectMapper.enableDefaultTyping","basic block: 56:9-56:68"

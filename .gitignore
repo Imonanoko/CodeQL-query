@@ -8,3 +8,5 @@ result
 .venv
 missing.csv
 .vscode
+Cargo.lock
+Cargo.toml

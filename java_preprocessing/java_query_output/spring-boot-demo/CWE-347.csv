@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-demo/demo-rbac-security/src/main/java/com/xkcoding/rbac/security/util/JwtUtil.java","call function: 90:29-90:95","call in function: parseJWT@88-123","callee=io.jsonwebtoken.JwtParser.parseClaimsJws","basic block: 90:29-90:95"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-demo/demo-rbac-security/src/main/java/com/xkcoding/rbac/security/util/JwtUtil.java","call function: 90:29-90:41","call in function: parseJWT@88-123","callee=io.jsonwebtoken.Jwts.parser","basic block: 90:29-90:41"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/hello-algo/codes/java/chapter_tree/array_binary_tree.java","call function: 66:13-66:31","call in function: dfs@61-76","callee=java.lang.String.equals","basic block: 66:13-66:31"
+"Path: /home/sixsquare/codeQL/projects/hello-algo/codes/java/chapter_tree/array_binary_tree.java","call function: 70:13-70:30","call in function: dfs@61-76","callee=java.lang.String.equals","basic block: 70:13-70:30"
+"Path: /home/sixsquare/codeQL/projects/hello-algo/codes/java/chapter_tree/array_binary_tree.java","call function: 74:13-74:32","call in function: dfs@61-76","callee=java.lang.String.equals","basic block: 74:13-74:32"

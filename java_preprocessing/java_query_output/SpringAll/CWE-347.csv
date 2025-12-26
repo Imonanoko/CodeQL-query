@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/SpringAll/62.Spring-Boot-Shiro-JWT/src/main/java/com/example/demo/authentication/JWTUtil.java","call function: 35:35-35:59","call in function: verify@33-46","callee=com.auth0.jwt.algorithms.Algorithm.HMAC256","basic block: 35:35-35:59"
+"Path: /home/sixsquare/codeQL/projects/SpringAll/62.Spring-Boot-Shiro-JWT/src/main/java/com/example/demo/authentication/JWTUtil.java","call function: 36:36-36:57","call in function: verify@33-46","callee=com.auth0.jwt.JWT.require","basic block: 36:36-36:57"
+"Path: /home/sixsquare/codeQL/projects/SpringAll/62.Spring-Boot-Shiro-JWT/src/main/java/com/example/demo/authentication/JWTUtil.java","call function: 39:13-39:34","call in function: verify@33-46","callee=com.auth0.jwt.JWTVerifier.verify","basic block: 39:13-39:34"
+"Path: /home/sixsquare/codeQL/projects/SpringAll/62.Spring-Boot-Shiro-JWT/src/main/java/com/example/demo/authentication/JWTUtil.java","call function: 55:30-55:46","call in function: getUsername@53-61","callee=com.auth0.jwt.JWT.decode","basic block: 55:30-55:46"
+"Path: /home/sixsquare/codeQL/projects/SpringAll/62.Spring-Boot-Shiro-JWT/src/main/java/com/example/demo/authentication/JWTUtil.java","call function: 74:35-74:59","call in function: sign@70-83","callee=com.auth0.jwt.algorithms.Algorithm.HMAC256","basic block: 74:35-74:59"

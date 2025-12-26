@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/config/LoginFilter.java","call function: 41:29-41:93","call in function: attemptAuthentication@32-67","callee=com.fasterxml.jackson.databind.ObjectMapper.readValue","basic block: 41:29-41:93"

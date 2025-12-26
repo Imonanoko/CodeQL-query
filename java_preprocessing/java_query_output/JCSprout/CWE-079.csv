@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/ThreadCommunication.java","call function: 202:25-202:42","call in function: run@197-215","callee=java.io.Writer.write","basic block: 202:25-202:42"

@@ -1,0 +1,7 @@
+rank,full_name,stargazers_count,clone_url,html_url,language,description
+9,elastic/elasticsearch,73642,https://github.com/elastic/elasticsearch.git,https://github.com/elastic/elasticsearch,Java,"Free and Open Source, Distributed, RESTful Search Engine",autoql_exit_32
+40,apache/kafka,30764,https://github.com/apache/kafka.git,https://github.com/apache/kafka,Java,Mirror of Apache Kafka,autoql_exit_1
+59,hollischuang/toBeTopJavaer,25454,https://github.com/hollischuang/toBeTopJavaer.git,https://github.com/hollischuang/toBeTopJavaer,Java,To Be Top Javaer - Java工程师成神之路,autoql_exit_32
+82,openjdk/jdk,21579,https://github.com/openjdk/jdk.git,https://github.com/openjdk/jdk,Java,JDK main-line development https://openjdk.org/projects/jdk,autoql_exit_130
+83,dataease/dataease,21516,https://github.com/dataease/dataease.git,https://github.com/dataease/dataease,Java,🔥 人人可用的开源 BI 工具，数据可视化神器。An open-source BI tool alternative to Tableau.,clone_failed
+100,JetBrains/intellij-community,18697,https://github.com/JetBrains/intellij-community.git,https://github.com/JetBrains/intellij-community,Java,IntelliJ IDEA & IntelliJ Platform,autoql_exit_32

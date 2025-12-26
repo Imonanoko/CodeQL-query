@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/bazel/src/java_tools/buildjar/java/com/google/devtools/build/buildjar/VanillaJavaBuilder.java","call function: 158:33-158:68","call in function: run@149-233","callee=javax.tools.ToolProvider.getSystemJavaCompiler","basic block: 158:33-158:68"
+"Path: /home/sixsquare/codeQL/projects/bazel/src/java_tools/buildjar/java/com/google/devtools/build/buildjar/VanillaJavaBuilder.java","call function: 175:13-183:24","call in function: run@149-233","callee=javax.tools.JavaCompiler.getTask","basic block: 175:13-183:24"
+"Path: /home/sixsquare/codeQL/projects/bazel/third_party/ijar/test/IjarTests.java","call function: 81:29-81:64","call in function: makeCompilationTask@80-95","callee=javax.tools.ToolProvider.getSystemJavaCompiler","basic block: 81:29-81:64"
+"Path: /home/sixsquare/codeQL/projects/bazel/third_party/ijar/test/IjarTests.java","call function: 88:12-94:46","call in function: makeCompilationTask@80-95","callee=javax.tools.JavaCompiler.getTask","basic block: 88:12-94:46"
+"Path: /home/sixsquare/codeQL/projects/bazel/third_party/ijar/test/IjarTests.java","call function: 94:9-94:45","call in function: makeCompilationTask@80-95","callee=javax.tools.StandardJavaFileManager.getJavaFileObjects","basic block: 94:9-94:45"

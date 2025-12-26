@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/antlr4/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/MojoUtils.java","call function: 29:38-29:69","call in function: checksum@25-49","callee=java.security.MessageDigest.getInstance","basic block: 29:38-29:69"
+"Path: /home/sixsquare/codeQL/projects/antlr4/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/MojoUtils.java","call function: 38:25-38:53","call in function: checksum@25-49","callee=java.security.MessageDigest.update","basic block: 38:25-38:53"
+"Path: /home/sixsquare/codeQL/projects/antlr4/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/MojoUtils.java","call function: 45:20-45:36","call in function: checksum@25-49","callee=java.security.MessageDigest.digest","basic block: 45:20-45:36"

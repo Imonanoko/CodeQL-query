@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/fastjson/src/test/java/com/alibaba/json/bvt/GroovyTest.java","call function: 14:36-14:64","call in function: test_groovy@12-47","callee=groovy.lang.GroovyClassLoader.<init>","basic block: 14:36-14:64"
+"Path: /home/sixsquare/codeQL/projects/fastjson/src/test/java/com/alibaba/json/bvt/GroovyTest.java","call function: 17:24-19:45","call in function: test_groovy@12-47","callee=groovy.lang.GroovyClassLoader.parseClass","basic block: 17:24-19:45"
+"Path: /home/sixsquare/codeQL/projects/fastjson/src/test/java/com/alibaba/json/bvt/GroovyTest.java","call function: 32:24-34:14","call in function: test_groovy@12-47","callee=groovy.lang.GroovyClassLoader.parseClass","basic block: 32:24-34:14"

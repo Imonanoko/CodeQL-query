@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/gson/gson/src/test/java/com/google/gson/functional/ConcurrencyTest.java","call function: 77:32-77:63","call in function: testMultiThreadSerialization@73-101","callee=java.util.concurrent.Executors.newFixedThreadPool","basic block: 77:32-77:63"
+"Path: /home/sixsquare/codeQL/projects/gson/gson/src/test/java/com/google/gson/functional/ConcurrencyTest.java","call function: 112:32-112:63","call in function: testMultiThreadDeserialization@108-135","callee=java.util.concurrent.Executors.newFixedThreadPool","basic block: 112:32-112:63"

@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/misc/Concurrency1.java","call function: 24:36-24:68","call in function: accept@22-26","callee=java.lang.String.format","basic block: 24:36-24:68"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/misc/String1.java","call function: 30:25-31:48","call in function: testPatternSplit@29-36","callee=java.util.regex.Pattern.splitAsStream","basic block: 30:25-31:48"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/misc/String1.java","call function: 30:25-30:44","call in function: testPatternSplit@29-36","callee=java.util.regex.Pattern.compile","basic block: 30:25-30:44"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/misc/String1.java","call function: 40:25-40:57","call in function: testPatternPredicate@38-43","callee=java.util.regex.Pattern.compile","basic block: 40:25-40:57"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/stream/Streams12.java","call function: 47:28-47:77","call in function: test4@24-48","callee=java.lang.String.format","basic block: 47:28-47:77"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/stream/Streams3.java","call function: 32:28-32:79","call in function: sortSequential@15-33","callee=java.lang.String.format","basic block: 32:28-32:79"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/stream/Streams3.java","call function: 52:28-52:77","call in function: sortParallel@35-53","callee=java.lang.String.format","basic block: 52:28-52:77"

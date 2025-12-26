@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/halo/application/src/main/java/run/halo/app/core/attachment/thumbnail/DefaultLocalThumbnailService.java","call function: 70:13-73:27","call in function: DefaultLocalThumbnailService@61-75","callee=java.util.concurrent.Executors.newFixedThreadPool","basic block: 70:13-73:27"
+"Path: /home/sixsquare/codeQL/projects/halo/application/src/test/java/run/halo/app/plugin/PluginServiceImplTest.java","call function: 443:28-449:26","call in function: apply@437-450","callee=java.util.concurrent.ExecutorService.submit","basic block: 443:28-449:26"
+"Path: /home/sixsquare/codeQL/projects/halo/application/src/test/java/run/halo/app/search/lucene/LuceneSearchEngineTest.java","call function: 159:31-159:62","call in function: runConcurrently@157-166","callee=java.util.concurrent.Executors.newFixedThreadPool","basic block: 159:31-159:62"

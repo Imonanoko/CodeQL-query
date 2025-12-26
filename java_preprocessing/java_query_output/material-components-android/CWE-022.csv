@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/material-components-android/lib/java/com/google/android/material/color/ColorResourcesLoaderCreator.java","call function: 60:40-60:69","call in function: create@43-79","callee=java.io.FileOutputStream.<init>","basic block: 60:40-60:69"

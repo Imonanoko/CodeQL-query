@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-service/src/main/java/org/javaboy/vhr/utils/POIUtils.java","call function: 210:13-210:70","call in function: employee2Excel@33-216","callee=org.springframework.http.HttpHeaders.setContentType","basic block: 210:13-210:70"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/config/SecurityConfig.java","call function: 134:29-134:47","call in function: commence@132-143","callee=javax.servlet.http.HttpServletResponse.setStatus","basic block: 134:29-134:47"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/config/SecurityConfig.java","call function: 148:13-148:31","call in function: onExpiredSessionDetected@145-153","callee=javax.servlet.http.HttpServletResponse.setStatus","basic block: 148:13-148:31"

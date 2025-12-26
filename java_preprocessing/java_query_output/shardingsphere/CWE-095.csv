@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/shardingsphere/infra/expr/type/groovy/src/main/java/org/apache/shardingsphere/infra/expr/groovy/GroovyInlineExpressionParser.java","call function: 53:46-53:62","call in function: <clinit>@49-49","callee=groovy.lang.GroovyShell.<init>","basic block: 53:46-53:62"
+"Path: /home/sixsquare/codeQL/projects/shardingsphere/infra/expr/type/groovy/src/main/java/org/apache/shardingsphere/infra/expr/groovy/GroovyInlineExpressionParser.java","call function: 150:53-150:64","call in function: apply@150-150","callee=groovy.lang.GroovyShell.parse","basic block: 150:53-150:64"

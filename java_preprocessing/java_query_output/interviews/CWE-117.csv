@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/interviews/company/google/BinaryWatch.java","call function: 28:34-28:63","call in function: readBinaryWatch@19-34","callee=java.lang.String.format","basic block: 28:34-28:63"

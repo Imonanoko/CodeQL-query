@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/GSYVideoPlayer/app/src/main/java/com/example/gsyvideoplayer/DetailDownloadExoPlayer.java","call function: 328:33-328:64","call in function: getMD5Str@325-338","callee=java.security.MessageDigest.getInstance","basic block: 328:33-328:64"
+"Path: /home/sixsquare/codeQL/projects/GSYVideoPlayer/app/src/main/java/com/example/gsyvideoplayer/DetailDownloadExoPlayer.java","call function: 329:22-329:54","call in function: getMD5Str@325-338","callee=java.security.MessageDigest.digest","basic block: 329:22-329:54"
+"Path: /home/sixsquare/codeQL/projects/GSYVideoPlayer/gsyVideoPlayer-proxy_cache/src/main/java/com/danikula/videocache/ProxyCacheUtils.java","call function: 78:43-78:74","call in function: computeMD5@76-84","callee=java.security.MessageDigest.getInstance","basic block: 78:43-78:74"
+"Path: /home/sixsquare/codeQL/projects/GSYVideoPlayer/gsyVideoPlayer-proxy_cache/src/main/java/com/danikula/videocache/ProxyCacheUtils.java","call function: 79:34-79:72","call in function: computeMD5@76-84","callee=java.security.MessageDigest.digest","basic block: 79:34-79:72"

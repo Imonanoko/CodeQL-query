@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/app/src/main/java/org/lsposed/manager/ui/fragment/RepoItemFragment.java","call function: 197:29-200:85","call in function: shouldInterceptRequest@193-221","callee=okhttp3.Request$Builder.headers","basic block: 197:29-200:85"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/app/src/main/java/org/lsposed/manager/ui/fragment/RepoItemFragment.java","call function: 200:46-200:84","call in function: shouldInterceptRequest@193-221","callee=okhttp3.Headers.of","basic block: 200:46-200:84"
+"Path: /home/sixsquare/codeQL/projects/LSPosed/app/src/main/java/org/lsposed/manager/util/UpdateUtil.java","call function: 48:23-50:70","call in function: loadRemoteVersion@47-80","callee=okhttp3.Request$Builder.addHeader","basic block: 48:23-50:70"

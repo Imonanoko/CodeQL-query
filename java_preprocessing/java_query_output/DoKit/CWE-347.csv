@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/DoKit/Android/dokit/src/main/java/com/didichuxing/doraemonkit/aop/urlconnection/MyTrustManager.java","call function: 51:26-51:54","call in function: buildTrustManager@48-59","callee=javax.net.ssl.SSLContext.getInstance","basic block: 51:26-51:54"
+"Path: /home/sixsquare/codeQL/projects/DoKit/Android/dokit/src/main/java/com/didichuxing/doraemonkit/aop/urlconnection/MyTrustManager.java","call function: 52:13-52:91","call in function: buildTrustManager@48-59","callee=javax.net.ssl.SSLContext.init","basic block: 52:13-52:91"

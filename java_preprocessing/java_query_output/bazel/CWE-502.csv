@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/bazel/src/main/java/com/google/devtools/build/docgen/release/TableOfContentsUpdater.java","call function: 73:17-73:42","call in function: main@57-101","callee=org.yaml.snakeyaml.Yaml.<init>","basic block: 73:17-73:42"
+"Path: /home/sixsquare/codeQL/projects/bazel/src/main/java/com/google/devtools/build/docgen/release/TableOfContentsUpdater.java","call function: 76:21-76:34","call in function: main@57-101","callee=org.yaml.snakeyaml.Yaml.load","basic block: 76:21-76:34"

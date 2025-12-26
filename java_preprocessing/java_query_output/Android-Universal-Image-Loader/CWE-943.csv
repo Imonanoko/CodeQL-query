@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/download/BaseImageDownloader.java","call function: 160:48-160:83","call in function: createConnection@158-164","callee=java.net.URL.openConnection","basic block: 160:48-160:83"
+"Path: /home/sixsquare/codeQL/projects/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/download/BaseImageDownloader.java","call function: 160:48-160:66","call in function: createConnection@158-164","callee=java.net.URL.<init>","basic block: 160:48-160:66"
+"Path: /home/sixsquare/codeQL/projects/Android-Universal-Image-Loader/sample/src/main/java/com/nostra13/universalimageloader/sample/ext/HttpClientImageDownloader.java","call function: 46:27-46:57","call in function: getStreamFromNetwork@44-50","callee=org.apache.http.client.HttpClient.execute","basic block: 46:27-46:57"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/NewPipe/app/src/main/java/org/schabi/newpipe/player/datasource/YoutubeHttpDataSource.java","call function: 706:9-706:27","call in function: makeConnection@614-710","callee=java.io.OutputStream.write","basic block: 706:9-706:27"

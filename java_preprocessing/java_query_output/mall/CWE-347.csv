@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mall/mall-security/src/main/java/com/macro/mall/security/util/JwtTokenUtil.java","call function: 56:22-58:42","call in function: getClaimsFromToken@53-64","callee=io.jsonwebtoken.JwtParser.parseClaimsJws","basic block: 56:22-58:42"
+"Path: /home/sixsquare/codeQL/projects/mall/mall-security/src/main/java/com/macro/mall/security/util/JwtTokenUtil.java","call function: 56:22-56:34","call in function: getClaimsFromToken@53-64","callee=io.jsonwebtoken.Jwts.parser","basic block: 56:22-56:34"

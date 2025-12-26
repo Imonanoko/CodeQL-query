@@ -1,0 +1,91 @@
+{
+  "CWE-022": {},
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {
+    "java.lang.String.format": {
+      "SpringBoot-Labs/lab-72-minio/src/main/java/cn/iocoder/springboot/lab72/controller/FileController.java": [
+        [
+          "upload",
+          25,
+          36,
+          35,
+          16,
+          35,
+          64,
+          35,
+          16,
+          35,
+          64
+        ]
+      ]
+    }
+  },
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {},
+  "CWE-347": {},
+  "CWE-377": {
+    "java.util.UUID.randomUUID": {
+      "SpringBoot-Labs/lab-72-minio/src/main/java/cn/iocoder/springboot/lab72/controller/FileController.java": [
+        [
+          "upload",
+          25,
+          36,
+          27,
+          23,
+          27,
+          39,
+          27,
+          23,
+          27,
+          39
+        ]
+      ]
+    }
+  },
+  "CWE-502": {},
+  "CWE-643": {
+    "java.lang.String.format": {
+      "SpringBoot-Labs/lab-72-minio/src/main/java/cn/iocoder/springboot/lab72/controller/FileController.java": [
+        [
+          "upload",
+          25,
+          36,
+          35,
+          16,
+          35,
+          64,
+          35,
+          16,
+          35,
+          64
+        ]
+      ]
+    }
+  },
+  "CWE-760": {},
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {
+    "java.lang.String.format": {
+      "SpringBoot-Labs/lab-72-minio/src/main/java/cn/iocoder/springboot/lab72/controller/FileController.java": [
+        [
+          "upload",
+          25,
+          36,
+          35,
+          16,
+          35,
+          64,
+          35,
+          16,
+          35,
+          64
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/desktop/src/mindustry/desktop/DesktopLauncher.java","call function: 168:30-168:98","call in function: logSteamError@164-174","callee=java.io.FileOutputStream.<init>","basic block: 168:30-168:98"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/core/src/mindustry/net/CrashHandler.java","call function: 98:29-98:179","call in function: handle@56-117","callee=java.io.File.<init>","basic block: 98:29-98:179"

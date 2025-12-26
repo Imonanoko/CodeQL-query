@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java","call function: 738:26-738:51","call in function: AnimatedZoomRunnable@734-741","callee=java.lang.System.currentTimeMillis","basic block: 738:26-738:51"
+"Path: /home/sixsquare/codeQL/projects/PhotoView/photoview/src/main/java/com/github/chrisbanes/photoview/PhotoViewAttacher.java","call function: 756:29-756:54","call in function: interpolate@755-760","callee=java.lang.System.currentTimeMillis","basic block: 756:29-756:54"

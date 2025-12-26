@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/antlr4/runtime-testsuite/test/org/antlr/v4/test/runtime/java/JavaRunner.java","call function: 65:14-65:49","call in function: initRuntime@64-66","callee=javax.tools.ToolProvider.getSystemJavaCompiler","basic block: 65:14-65:49"
+"Path: /home/sixsquare/codeQL/projects/antlr4/runtime-testsuite/test/org/antlr/v4/test/runtime/java/JavaRunner.java","call function: 123:6-124:24","call in function: compile@80-139","callee=javax.tools.JavaCompiler.getTask","basic block: 123:6-124:24"
+"Path: /home/sixsquare/codeQL/projects/antlr4/tool-testsuite/test/org/antlr/v4/test/tool/TestSplitParser.java","call function: 28:26-28:61","call in function: <obinit>@26-26","callee=javax.tools.ToolProvider.getSystemJavaCompiler","basic block: 28:26-28:61"
+"Path: /home/sixsquare/codeQL/projects/antlr4/tool-testsuite/test/org/antlr/v4/test/tool/TestSplitParser.java","call function: 125:4-126:21","call in function: checkCompiles@114-135","callee=javax.tools.JavaCompiler.getTask","basic block: 125:4-126:21"

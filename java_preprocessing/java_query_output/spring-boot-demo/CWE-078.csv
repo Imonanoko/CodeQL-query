@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-demo/demo-websocket/src/main/java/com/xkcoding/websocket/model/Server.java","call function: 164:22-164:41","call in function: setJvmInfo@162-169","callee=java.lang.Runtime.getRuntime","basic block: 164:22-164:41"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-demo/demo-websocket/src/main/java/com/xkcoding/websocket/model/Server.java","call function: 165:20-165:39","call in function: setJvmInfo@162-169","callee=java.lang.Runtime.getRuntime","basic block: 165:20-165:39"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-demo/demo-websocket/src/main/java/com/xkcoding/websocket/model/Server.java","call function: 166:21-166:40","call in function: setJvmInfo@162-169","callee=java.lang.Runtime.getRuntime","basic block: 166:21-166:40"

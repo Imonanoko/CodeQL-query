@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Android-Universal-Image-Loader/library/src/main/java/com/nostra13/universalimageloader/core/ImageLoaderConfiguration.java","call function: 387:27-387:46","call in function: memoryCacheSizePercentage@378-390","callee=java.lang.Runtime.getRuntime","basic block: 387:27-387:46"

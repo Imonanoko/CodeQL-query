@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/HikariCP/src/main/java/com/zaxxer/hikari/HikariConfig.java","call function: 1219:28-1219:53","call in function: openPropertiesInputStream@1218-1228","callee=java.io.File.<init>","basic block: 1219:28-1219:53"
+"Path: /home/sixsquare/codeQL/projects/HikariCP/src/main/java/com/zaxxer/hikari/HikariConfig.java","call function: 1220:11-1220:27","call in function: openPropertiesInputStream@1218-1228","callee=java.io.File.isFile","basic block: 1220:11-1220:27"
+"Path: /home/sixsquare/codeQL/projects/HikariCP/src/main/java/com/zaxxer/hikari/HikariConfig.java","call function: 1221:17-1221:45","call in function: openPropertiesInputStream@1218-1228","callee=java.io.FileInputStream.<init>","basic block: 1221:17-1221:45"
+"Path: /home/sixsquare/codeQL/projects/HikariCP/src/main/java/com/zaxxer/hikari/HikariConfig.java","call function: 1225:33-1225:102","call in function: openPropertiesInputStream@1218-1228","callee=java.lang.ClassLoader.getResourceAsStream","basic block: 1225:33-1225:102"

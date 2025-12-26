@@ -1,0 +1,333 @@
+{
+  "CWE-022": {},
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {
+    "java.lang.String.format": {
+      "awesome-system-design-resources/implementations/java/load_balancing_algorithms/LeastResponseTime.java": [
+        [
+          "main",
+          45,
+          57,
+          54,
+          52,
+          54,
+          86,
+          54,
+          52,
+          54,
+          86
+        ]
+      ]
+    }
+  },
+  "CWE-326": {
+    "java.security.MessageDigest.getInstance": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          25,
+          32,
+          25,
+          63,
+          25,
+          32,
+          25,
+          63
+        ]
+      ]
+    },
+    "java.security.MessageDigest.digest": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          27,
+          29,
+          27,
+          39,
+          27,
+          29,
+          27,
+          39
+        ]
+      ]
+    },
+    "java.security.MessageDigest.update": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          26,
+          13,
+          26,
+          37,
+          26,
+          13,
+          26,
+          37
+        ]
+      ]
+    },
+    "java.util.Random.<init>": {
+      "awesome-system-design-resources/implementations/java/load_balancing_algorithms/LeastResponseTime.java": [
+        [
+          "simulateResponseTime",
+          33,
+          43,
+          35,
+          25,
+          35,
+          36,
+          35,
+          25,
+          35,
+          36
+        ]
+      ]
+    }
+  },
+  "CWE-327": {
+    "java.security.MessageDigest.getInstance": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          25,
+          32,
+          25,
+          63,
+          25,
+          32,
+          25,
+          63
+        ]
+      ]
+    },
+    "java.security.MessageDigest.digest": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          27,
+          29,
+          27,
+          39,
+          27,
+          29,
+          27,
+          39
+        ]
+      ]
+    },
+    "java.security.MessageDigest.update": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          26,
+          13,
+          26,
+          37,
+          26,
+          13,
+          26,
+          37
+        ]
+      ]
+    }
+  },
+  "CWE-329": {
+    "java.security.MessageDigest.getInstance": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          25,
+          32,
+          25,
+          63,
+          25,
+          32,
+          25,
+          63
+        ]
+      ]
+    },
+    "java.security.MessageDigest.digest": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          27,
+          29,
+          27,
+          39,
+          27,
+          29,
+          27,
+          39
+        ]
+      ]
+    },
+    "java.security.MessageDigest.update": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          26,
+          13,
+          26,
+          37,
+          26,
+          13,
+          26,
+          37
+        ]
+      ]
+    },
+    "java.util.Random.<init>": {
+      "awesome-system-design-resources/implementations/java/load_balancing_algorithms/LeastResponseTime.java": [
+        [
+          "simulateResponseTime",
+          33,
+          43,
+          35,
+          25,
+          35,
+          36,
+          35,
+          25,
+          35,
+          36
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {
+    "java.util.Random.<init>": {
+      "awesome-system-design-resources/implementations/java/load_balancing_algorithms/LeastResponseTime.java": [
+        [
+          "simulateResponseTime",
+          33,
+          43,
+          35,
+          25,
+          35,
+          36,
+          35,
+          25,
+          35,
+          36
+        ]
+      ]
+    }
+  },
+  "CWE-502": {},
+  "CWE-643": {
+    "java.lang.String.format": {
+      "awesome-system-design-resources/implementations/java/load_balancing_algorithms/LeastResponseTime.java": [
+        [
+          "main",
+          45,
+          57,
+          54,
+          52,
+          54,
+          86,
+          54,
+          52,
+          54,
+          86
+        ]
+      ]
+    }
+  },
+  "CWE-760": {
+    "java.security.MessageDigest.getInstance": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          25,
+          32,
+          25,
+          63,
+          25,
+          32,
+          25,
+          63
+        ]
+      ]
+    },
+    "java.security.MessageDigest.digest": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          27,
+          29,
+          27,
+          39,
+          27,
+          29,
+          27,
+          39
+        ]
+      ]
+    },
+    "java.security.MessageDigest.update": {
+      "awesome-system-design-resources/implementations/java/consistent_hashing/ConsistentHashing.java": [
+        [
+          "hash",
+          23,
+          35,
+          26,
+          13,
+          26,
+          37,
+          26,
+          13,
+          26,
+          37
+        ]
+      ]
+    }
+  },
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {
+    "java.lang.String.format": {
+      "awesome-system-design-resources/implementations/java/load_balancing_algorithms/LeastResponseTime.java": [
+        [
+          "main",
+          45,
+          57,
+          54,
+          52,
+          54,
+          86,
+          54,
+          52,
+          54,
+          86
+        ]
+      ]
+    }
+  }
+}

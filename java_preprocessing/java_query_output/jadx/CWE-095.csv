@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jadx/jadx-core/src/test/java/jadx/tests/api/compiler/TestCompiler.java","call function: 45:15-45:50","call in function: TestCompiler@35-51","callee=javax.tools.ToolProvider.getSystemJavaCompiler","basic block: 45:15-45:50"
+"Path: /home/sixsquare/codeQL/projects/jadx/jadx-core/src/test/java/jadx/tests/api/compiler/TestCompiler.java","call function: 91:34-91:107","call in function: compile@73-95","callee=javax.tools.JavaCompiler.getTask","basic block: 91:34-91:107"

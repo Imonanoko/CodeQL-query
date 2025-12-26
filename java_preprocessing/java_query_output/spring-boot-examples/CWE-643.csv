@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-shiro/src/main/java/com/neo/web/HomeController.java","call function: 23:37-23:77","call in function: login@19-44","callee=javax.servlet.ServletRequest.getAttribute","basic block: 23:37-23:77"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-web/src/main/java/com/neo/WebConfiguration.java","call function: 48:48-48:70","call in function: doFilter@44-50","callee=javax.servlet.http.HttpServletRequest.getRequestURI","basic block: 48:48-48:70"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-web/src/main/java/com/neo/config/RedisConfig.java","call function: 31:17-31:54","call in function: generate@29-37","callee=java.lang.StringBuilder.append","basic block: 31:17-31:54"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-web/src/main/java/com/neo/config/RedisConfig.java","call function: 32:17-32:43","call in function: generate@29-37","callee=java.lang.StringBuilder.append","basic block: 32:17-32:43"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-web/src/main/java/com/neo/config/RedisConfig.java","call function: 34:21-34:45","call in function: generate@29-37","callee=java.lang.StringBuilder.append","basic block: 34:21-34:45"

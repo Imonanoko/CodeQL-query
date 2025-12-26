@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RxJava/src/test/java/io/reactivex/rxjava3/internal/util/MarbleDimensions.java","call function: 72:63-72:74","call in function: main@41-100","callee=java.net.URL.<init>","basic block: 72:63-72:74"

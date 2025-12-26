@@ -1,0 +1,1143 @@
+{
+  "CWE-022": {
+    "java.nio.file.Paths.get": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToLocal",
+          50,
+          60,
+          52,
+          39,
+          52,
+          59,
+          52,
+          39,
+          52,
+          59
+        ]
+      ]
+    },
+    "java.nio.file.Files.exists": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToLocal",
+          50,
+          60,
+          53,
+          17,
+          53,
+          34,
+          53,
+          17,
+          53,
+          34
+        ]
+      ]
+    },
+    "java.nio.file.Files.delete": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToLocal",
+          50,
+          60,
+          54,
+          17,
+          54,
+          34,
+          54,
+          17,
+          54,
+          34
+        ]
+      ]
+    },
+    "java.nio.file.Files.write": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToLocal",
+          50,
+          60,
+          56,
+          13,
+          56,
+          83,
+          56,
+          13,
+          56,
+          83
+        ]
+      ]
+    },
+    "java.io.File.<init>": {
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "copyFromLocalBigFile",
+          143,
+          162,
+          145,
+          21,
+          145,
+          45,
+          145,
+          21,
+          145,
+          45
+        ]
+      ]
+    },
+    "java.io.File.length": {
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "copyFromLocalBigFile",
+          143,
+          162,
+          146,
+          32,
+          146,
+          44,
+          146,
+          32,
+          146,
+          44
+        ]
+      ]
+    },
+    "java.io.FileInputStream.<init>": {
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "copyFromLocalBigFile",
+          143,
+          162,
+          147,
+          50,
+          147,
+          74,
+          147,
+          50,
+          147,
+          74
+        ]
+      ]
+    },
+    "java.util.Scanner.<init>": {
+      "BigData-Notes/code/Kafka/kafka-basis/src/main/java/com/heibaiying/consumers/ConsumerExit.java": [
+        [
+          "run",
+          36,
+          50,
+          37,
+          26,
+          37,
+          47,
+          37,
+          26,
+          37,
+          47
+        ]
+      ]
+    }
+  },
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {},
+  "CWE-326": {
+    "java.util.Random.<init>": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateData",
+          32,
+          42,
+          36,
+          29,
+          36,
+          40,
+          36,
+          29,
+          36,
+          40
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/component/DataSourceSpout.java": [
+        [
+          "productData",
+          46,
+          51,
+          48,
+          25,
+          48,
+          36,
+          48,
+          25,
+          48,
+          36
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/write/DataSourceSpout.java": [
+        [
+          "productData",
+          45,
+          50,
+          47,
+          25,
+          47,
+          36,
+          47,
+          25,
+          47,
+          36
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-word-count/src/main/java/com/heibaiying/wordcount/component/DataSourceSpout.java": [
+        [
+          "productData",
+          42,
+          47,
+          44,
+          25,
+          44,
+          36,
+          44,
+          25,
+          44,
+          36
+        ]
+      ]
+    },
+    "java.util.Random.nextInt": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateData",
+          32,
+          42,
+          37,
+          28,
+          37,
+          59,
+          37,
+          28,
+          37,
+          59
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/component/DataSourceSpout.java": [
+        [
+          "productData",
+          46,
+          51,
+          49,
+          24,
+          49,
+          50,
+          49,
+          24,
+          49,
+          50
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/write/DataSourceSpout.java": [
+        [
+          "productData",
+          45,
+          50,
+          48,
+          24,
+          48,
+          50,
+          48,
+          24,
+          48,
+          50
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-word-count/src/main/java/com/heibaiying/wordcount/component/DataSourceSpout.java": [
+        [
+          "productData",
+          42,
+          47,
+          45,
+          24,
+          45,
+          50,
+          45,
+          24,
+          45,
+          50
+        ]
+      ]
+    }
+  },
+  "CWE-327": {},
+  "CWE-329": {
+    "java.util.Random.<init>": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateData",
+          32,
+          42,
+          36,
+          29,
+          36,
+          40,
+          36,
+          29,
+          36,
+          40
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/component/DataSourceSpout.java": [
+        [
+          "productData",
+          46,
+          51,
+          48,
+          25,
+          48,
+          36,
+          48,
+          25,
+          48,
+          36
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/write/DataSourceSpout.java": [
+        [
+          "productData",
+          45,
+          50,
+          47,
+          25,
+          47,
+          36,
+          47,
+          25,
+          47,
+          36
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-word-count/src/main/java/com/heibaiying/wordcount/component/DataSourceSpout.java": [
+        [
+          "productData",
+          42,
+          47,
+          44,
+          25,
+          44,
+          36,
+          44,
+          25,
+          44,
+          36
+        ]
+      ]
+    },
+    "java.util.Random.nextInt": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateData",
+          32,
+          42,
+          37,
+          28,
+          37,
+          59,
+          37,
+          28,
+          37,
+          59
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/component/DataSourceSpout.java": [
+        [
+          "productData",
+          46,
+          51,
+          49,
+          24,
+          49,
+          50,
+          49,
+          24,
+          49,
+          50
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/write/DataSourceSpout.java": [
+        [
+          "productData",
+          45,
+          50,
+          48,
+          24,
+          48,
+          50,
+          48,
+          24,
+          48,
+          50
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-word-count/src/main/java/com/heibaiying/wordcount/component/DataSourceSpout.java": [
+        [
+          "productData",
+          42,
+          47,
+          45,
+          24,
+          45,
+          50,
+          45,
+          24,
+          45,
+          50
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {
+    "java.util.Random.<init>": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateData",
+          32,
+          42,
+          36,
+          29,
+          36,
+          40,
+          36,
+          29,
+          36,
+          40
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/component/DataSourceSpout.java": [
+        [
+          "productData",
+          46,
+          51,
+          48,
+          25,
+          48,
+          36,
+          48,
+          25,
+          48,
+          36
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/write/DataSourceSpout.java": [
+        [
+          "productData",
+          45,
+          50,
+          47,
+          25,
+          47,
+          36,
+          47,
+          25,
+          47,
+          36
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-word-count/src/main/java/com/heibaiying/wordcount/component/DataSourceSpout.java": [
+        [
+          "productData",
+          42,
+          47,
+          44,
+          25,
+          44,
+          36,
+          44,
+          25,
+          44,
+          36
+        ]
+      ]
+    },
+    "java.util.Random.nextInt": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateData",
+          32,
+          42,
+          37,
+          28,
+          37,
+          59,
+          37,
+          28,
+          37,
+          59
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/component/DataSourceSpout.java": [
+        [
+          "productData",
+          46,
+          51,
+          49,
+          24,
+          49,
+          50,
+          49,
+          24,
+          49,
+          50
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/write/DataSourceSpout.java": [
+        [
+          "productData",
+          45,
+          50,
+          48,
+          24,
+          48,
+          50,
+          48,
+          24,
+          48,
+          50
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-word-count/src/main/java/com/heibaiying/wordcount/component/DataSourceSpout.java": [
+        [
+          "productData",
+          42,
+          47,
+          45,
+          24,
+          45,
+          50,
+          45,
+          24,
+          45,
+          50
+        ]
+      ]
+    },
+    "java.nio.file.Paths.get": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToLocal",
+          50,
+          60,
+          52,
+          39,
+          52,
+          59,
+          52,
+          39,
+          52,
+          59
+        ]
+      ]
+    },
+    "java.nio.file.Files.delete": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToLocal",
+          50,
+          60,
+          54,
+          17,
+          54,
+          34,
+          54,
+          17,
+          54,
+          34
+        ]
+      ]
+    },
+    "java.nio.file.Files.write": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToLocal",
+          50,
+          60,
+          56,
+          13,
+          56,
+          83,
+          56,
+          13,
+          56,
+          83
+        ]
+      ]
+    },
+    "java.io.File.<init>": {
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "copyFromLocalBigFile",
+          143,
+          162,
+          145,
+          21,
+          145,
+          45,
+          145,
+          21,
+          145,
+          45
+        ]
+      ]
+    },
+    "java.io.FileInputStream.<init>": {
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "copyFromLocalBigFile",
+          143,
+          162,
+          147,
+          50,
+          147,
+          74,
+          147,
+          50,
+          147,
+          74
+        ]
+      ]
+    }
+  },
+  "CWE-502": {},
+  "CWE-643": {
+    "java.lang.StringBuilder.append": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateData",
+          32,
+          42,
+          39,
+          13,
+          39,
+          45,
+          39,
+          13,
+          39,
+          45
+        ],
+        [
+          "generateData",
+          32,
+          42,
+          39,
+          13,
+          39,
+          32,
+          39,
+          13,
+          39,
+          32
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/main/java/com/heibaiying/utils/HdfsUtils.java": [
+        [
+          "inputStreamToString",
+          163,
+          179,
+          172,
+          17,
+          172,
+          48,
+          172,
+          17,
+          172,
+          48
+        ],
+        [
+          "inputStreamToString",
+          163,
+          179,
+          172,
+          17,
+          172,
+          35,
+          172,
+          17,
+          172,
+          35
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "inputStreamToString",
+          236,
+          252,
+          245,
+          17,
+          245,
+          48,
+          245,
+          17,
+          245,
+          48
+        ],
+        [
+          "inputStreamToString",
+          236,
+          252,
+          245,
+          17,
+          245,
+          35,
+          245,
+          17,
+          245,
+          35
+        ]
+      ]
+    }
+  },
+  "CWE-760": {
+    "java.lang.System.currentTimeMillis": {
+      "BigData-Notes/code/Flink/flink-kafka-integration/src/main/java/com/heibaiying/CustomSinkJob.java": [
+        [
+          "main",
+          12,
+          22,
+          15,
+          30,
+          15,
+          55,
+          15,
+          30,
+          15,
+          55
+        ]
+      ]
+    },
+    "java.lang.String.equals": {
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/main/java/com/heibaiying/utils/HdfsUtils.java": [
+        [
+          "inputStreamToString",
+          163,
+          179,
+          165,
+          36,
+          165,
+          52,
+          165,
+          36,
+          165,
+          52
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "inputStreamToString",
+          236,
+          252,
+          238,
+          36,
+          238,
+          52,
+          238,
+          36,
+          238,
+          52
+        ]
+      ],
+      "BigData-Notes/code/Kafka/kafka-basis/src/main/java/com/heibaiying/consumers/ConsumerExit.java": [
+        [
+          "run",
+          36,
+          50,
+          39,
+          21,
+          39,
+          44,
+          39,
+          21,
+          39,
+          44
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/WordCountToHBaseApp.java": [
+        [
+          "main",
+          30,
+          79,
+          68,
+          32,
+          68,
+          56,
+          68,
+          32,
+          68,
+          56
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hdfs-integration/src/main/java/com.heibaiying/DataToHdfsApp.java": [
+        [
+          "main",
+          30,
+          77,
+          66,
+          32,
+          66,
+          56,
+          66,
+          32,
+          66,
+          56
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/read/ReadingFromKafkaApp.java": [
+        [
+          "main",
+          25,
+          43,
+          32,
+          32,
+          32,
+          56,
+          32,
+          32,
+          32,
+          56
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-kafka-integration/src/main/java/com/heibaiying/kafka/write/WritingToKafkaApp.java": [
+        [
+          "main",
+          24,
+          66,
+          55,
+          32,
+          55,
+          56,
+          55,
+          32,
+          55,
+          56
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-redis-integration/src/main/java/com/heibaiying/CustomRedisCountApp.java": [
+        [
+          "main",
+          28,
+          52,
+          41,
+          32,
+          41,
+          56,
+          41,
+          32,
+          41,
+          56
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-redis-integration/src/main/java/com/heibaiying/WordCountToRedisApp.java": [
+        [
+          "main",
+          32,
+          58,
+          47,
+          32,
+          47,
+          56,
+          47,
+          32,
+          47,
+          56
+        ]
+      ]
+    }
+  },
+  "CWE-918": {
+    "java.net.URI.<init>": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountApp.java": [
+        [
+          "main",
+          26,
+          83,
+          63,
+          48,
+          63,
+          64,
+          63,
+          48,
+          63,
+          64
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountCombinerApp.java": [
+        [
+          "main",
+          26,
+          86,
+          66,
+          48,
+          66,
+          64,
+          66,
+          48,
+          66,
+          64
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountCombinerPartitionerApp.java": [
+        [
+          "main",
+          28,
+          94,
+          74,
+          48,
+          74,
+          64,
+          74,
+          48,
+          74,
+          64
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToHDFS",
+          69,
+          85,
+          72,
+          41,
+          72,
+          56,
+          72,
+          41,
+          72,
+          56
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/main/java/com/heibaiying/utils/HdfsUtils.java": [
+        [
+          "<clinit>",
+          16,
+          16,
+          28,
+          41,
+          28,
+          58,
+          28,
+          41,
+          28,
+          58
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "prepare",
+          29,
+          42,
+          34,
+          41,
+          34,
+          58,
+          34,
+          41,
+          34,
+          58
+        ]
+      ]
+    }
+  },
+  "CWE-943": {
+    "java.net.URI.<init>": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountApp.java": [
+        [
+          "main",
+          26,
+          83,
+          63,
+          48,
+          63,
+          64,
+          63,
+          48,
+          63,
+          64
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountCombinerApp.java": [
+        [
+          "main",
+          26,
+          86,
+          66,
+          48,
+          66,
+          64,
+          66,
+          48,
+          66,
+          64
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/WordCountCombinerPartitionerApp.java": [
+        [
+          "main",
+          28,
+          94,
+          74,
+          48,
+          74,
+          64,
+          74,
+          48,
+          74,
+          64
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/utils/WordCountDataUtils.java": [
+        [
+          "generateDataToHDFS",
+          69,
+          85,
+          72,
+          41,
+          72,
+          56,
+          72,
+          41,
+          72,
+          56
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/main/java/com/heibaiying/utils/HdfsUtils.java": [
+        [
+          "<clinit>",
+          16,
+          16,
+          28,
+          41,
+          28,
+          58,
+          28,
+          41,
+          28,
+          58
+        ]
+      ],
+      "BigData-Notes/code/Hadoop/hdfs-java-api/src/test/java/HdfsTest.java": [
+        [
+          "prepare",
+          29,
+          42,
+          34,
+          41,
+          34,
+          58,
+          34,
+          41,
+          34,
+          58
+        ]
+      ]
+    }
+  },
+  "CWE-1333": {
+    "java.lang.String.split": {
+      "BigData-Notes/code/Hadoop/hadoop-word-count/src/main/java/com/heibaiying/component/WordCountMapper.java": [
+        [
+          "map",
+          16,
+          21,
+          17,
+          26,
+          17,
+          53,
+          17,
+          26,
+          17,
+          53
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-hbase-integration/src/main/java/com/heibaiying/component/SplitBolt.java": [
+        [
+          "execute",
+          27,
+          33,
+          29,
+          26,
+          29,
+          41,
+          29,
+          26,
+          29,
+          41
+        ]
+      ],
+      "BigData-Notes/code/Storm/storm-word-count/src/main/java/com/heibaiying/wordcount/component/SplitBolt.java": [
+        [
+          "execute",
+          23,
+          29,
+          25,
+          26,
+          25,
+          41,
+          25,
+          26,
+          25,
+          41
+        ]
+      ]
+    },
+    "java.util.Scanner.<init>": {
+      "BigData-Notes/code/Kafka/kafka-basis/src/main/java/com/heibaiying/consumers/ConsumerExit.java": [
+        [
+          "run",
+          36,
+          50,
+          37,
+          26,
+          37,
+          47,
+          37,
+          26,
+          37,
+          47
+        ]
+      ]
+    },
+    "java.util.Scanner.hasNext": {
+      "BigData-Notes/code/Kafka/kafka-basis/src/main/java/com/heibaiying/consumers/ConsumerExit.java": [
+        [
+          "run",
+          36,
+          50,
+          38,
+          20,
+          38,
+          31,
+          38,
+          20,
+          38,
+          31
+        ]
+      ]
+    },
+    "java.util.Scanner.next": {
+      "BigData-Notes/code/Kafka/kafka-basis/src/main/java/com/heibaiying/consumers/ConsumerExit.java": [
+        [
+          "run",
+          36,
+          50,
+          39,
+          35,
+          39,
+          43,
+          39,
+          35,
+          39,
+          43
+        ]
+      ]
+    }
+  }
+}

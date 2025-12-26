@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/core/src/mindustry/net/BeControl.java","call function: 174:60-174:89","call in function: run@172-194","callee=java.net.URL.openConnection","basic block: 174:60-174:89"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/core/src/mindustry/net/BeControl.java","call function: 174:60-174:72","call in function: run@172-194","callee=java.net.URL.<init>","basic block: 174:60-174:72"
+"Path: /home/sixsquare/codeQL/projects/Mindustry/core/src/mindustry/mod/Scripts.java","call function: 140:69-140:116","call in function: loadSource@123-141","callee=java.net.URI.<init>","basic block: 140:69-140:116"

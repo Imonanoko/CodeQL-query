@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/hello-algo/codes/java/chapter_array_and_linkedlist/array.java","call function: 16:27-16:77","call in function: randomAccess@14-20","callee=java.util.concurrent.ThreadLocalRandom.nextInt","basic block: 16:27-16:77"
+"Path: /home/sixsquare/codeQL/projects/hello-algo/codes/java/chapter_array_and_linkedlist/array.java","call function: 16:27-16:53","call in function: randomAccess@14-20","callee=java.util.concurrent.ThreadLocalRandom.current","basic block: 16:27-16:53"

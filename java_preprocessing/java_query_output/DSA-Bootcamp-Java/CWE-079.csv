@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/23-file handling/code/Output.java","call function: 10:7-10:30","call in function: output@4-33","callee=java.io.Writer.write","basic block: 10:7-10:30"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/23-file handling/code/Output.java","call function: 16:7-16:20","call in function: output@4-33","callee=java.io.Writer.write","basic block: 16:7-16:20"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/23-file handling/code/Output.java","call function: 23:7-23:41","call in function: output@4-33","callee=java.io.Writer.write","basic block: 23:7-23:41"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/23-file handling/code/Output.java","call function: 29:7-29:30","call in function: output@4-33","callee=java.io.Writer.write","basic block: 29:7-29:30"

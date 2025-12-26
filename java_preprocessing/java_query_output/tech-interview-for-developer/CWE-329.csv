@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/tech-interview-for-developer/Algorithm/code/mergeSort.java","call function: 10:14-10:28","call in function: main@8-38","callee=java.util.Random.<init>","basic block: 10:14-10:28"
+"Path: /home/sixsquare/codeQL/projects/tech-interview-for-developer/Algorithm/code/mergeSort.java","call function: 21:16-21:26","call in function: main@8-38","callee=java.util.Random.nextInt","basic block: 21:16-21:26"

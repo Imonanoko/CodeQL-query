@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-core/src/main/java/org/linlinjava/litemall/core/task/TaskService.java","call function: 17:9-17:43","call in function: init@14-30","callee=java.util.concurrent.Executors.newSingleThreadExecutor","basic block: 17:9-17:43"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-db/src/main/java/org/linlinjava/litemall/db/util/DbUtil.java","call function: 12:26-12:45","call in function: backup@10-29","callee=java.lang.Runtime.getRuntime","basic block: 12:26-12:45"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-db/src/main/java/org/linlinjava/litemall/db/util/DbUtil.java","call function: 14:29-14:44","call in function: backup@10-29","callee=java.lang.Runtime.exec","basic block: 14:29-14:44"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-db/src/main/java/org/linlinjava/litemall/db/util/DbUtil.java","call function: 33:26-33:45","call in function: load@31-50","callee=java.lang.Runtime.getRuntime","basic block: 33:26-33:45"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-db/src/main/java/org/linlinjava/litemall/db/util/DbUtil.java","call function: 35:29-35:44","call in function: load@31-50","callee=java.lang.Runtime.exec","basic block: 35:29-35:44"

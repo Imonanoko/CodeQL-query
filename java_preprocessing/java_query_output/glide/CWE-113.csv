@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/glide/integration/okhttp3/src/main/java/com/bumptech/glide/integration/okhttp3/OkHttpStreamFetcher.java","call function: 45:7-45:59","call in function: loadData@40-52","callee=okhttp3.Request$Builder.addHeader","basic block: 45:7-45:59"
+"Path: /home/sixsquare/codeQL/projects/glide/samples/imgur/src/main/java/com/bumptech/glide/samples/imgur/api/ApiModule.java","call function: 47:25-50:94","call in function: intercept@45-52","callee=okhttp3.Request$Builder.addHeader","basic block: 47:25-50:94"

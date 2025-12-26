@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RxAndroid/rxandroid/src/test/java/io/reactivex/rxjava3/android/MainThreadDisposableTest.java","call function: 48:22-48:90","call in function: run@43-51","callee=java.lang.String.startsWith","basic block: 48:22-48:90"

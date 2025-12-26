@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/service/MiaoshaService.java","call function: 34:43-34:67","call in function: calc@32-42","callee=javax.script.ScriptEngineManager.<init>","basic block: 34:43-34:67"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/service/MiaoshaService.java","call function: 35:35-35:71","call in function: calc@32-42","callee=javax.script.ScriptEngineManager.getEngineByName","basic block: 35:35-35:71"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/service/MiaoshaService.java","call function: 36:40-36:55","call in function: calc@32-42","callee=javax.script.ScriptEngine.eval","basic block: 36:40-36:55"

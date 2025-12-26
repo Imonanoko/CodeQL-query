@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/ruoyi-vue-pro/yudao-framework/yudao-common/src/main/java/cn/iocoder/yudao/framework/common/util/io/FileUtils.java","call function: 55:21-55:66","call in function: createTempFile@53-59","callee=java.io.File.createTempFile","basic block: 55:21-55:66"
+"Path: /home/sixsquare/codeQL/projects/ruoyi-vue-pro/yudao-framework/yudao-common/src/main/java/cn/iocoder/yudao/framework/common/util/io/FileUtils.java","call function: 57:9-57:27","call in function: createTempFile@53-59","callee=java.io.File.deleteOnExit","basic block: 57:9-57:27"

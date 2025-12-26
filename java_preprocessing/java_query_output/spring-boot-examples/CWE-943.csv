@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-shiro/src/main/java/com/neo/web/HomeController.java","call function: 23:37-23:77","call in function: login@19-44","callee=javax.servlet.ServletRequest.getAttribute","basic block: 23:37-23:77"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-web/src/main/java/com/neo/WebConfiguration.java","call function: 48:48-48:70","call in function: doFilter@44-50","callee=javax.servlet.http.HttpServletRequest.getRequestURI","basic block: 48:48-48:70"

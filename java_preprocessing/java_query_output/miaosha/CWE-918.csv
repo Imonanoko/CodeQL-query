@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 60:23-60:40","call in function: createUser@17-91","callee=java.net.URL.<init>","basic block: 60:23-60:40"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 61:56-61:75","call in function: createUser@17-91","callee=java.net.URL.openConnection","basic block: 61:56-61:75"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 64:32-64:51","call in function: createUser@17-91","callee=java.net.URLConnection.getOutputStream","basic block: 64:32-64:51"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 68:39-68:57","call in function: createUser@17-91","callee=java.net.URLConnection.getInputStream","basic block: 68:39-68:57"

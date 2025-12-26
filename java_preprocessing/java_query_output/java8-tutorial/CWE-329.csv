@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/stream/Streams13.java","call function: 13:37-13:76","call in function: main@12-25","callee=java.security.SecureRandom.<init>","basic block: 13:37-13:76"
+"Path: /home/sixsquare/codeQL/projects/java8-tutorial/src/com/winterbe/java8/samples/stream/Streams13.java","call function: 14:44-14:64","call in function: getAsInt@14-14","callee=java.util.Random.nextInt","basic block: 14:44-14:64"

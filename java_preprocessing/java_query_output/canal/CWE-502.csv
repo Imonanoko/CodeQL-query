@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/canal/client-adapter/launcher/src/main/java/com/alibaba/otter/canal/adapter/launcher/monitor/ApplicationConfigMonitor.java","call function: 73:17-73:118","call in function: onFileChange@69-90","callee=org.yaml.snakeyaml.Yaml.loadAs","basic block: 73:17-73:118"
+"Path: /home/sixsquare/codeQL/projects/canal/client-adapter/launcher/src/main/java/com/alibaba/otter/canal/adapter/launcher/monitor/ApplicationConfigMonitor.java","call function: 73:17-73:26","call in function: onFileChange@69-90","callee=org.yaml.snakeyaml.Yaml.<init>","basic block: 73:17-73:26"

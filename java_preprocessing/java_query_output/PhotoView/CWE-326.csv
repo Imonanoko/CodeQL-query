@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/PhotoView/sample/src/main/java/com/github/chrisbanes/photoview/sample/SimpleSampleActivity.java","call function: 108:36-108:47","call in function: onMenuItemClick@71-130","callee=java.util.Random.<init>","basic block: 108:36-108:47"

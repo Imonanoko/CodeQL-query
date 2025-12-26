@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/disruptor/src/test/java/com/lmax/disruptor/ShutdownOnFatalExceptionTest.java","call function: 17:35-17:46","call in function: <obinit>@14-14","callee=java.util.Random.<init>","basic block: 17:35-17:46"
+"Path: /home/sixsquare/codeQL/projects/disruptor/src/perftest/java/com/lmax/disruptor/offheap/OneToOneOnHeapThroughputTest.java","call function: 44:30-44:42","call in function: <obinit>@23-23","callee=java.util.Random.<init>","basic block: 44:30-44:42"
+"Path: /home/sixsquare/codeQL/projects/disruptor/src/perftest/java/com/lmax/disruptor/offheap/OneToOneOffHeapThroughputTest.java","call function: 44:30-44:42","call in function: <obinit>@26-26","callee=java.util.Random.<init>","basic block: 44:30-44:42"

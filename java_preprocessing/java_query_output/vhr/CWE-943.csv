@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/mailserver/.mvn/wrapper/MavenWrapperDownloader.java","call function: 109:23-109:40","call in function: downloadFileFromURL@98-116","callee=java.net.URL.<init>","basic block: 109:23-109:40"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/mailserver/.mvn/wrapper/MavenWrapperDownloader.java","call function: 111:35-111:54","call in function: downloadFileFromURL@98-116","callee=java.net.URL.openStream","basic block: 111:35-111:54"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/config/LoginFilter.java","call function: 41:58-41:81","call in function: attemptAuthentication@32-67","callee=javax.servlet.ServletRequest.getInputStream","basic block: 41:58-41:81"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/config/LoginFilter.java","call function: 64:33-64:60","call in function: attemptAuthentication@32-67","callee=javax.servlet.ServletRequest.getParameter","basic block: 64:33-64:60"

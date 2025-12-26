@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/mailserver/.mvn/wrapper/MavenWrapperDownloader.java","call function: 109:23-109:40","call in function: downloadFileFromURL@98-116","callee=java.net.URL.<init>","basic block: 109:23-109:40"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/mailserver/.mvn/wrapper/MavenWrapperDownloader.java","call function: 111:35-111:54","call in function: downloadFileFromURL@98-116","callee=java.net.URL.openStream","basic block: 111:35-111:54"

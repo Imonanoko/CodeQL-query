@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/concurrent/Volatile.java","call function: 30:22-30:43","call in function: main@23-48","callee=java.util.Scanner.<init>","basic block: 30:22-30:43"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java","call function: 39:21-39:34","call in function: main@36-49","callee=java.io.File.<init>","basic block: 39:21-39:34"
+"Path: /home/sixsquare/codeQL/projects/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java","call function: 57:19-57:65","call in function: sortAndFindKeyWords@56-82","callee=com.google.common.io.Files.readLines","basic block: 57:19-57:65"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/src/main/java/org/apache/ibatis/scripting/xmltags/OgnlCache.java","call function: 47:14-47:70","call in function: getValue@44-51","callee=ognl.Ognl.getValue","basic block: 47:14-47:70"
+"Path: /home/sixsquare/codeQL/projects/mybatis-3/src/main/java/org/apache/ibatis/scripting/xmltags/OgnlCache.java","call function: 56:14-56:45","call in function: parseExpression@53-60","callee=ognl.Ognl.parseExpression","basic block: 56:14-56:45"

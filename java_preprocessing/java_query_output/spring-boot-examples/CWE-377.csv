@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-mail/src/main/java/com/neo/service/impl/MailServiceImpl.java","call function: 98:62-98:79","call in function: sendAttachmentsMail@88-108","callee=java.io.File.<init>","basic block: 98:62-98:79"
+"Path: /home/sixsquare/codeQL/projects/spring-boot-examples/1.x/spring-boot-mail/src/main/java/com/neo/service/impl/MailServiceImpl.java","call function: 129:61-129:77","call in function: sendInlineResourceMail@119-137","callee=java.io.File.<init>","basic block: 129:61-129:77"

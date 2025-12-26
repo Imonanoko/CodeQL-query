@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/MPAndroidChart/MPChartExample/src/main/java/com/xxmassdeveloper/mpchartexample/BarChartActivityMultiDataset.java","call function: 132:21-132:78","call in function: onProgressChanged@121-192","callee=java.lang.String.format","basic block: 132:21-132:78"
+"Path: /home/sixsquare/codeQL/projects/MPAndroidChart/MPChartExample/src/main/java/com/xxmassdeveloper/mpchartexample/custom/RadarMarkerView.java","call function: 39:27-39:73","call in function: refreshContent@38-42","callee=java.lang.String.format","basic block: 39:27-39:73"
+"Path: /home/sixsquare/codeQL/projects/MPAndroidChart/MPChartExample/src/main/java/com/xxmassdeveloper/mpchartexample/custom/XYMarkerView.java","call function: 43:27-43:135","call in function: refreshContent@41-46","callee=java.lang.String.format","basic block: 43:27-43:135"

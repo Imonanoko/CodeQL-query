@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/DataX/core/src/main/java/com/alibaba/datax/core/transport/transformer/GroovyTransformer.java","call function: 46:36-46:98","call in function: initGroovyTransformer@45-65","callee=groovy.lang.GroovyClassLoader.<init>","basic block: 46:36-46:98"
+"Path: /home/sixsquare/codeQL/projects/DataX/core/src/main/java/com/alibaba/datax/core/transport/transformer/GroovyTransformer.java","call function: 51:27-51:55","call in function: initGroovyTransformer@45-65","callee=groovy.lang.GroovyClassLoader.parseClass","basic block: 51:27-51:55"

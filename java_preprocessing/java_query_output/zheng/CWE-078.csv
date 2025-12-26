@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/zheng/zheng-common/src/main/java/com/zheng/common/util/key/SystemClock.java","call function: 22:32-22:66","call in function: <obinit>@19-19","callee=java.util.concurrent.Executors.newSingleThreadExecutor","basic block: 22:32-22:66"

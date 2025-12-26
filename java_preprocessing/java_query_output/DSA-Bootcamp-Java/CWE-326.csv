@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/DSA-Bootcamp-Java/lectures/21-StringBuffer/code/RandomString.java","call function: 7:21-7:32","call in function: generate@4-15","callee=java.util.Random.<init>","basic block: 7:21-7:32"

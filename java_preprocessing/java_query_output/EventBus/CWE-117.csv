@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/EventBus/EventBus/src/org/greenrobot/eventbus/Logger.java","call function: 31:22-31:60","call in function: JavaLogger@30-32","callee=java.util.logging.Logger.getLogger","basic block: 31:22-31:60"
+"Path: /home/sixsquare/codeQL/projects/EventBus/EventBus/src/org/greenrobot/eventbus/Logger.java","call function: 37:13-37:34","call in function: log@35-38","callee=java.util.logging.Logger.log","basic block: 37:13-37:34"
+"Path: /home/sixsquare/codeQL/projects/EventBus/EventBus/src/org/greenrobot/eventbus/Logger.java","call function: 43:13-43:38","call in function: log@41-44","callee=java.util.logging.Logger.log","basic block: 43:13-43:38"

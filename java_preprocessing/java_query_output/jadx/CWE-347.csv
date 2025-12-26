@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jadx/jadx-gui/src/main/java/jadx/gui/utils/CertificateManager.java","call function: 41:28-41:80","call in function: readCertificates@39-47","callee=java.security.cert.CertificateFactory.getInstance","basic block: 41:28-41:80"
+"Path: /home/sixsquare/codeQL/projects/jadx/jadx-gui/src/main/java/jadx/gui/utils/CertificateManager.java","call function: 42:11-42:37","call in function: readCertificates@39-47","callee=java.security.cert.CertificateFactory.generateCertificates","basic block: 42:11-42:37"
+"Path: /home/sixsquare/codeQL/projects/jadx/jadx-gui/src/main/java/jadx/gui/utils/CertificateManager.java","call function: 75:57-75:80","call in function: generateSignature@73-78","callee=java.security.cert.X509Certificate.getSigAlgName","basic block: 75:57-75:80"
+"Path: /home/sixsquare/codeQL/projects/jadx/jadx-gui/src/main/java/jadx/gui/utils/CertificateManager.java","call function: 76:56-76:78","call in function: generateSignature@73-78","callee=java.security.cert.X509Certificate.getSigAlgOID","basic block: 76:56-76:78"

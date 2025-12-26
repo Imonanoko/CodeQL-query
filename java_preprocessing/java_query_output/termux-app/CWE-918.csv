@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/net/url/UrlUtils.java","call function: 41:20-41:54","call in function: joinUrl@38-47","callee=java.net.URL.<init>","basic block: 41:20-41:54"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/net/url/UrlUtils.java","call function: 41:28-41:40","call in function: joinUrl@38-47","callee=java.net.URL.<init>","basic block: 41:28-41:40"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/net/url/UrlUtils.java","call function: 59:20-59:37","call in function: getUrl@56-63","callee=java.net.URL.<init>","basic block: 59:20-59:37"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/net/url/UrlUtils.java","call function: 82:24-82:36","call in function: getUrlPart@73-99","callee=java.net.URL.getHost","basic block: 82:24-82:36"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/net/url/UrlUtils.java","call function: 89:39-89:51","call in function: getUrlPart@73-99","callee=java.net.URL.getPort","basic block: 89:39-89:51"
+"Path: /home/sixsquare/codeQL/projects/termux-app/termux-shared/src/main/java/com/termux/shared/net/url/UrlUtils.java","call function: 91:24-91:40","call in function: getUrlPart@73-99","callee=java.net.URL.getProtocol","basic block: 91:24-91:40"

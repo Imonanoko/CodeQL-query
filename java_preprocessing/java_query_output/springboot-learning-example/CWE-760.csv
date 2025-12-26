@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/springboot-learning-example/chapter-3-spring-boot-web/src/main/java/demo/springboot/service/impl/BookServiceImpl.java","call function: 77:17-77:43","call in function: findByName@74-83","callee=java.lang.String.equals","basic block: 77:17-77:43"
+"Path: /home/sixsquare/codeQL/projects/springboot-learning-example/chapter-3-spring-boot-web/src/main/java/demo/springboot/web/BookController.java","call function: 60:13-60:45","call in function: postBook@56-70","callee=java.lang.String.equals","basic block: 60:13-60:45"
+"Path: /home/sixsquare/codeQL/projects/springboot-learning-example/chapter-4-spring-boot-validating-form-input/src/test/java/spring/boot/core/web/UserControllerTest.java","call function: 124:20-124:52","call in function: getUser@103-125","callee=java.lang.String.contains","basic block: 124:20-124:52"

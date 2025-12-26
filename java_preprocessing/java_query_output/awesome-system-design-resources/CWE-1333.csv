@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/awesome-system-design-resources/implementations/java/load_balancing_algorithms/LeastResponseTime.java","call function: 54:52-54:86","call in function: main@45-57","callee=java.lang.String.format","basic block: 54:52-54:86"

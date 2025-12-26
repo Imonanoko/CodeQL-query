@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JustAuth/src/main/java/me/zhyd/oauth/utils/GlobalAuthUtils.java","call function: 200:22-200:33","call in function: generateNonce@198-207","callee=java.util.Random.<init>","basic block: 200:22-200:33"
+"Path: /home/sixsquare/codeQL/projects/JustAuth/src/main/java/me/zhyd/oauth/utils/GlobalAuthUtils.java","call function: 203:25-203:39","call in function: generateNonce@198-207","callee=java.util.Random.nextInt","basic block: 203:25-203:39"

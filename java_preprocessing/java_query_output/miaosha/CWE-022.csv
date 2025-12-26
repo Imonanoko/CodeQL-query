@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/DBUtil.java","call function: 14:30-14:104","call in function: <clinit>@8-8","callee=java.lang.ClassLoader.getResourceAsStream","basic block: 14:30-14:104"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 51:21-51:45","call in function: createUser@17-91","callee=java.io.File.<init>","basic block: 51:21-51:45"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 55:32-55:63","call in function: createUser@17-91","callee=java.io.RandomAccessFile.<init>","basic block: 55:32-55:63"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 52:13-52:25","call in function: createUser@17-91","callee=java.io.File.exists","basic block: 52:13-52:25"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 53:13-53:25","call in function: createUser@17-91","callee=java.io.File.delete","basic block: 53:13-53:25"
+"Path: /home/sixsquare/codeQL/projects/miaosha/miaosha-v1/src/main/java/com/geekq/miaosha/utils/UserUtil.java","call function: 56:9-56:28","call in function: createUser@17-91","callee=java.io.File.createNewFile","basic block: 56:9-56:28"

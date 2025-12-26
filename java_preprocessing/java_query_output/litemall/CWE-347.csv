@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-wx-api/src/main/java/org/linlinjava/litemall/wx/util/JwtHelper.java","call function: 30:29-30:53","call in function: createToken@28-56","callee=com.auth0.jwt.algorithms.Algorithm.HMAC256","basic block: 30:29-30:53"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-wx-api/src/main/java/org/linlinjava/litemall/wx/util/JwtHelper.java","call function: 60:29-60:53","call in function: verifyTokenAndGetUserId@58-73","callee=com.auth0.jwt.algorithms.Algorithm.HMAC256","basic block: 60:29-60:53"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-wx-api/src/main/java/org/linlinjava/litemall/wx/util/JwtHelper.java","call function: 61:30-61:51","call in function: verifyTokenAndGetUserId@58-73","callee=com.auth0.jwt.JWT.require","basic block: 61:30-61:51"
+"Path: /home/sixsquare/codeQL/projects/litemall/litemall-wx-api/src/main/java/org/linlinjava/litemall/wx/util/JwtHelper.java","call function: 64:24-64:45","call in function: verifyTokenAndGetUserId@58-73","callee=com.auth0.jwt.JWTVerifier.verify","basic block: 64:24-64:45"

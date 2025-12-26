@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/antlr4/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/GrammarDependencies.java","call function: 76:38-77:36","call in function: save@72-85","callee=java.io.ObjectOutputStream.<init>","basic block: 76:38-77:36"
+"Path: /home/sixsquare/codeQL/projects/antlr4/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/GrammarDependencies.java","call function: 80:17-80:41","call in function: save@72-85","callee=java.io.ObjectOutputStream.writeObject","basic block: 80:17-80:41"
+"Path: /home/sixsquare/codeQL/projects/antlr4/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/GrammarDependencies.java","call function: 286:40-287:40","call in function: loadStatus@281-305","callee=java.io.ObjectInputStream.<init>","basic block: 286:40-287:40"
+"Path: /home/sixsquare/codeQL/projects/antlr4/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/GrammarDependencies.java","call function: 293:25-293:39","call in function: loadStatus@281-305","callee=java.io.ObjectInputStream.readObject","basic block: 293:25-293:39"

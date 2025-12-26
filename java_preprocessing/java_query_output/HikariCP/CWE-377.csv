@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/HikariCP/src/main/java/com/zaxxer/hikari/HikariConfig.java","call function: 1219:28-1219:53","call in function: openPropertiesInputStream@1218-1228","callee=java.io.File.<init>","basic block: 1219:28-1219:53"
+"Path: /home/sixsquare/codeQL/projects/HikariCP/src/main/java/com/zaxxer/hikari/HikariConfig.java","call function: 1221:17-1221:45","call in function: openPropertiesInputStream@1218-1228","callee=java.io.FileInputStream.<init>","basic block: 1221:17-1221:45"
+"Path: /home/sixsquare/codeQL/projects/HikariCP/src/main/java/com/zaxxer/hikari/pool/PoolBase.java","call function: 363:22-363:48","call in function: newConnection@360-408","callee=java.util.UUID.randomUUID","basic block: 363:22-363:48"

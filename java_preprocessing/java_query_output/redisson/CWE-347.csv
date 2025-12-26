@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/redisson/redisson/src/main/java/org/redisson/client/handler/RedisChannelInitializer.java","call function: 145:55-145:128","call in function: initSsl@112-227","callee=javax.net.ssl.TrustManagerFactory.getInstance","basic block: 145:55-145:128"
+"Path: /home/sixsquare/codeQL/projects/redisson/redisson/src/main/java/org/redisson/client/handler/RedisChannelInitializer.java","call function: 146:13-146:46","call in function: initSsl@112-227","callee=javax.net.ssl.TrustManagerFactory.init","basic block: 146:13-146:46"

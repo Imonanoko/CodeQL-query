@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/CommandLineRunner.java","call function: 64:15-64:32","call in function: main@50-106","callee=java.net.URI.<init>","basic block: 64:15-64:32"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/CommandLineRunner.java","call function: 70:15-70:46","call in function: main@50-106","callee=java.net.URI.<init>","basic block: 70:15-70:46"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/StringsResourceTranslator.java","call function: 184:24-187:44","call in function: translateString@174-203","callee=java.net.URI.create","basic block: 184:24-187:44"
+"Path: /home/sixsquare/codeQL/projects/zxing/javase/src/main/java/com/google/zxing/client/j2se/StringsResourceTranslator.java","call function: 206:32-206:68","call in function: fetch@205-218","callee=java.net.URL.openConnection","basic block: 206:32-206:68"
+"Path: /home/sixsquare/codeQL/projects/zxing/core/src/main/java/com/google/zxing/client/result/VCardResultParser.java","call function: 200:23-200:41","call in function: matchVCardPrefixedField@103-221","callee=java.net.URI.create","basic block: 200:23-200:41"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/apollo/apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/component/config/SpringSessionConfig.java","call function: 59:16-59:59","call in function: convert@57-65","callee=com.fasterxml.jackson.databind.ObjectMapper.readValue","basic block: 59:16-59:59"
+"Path: /home/sixsquare/codeQL/projects/apollo/apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/controller/ItemController.java","call function: 287:14-288:39","call in function: createYaml@283-289","callee=org.yaml.snakeyaml.Yaml.<init>","basic block: 287:14-288:39"
+"Path: /home/sixsquare/codeQL/projects/apollo/apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/controller/ItemController.java","call function: 287:23-287:56","call in function: createYaml@283-289","callee=org.yaml.snakeyaml.constructor.SafeConstructor.<init>","basic block: 287:23-287:56"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Algorithms/src/main/java/com/williamfiset/algorithms/dp/examples/tilingdominoes/TilingDominoes.java","call function: 13:23-13:44","call in function: <clinit>@12-12","callee=java.util.Scanner.<init>","basic block: 13:23-13:44"
+"Path: /home/sixsquare/codeQL/projects/Algorithms/src/main/java/com/williamfiset/algorithms/dp/examples/narrowartgallery/NarrowArtGalleryRecursive.java","call function: 68:18-68:39","call in function: mainProgram@67-91","callee=java.util.Scanner.<init>","basic block: 68:18-68:39"
+"Path: /home/sixsquare/codeQL/projects/Algorithms/src/main/java/com/williamfiset/algorithms/datastructures/binarysearchtree/SplayTree.java","call function: 288:18-288:39","call in function: main@285-325","callee=java.util.Scanner.<init>","basic block: 288:18-288:39"

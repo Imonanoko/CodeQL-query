@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-server/src/main/java/zipkin2/server/internal/banner/ZipkinBanner.java","call function: 33:23-33:61","call in function: printBanner@31-43","callee=org.springframework.util.StreamUtils.copyToString","basic block: 33:23-33:61"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-server/src/main/java/zipkin2/server/internal/elasticsearch/DynamicCredentialsFileLoader.java","call function: 47:31-47:66","call in function: updateCredentialsFromProperties@45-53","callee=java.io.FileInputStream.<init>","basic block: 47:31-47:66"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-server/src/main/java/zipkin2/server/internal/elasticsearch/SslUtil.java","call function: 43:16-43:31","call in function: loadKeyStore@39-45","callee=java.net.URL.openStream","basic block: 43:16-43:31"
+"Path: /home/sixsquare/codeQL/projects/zipkin/zipkin-server/src/main/java/zipkin2/server/internal/ui/ZipkinUiConfiguration.java","call function: 162:24-162:62","call in function: maybeResource@158-173","callee=org.springframework.util.StreamUtils.copyToString","basic block: 162:24-162:62"

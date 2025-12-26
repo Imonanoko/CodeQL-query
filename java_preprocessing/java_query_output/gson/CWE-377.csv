@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/gson/gson/src/test/java/com/google/gson/functional/ReflectionAccessFilterTest.java","call function: 73:31-73:43","call in function: run@73-73","callee=java.io.File.<init>","basic block: 73:31-73:43"
+"Path: /home/sixsquare/codeQL/projects/gson/gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java","call function: 165:21-165:46","call in function: testLargeSetOfRandomKeys@164-178","callee=java.util.Random.<init>","basic block: 165:21-165:46"
+"Path: /home/sixsquare/codeQL/projects/gson/gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java","call function: 169:34-169:49","call in function: testLargeSetOfRandomKeys@164-178","callee=java.util.Random.nextInt","basic block: 169:34-169:49"
+"Path: /home/sixsquare/codeQL/projects/gson/metrics/src/main/java/com/google/gson/metrics/ParseBenchmark.java","call function: 140:17-140:37","call in function: getResourceFile@135-145","callee=java.io.File.<init>","basic block: 140:17-140:37"
+"Path: /home/sixsquare/codeQL/projects/gson/test-shrinker/src/test/java/com/google/gson/it/ShrinkingIT.java","call function: 47:51-47:89","call in function: <clinit>@45-45","callee=java.nio.file.Paths.get","basic block: 47:51-47:89"
+"Path: /home/sixsquare/codeQL/projects/gson/test-shrinker/src/test/java/com/google/gson/it/ShrinkingIT.java","call function: 48:45-48:77","call in function: <clinit>@45-45","callee=java.nio.file.Paths.get","basic block: 48:45-48:77"

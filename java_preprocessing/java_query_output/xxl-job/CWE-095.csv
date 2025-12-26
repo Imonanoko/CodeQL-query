@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java","call function: 42:48-42:70","call in function: <obinit>@17-17","callee=groovy.lang.GroovyClassLoader.<init>","basic block: 42:48-42:70"
+"Path: /home/sixsquare/codeQL/projects/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java","call function: 78:13-78:52","call in function: getCodeSourceClass@70-85","callee=groovy.lang.GroovyClassLoader.parseClass","basic block: 78:13-78:52"
+"Path: /home/sixsquare/codeQL/projects/xxl-job/xxl-job-core/src/main/java/com/xxl/job/core/glue/GlueFactory.java","call function: 83:11-83:50","call in function: getCodeSourceClass@70-85","callee=groovy.lang.GroovyClassLoader.parseClass","basic block: 83:11-83:50"

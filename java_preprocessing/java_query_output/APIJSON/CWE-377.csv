@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/APIJSON/APIJSONORM/src/main/java/apijson/StringUtil.java","call function: 700:41-700:63","call in function: isFilePathExist@699-701","callee=java.io.File.exists","basic block: 700:41-700:63"
+"Path: /home/sixsquare/codeQL/projects/APIJSON/APIJSONORM/src/main/java/apijson/StringUtil.java","call function: 700:41-700:54","call in function: isFilePathExist@699-701","callee=java.io.File.<init>","basic block: 700:41-700:54"

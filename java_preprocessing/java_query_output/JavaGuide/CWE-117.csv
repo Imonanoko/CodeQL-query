@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 179:47-179:83","call in function: main@65-202","callee=java.lang.String.format","basic block: 179:47-179:83"
+"Path: /home/sixsquare/codeQL/projects/JavaGuide/TranslateRepo.java","call function: 180:48-180:85","call in function: main@65-202","callee=java.lang.String.format","basic block: 180:48-180:85"

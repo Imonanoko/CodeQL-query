@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/config/LoginFilter.java","call function: 41:58-41:81","call in function: attemptAuthentication@32-67","callee=javax.servlet.ServletRequest.getInputStream","basic block: 41:58-41:81"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/config/LoginFilter.java","call function: 64:33-64:60","call in function: attemptAuthentication@32-67","callee=javax.servlet.ServletRequest.getParameter","basic block: 64:33-64:60"
+"Path: /home/sixsquare/codeQL/projects/vhr/vhr/vhrserver/vhr-web/src/main/java/org/javaboy/vhr/controller/emp/EmpBasicController.java","call function: 92:25-92:78","call in function: maxWorkID@90-94","callee=java.lang.String.format","basic block: 92:25-92:78"

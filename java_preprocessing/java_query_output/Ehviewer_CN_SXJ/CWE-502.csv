@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Ehviewer_CN_SXJ/app/src/main/java/com/hippo/ehviewer/Settings.java","call function: 105:48-105:72","call in function: getArchiverDownload@100-106","callee=com.alibaba.fastjson.JSON.parseObject","basic block: 105:48-105:72"
+"Path: /home/sixsquare/codeQL/projects/Ehviewer_CN_SXJ/app/src/main/java/com/hippo/ehviewer/client/data/wifi/WiFiDataHand.java","call function: 36:33-36:59","call in function: WiFiDataHand@34-48","callee=com.alibaba.fastjson.JSON.parseObject","basic block: 36:33-36:59"
+"Path: /home/sixsquare/codeQL/projects/Ehviewer_CN_SXJ/app/src/main/java/com/hippo/ehviewer/util/ClipboardUtil.java","call function: 90:42-90:72","call in function: getGalleryInfoFromClip@82-98","callee=com.alibaba.fastjson.JSON.parse","basic block: 90:42-90:72"

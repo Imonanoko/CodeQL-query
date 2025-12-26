@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/main/src/main/java/org/pdown/gui/extension/jsruntime/polyfill/property/XMLHttpRequest.java","call function: 67:9-67:67","call in function: send@55-98","callee=java.io.OutputStream.write","basic block: 67:9-67:67"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/main/src/main/java/org/pdown/gui/extension/mitm/intercept/AjaxIntercept.java","call function: 86:17-86:66","call in function: doRequest@70-113","callee=java.io.OutputStream.write","basic block: 86:17-86:66"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/main/src/main/java/org/pdown/gui/extension/mitm/intercept/AjaxIntercept.java","call function: 95:17-95:84","call in function: doRequest@70-113","callee=java.io.OutputStream.write","basic block: 95:17-95:84"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/main/src/main/java/org/pdown/gui/extension/util/ExtensionUtil.java","call function: 137:9-137:33","call in function: copyFile@126-140","callee=java.io.OutputStream.write","basic block: 137:9-137:33"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/runner/src/main/java/org/pdown/gui/Runner.java","call function: 40:11-40:34","call in function: parseVmOptions@32-55","callee=java.io.Writer.write","basic block: 40:11-40:34"
+"Path: /home/sixsquare/codeQL/projects/proxyee-down/runner/src/main/java/org/pdown/gui/Runner.java","call function: 42:11-42:34","call in function: parseVmOptions@32-55","callee=java.io.Writer.write","basic block: 42:11-42:34"

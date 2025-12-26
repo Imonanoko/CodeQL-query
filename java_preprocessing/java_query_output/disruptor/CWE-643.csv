@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/disruptor/src/jmh/java/com/lmax/disruptor/SequenceBenchmark.java","call function: 70:29-73:29","call in function: setup@63-91","callee=java.lang.String.format","basic block: 70:29-73:29"
+"Path: /home/sixsquare/codeQL/projects/disruptor/src/jmh/java/com/lmax/disruptor/RingBufferBenchmark.java","call function: 68:29-71:29","call in function: setup@61-89","callee=java.lang.String.format","basic block: 68:29-71:29"
+"Path: /home/sixsquare/codeQL/projects/disruptor/src/jmh/java/com/lmax/disruptor/ArrayAccessBenchmark.java","call function: 70:29-73:29","call in function: setup@63-91","callee=java.lang.String.format","basic block: 70:29-73:29"
+"Path: /home/sixsquare/codeQL/projects/disruptor/src/jmh/java/com/lmax/disruptor/MultiProducerSequencerBenchmark.java","call function: 66:29-69:29","call in function: setup@59-87","callee=java.lang.String.format","basic block: 66:29-69:29"

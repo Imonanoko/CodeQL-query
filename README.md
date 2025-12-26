@@ -150,3 +150,17 @@ sudo apt install flawfinder cppcheck
 cd cpp_preprocessing
 bash cpp_cwe_scan.sh --project ../projects/casadi/ --cwe "022, 078, 327" --out ./results_c_cpp --threads 8
 ```
+
+## java install
+```bash
+sudo apt update
+sudo apt install -y openjdk-8-jdk openjdk-11-jdk openjdk-17-jdk openjdk-21-jdk ant
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+echo 'source "$HOME/.sdkman/bin/sdkman-init.sh"' >> ~/.bashrc
+sdk version
+sdk install maven 3.9.9
+sdk install gradle 8.10.2
+sdk default maven 3.9.9
+sdk default gradle 8.10.2
+```

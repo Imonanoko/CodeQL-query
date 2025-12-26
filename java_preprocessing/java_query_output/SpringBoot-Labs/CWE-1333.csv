@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/SpringBoot-Labs/lab-72-minio/src/main/java/cn/iocoder/springboot/lab72/controller/FileController.java","call function: 35:16-35:64","call in function: upload@25-36","callee=java.lang.String.format","basic block: 35:16-35:64"

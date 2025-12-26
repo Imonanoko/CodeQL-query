@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/apollo/apollo-portal/src/main/java/com/ctrip/framework/apollo/openapi/service/ConsumerService.java","call function: 386:12-386:27","call in function: generateToken@385-389","callee=com.google.common.hash.Hashing.sha256","basic block: 386:12-386:27"

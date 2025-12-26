@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/druid/core/src/main/java/com/alibaba/druid/util/ConcurrentLruCache.java","call function: 340:39-340:58","call in function: detectNumberOfBuffers@339-343","callee=java.lang.Runtime.getRuntime","basic block: 340:39-340:58"
+"Path: /home/sixsquare/codeQL/projects/druid/core/src/main/java/com/alibaba/druid/pool/ha/selector/RandomDataSourceValidateThread.java","call function: 52:45-52:75","call in function: <obinit>@41-41","callee=java.util.concurrent.Executors.newFixedThreadPool","basic block: 52:45-52:75"
+"Path: /home/sixsquare/codeQL/projects/druid/core/src/main/java/com/alibaba/druid/pool/DruidDataSource.java","call function: 936:47-936:74","call in function: submitCreateTask@914-937","callee=java.util.concurrent.ExecutorService.submit","basic block: 936:47-936:74"

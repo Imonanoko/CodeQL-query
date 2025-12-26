@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RxJava/src/test/java/io/reactivex/rxjava3/internal/util/MarbleDimensions.java","call function: 72:63-72:74","call in function: main@41-100","callee=java.net.URL.<init>","basic block: 72:63-72:74"
+"Path: /home/sixsquare/codeQL/projects/RxJava/src/test/java/io/reactivex/rxjava3/testsupport/TestHelper.java","call function: 3514:32-3514:40","call in function: findSource@3511-3548","callee=java.net.URL.toURI","basic block: 3514:32-3514:40"
+"Path: /home/sixsquare/codeQL/projects/RxJava/src/test/java/io/reactivex/rxjava3/validators/NoAnonymousInnerClassesTest.java","call function: 27:27-27:35","call in function: verify@25-127","callee=java.net.URL.toURI","basic block: 27:27-27:35"
